@@ -1,0 +1,12 @@
+1. Same menu for all pages.
+2. Drop down list for a rivers.
+3. All rivers in one page. 
+4. Changes in nav.bar plus fishes and contact - gear?
+5. Add footer with copyrights and social media icons.
+6. Diffrent Color for rivers.
+7. Dropdown menu for ipad and iphone.
+8. Remove nav bar.
+9. Remove text on IPhone page.
+
+
+ 
