@@ -154,7 +154,7 @@ button {
 }
 
 .menuitem:hover .dropdownMenu {
-    transform: translateY(0%)
+    transform: translateY(0%);
 
 }
 
