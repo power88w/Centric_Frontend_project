@@ -122,9 +122,10 @@ button {
    padding: 0;
    /*box-shadow: -2px 13px 61px -1px rgba(0,0,0,0.75);*/
    transform: translateY(-100%);
-
-
-
+   transition: transform 1s ease-in-out;
+   -webkit-transition: transform 1s ease-in-out;
+   -moz-transition: transform 1s ease-in-out;
+   -o-transition: transform 1s ease-in-out;
 
 
 }
@@ -152,10 +153,7 @@ button {
 
 .menuitem:hover .dropdownMenu {
     transform: translateY(0%);
-    transition: transform 1s ease-in;
-    -webkit-transition: transform 1s ease-in;
-    -moz-transition: transform 1s ease-in;
-    -o-transition: transform 1s ease-in;
+
 
 }
 
