@@ -112,6 +112,9 @@ a.hvr-sweep-to-bottom::before {
 .hide-on-load{
     display:none;
   }
+.open {
+    color: blue;
+} 
 
 
 .navDefault {
