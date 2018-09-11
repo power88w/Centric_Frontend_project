@@ -184,26 +184,50 @@ section {
 
 
 /*------------section-----------*/
-.left {
-   float: left;
-   height: 500px;
-   width: 0%;
-   background-color: chartreuse;
+  
+
+.left  {
+    float: left;
+    width: 0%;
+    background-color: blue;
+    height: 550px;
+    display: none;
+    
+}
+.content {
+    float: left;
+    width: 100%;
+    height: 550px;
+    background-color: chartreuse;
 }
 
 .right {
     float: left;
-    height: 500px;
     width: 0%;
-    background-color: chartreuse;
- }
-.content {
-        float: left;
-        width: 100%;
-        height: 70px;
-        display: none;
-}   
-} 
+    background-color: orangered;
+    height: 550px;
+    display: none;
+    
+}
+
+.box1 {
+    height: 50%;
+    background-color: #0997d3;
+}
+.box2 {
+    height: 50%;
+    background-color: #262f33;
+}
+.box3 {
+    height: 50%;
+    background-color: #2f5b6e8a;
+}
+.box4 {
+    height: 50%;
+    background-color: #c9ae17;
+}
+
+
 
 
 
@@ -219,6 +243,11 @@ section {
       font-size: 30px;
       padding-top: 20px;
     }
+    .content {
+        float: left;
+        width: 100%;
+        height: 400px;
+    }
 }
 
 @media (min-width: 576px) {
@@ -228,6 +257,13 @@ section {
     font-size: 42px;
     padding-top: 20px;
    }
+
+   .content {
+    float: left;
+    width: 100%;
+    height: 450px;
+}
+
 }
      
 
@@ -247,12 +283,18 @@ section {
         display: initial;
     }
     
-    .menu-list {
+    .menu-list{
         float: left;
         width: 100%;
         height: 70px;
         display: initial;
     }
+    .content {
+        float: left;
+        width: 100%;
+        height: 500px;
+    }
+
     .badboy
     {
       display: none;
@@ -277,11 +319,16 @@ section {
     display: initial;
 }
 
-.menu-list {
+.menu-list{
     float: left;
     width: 80%;
     height: 70px;
     display: initial;
+}
+.content {
+    float: left;
+    width: 80%;
+    height: 550px;
 }
 .badboy
     {
@@ -308,11 +355,16 @@ section {
         display: initial;
     }
 
-    .menu-list {
+    .menu-list{
         float: left;
         width: 64%;
         height: 70px;
         display: initial;
+    }
+    .content {
+        float: left;
+        width: 64%;
+        height: 550px;
     }
     .badboy
     {
@@ -335,11 +387,16 @@ section {
         display: initial;
     }
 
-    .menu-list {
+    .menu-list{
         float: left;
         width: 60%;
         height: 70px;
         display: initial;
+    }
+    .content {
+        float: left;
+        width: 60%;
+        height: 550px;
     }
 
     .badboy
@@ -365,11 +422,16 @@ section {
         width: 25%;
     }
 
-    .menu-list {
+    .menu-list{
         float: left;
         width: 50%;
         height: 70px;
         display: initial;
+    }
+    .content {
+        float: left;
+        width: 50%;
+        height: 550px;
     }
 
     .badboy
