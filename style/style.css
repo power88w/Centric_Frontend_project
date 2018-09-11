@@ -109,6 +109,9 @@ a.hvr-sweep-to-bottom::before {
 
 
 /*-------------------------------------dropdown---------------------------------*/
+.hide-on-load{
+    display:none;
+  }
 
 
 .navDefault {
