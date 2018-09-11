@@ -157,7 +157,9 @@ button {
 .menuitem:hover .dropdownMenu {
     transform: translateY(0%);
 }
-
+.menuitem:hover .dropdown {
+    display: none;
+}
 
 /*--------------------------------hamburger------------------------*/
 
@@ -317,6 +319,12 @@ button {
 
 /*------------section-----------*/
 
+.container {
+
+
+}
+
+
 /*------------footer-----------*/
 
 /*------------media queries-----------*/
@@ -327,7 +335,7 @@ button {
       background-color: green;
       padding-top: 0px;
       font-size: 30px;
-      padding-top: 30px;
+      padding-top: 20px;
     }
 }
 
@@ -336,7 +344,7 @@ button {
   .logo {
     background-color: red;
     font-size: 42px;
-    padding-top: 30px;
+    padding-top: 20px;
    }
 }
      
@@ -345,7 +353,7 @@ button {
     .logo {
     background-color: orange;
     font-size: 50px;
-    padding-top: 25px;
+    padding-top: 20px;
     }
 
     .side-left {
