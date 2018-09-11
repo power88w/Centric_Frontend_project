@@ -27,7 +27,7 @@
                             </div>
                             <div class="button-menu col-xs-6 col-sm-2 col-lg-2 menuitem">
                                 <a href="testto-zdrovie.html" class="hvr-sweep-to-bottom dropdown">Rivers</a>
-                                <ul class="dropdownMenu">
+                                <ul class="dropdownMenu lock">
                                         
                                         <li class="dropdownItem"><a href="marek.html" class="dropdownLink">River Brosna</a></li>
                                         <li class="dropdownItem"><a href="#" class="dropdownLink">River Shannon</a></li>
@@ -55,7 +55,7 @@
 
 <div class="button-menu col-xs-12 col-sm-12 menuitem badboy">
     <a href="testto-zdrovie.html" class="hvr-sweep-to-bottom dropdown"><span class="glyphicon glyphicon-home"></span>Home</a>
-    <ul class="dropdownMenu">
+    <ul class="dropdownMenu" id="hiden">
             
         <li class="dropdownItem"><a href="#" class="dropdownLink">Rivers</a></li>
         <li class="dropdownItem"><a href="#" class="dropdownLink">Species</a></li>
@@ -76,9 +76,12 @@
     </footer>
 	
 
+<script>
+    $(document).ready(function() {
+        $('.lock').removeClass('lock').addClass('black');
+    });
+</script>
 
-	
 </body>
 
-</script>
 </html>
