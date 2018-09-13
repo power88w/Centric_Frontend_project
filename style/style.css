@@ -1,46 +1,139 @@
 
-/*------------Fonts-----------*/
+/*------------Fonts-------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 header, nav {
     font-family: 'Permanent Marker', cursive;
 }
 
+
+
+/*------------Colors Top Logo---------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
 body {
     background-color: #4a4a4f;
 }
-/*------------Header-----------*/
+
+
+.logo p {
+    color: #ffffff;
+}
 
 header {
     background-color: #000000;
+}
+
+/*------------Colors Navbar------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+nav {
+    background-color: #000000;
+}
+
+.menuitem {
+    background-color: red;
+}
+
+.side-left {
+    background-color: olivedrab;
+}
+
+.side-right {
+    background-color: yellow;
+}
+
+.menuitem a{
+    color: #ffffff;
+}
+
+/*---------section-colors--------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+#left  {
+    background-color: blue;
+}
+#content {
+    background-color: chartreuse;
+}
+
+#right {
+    background-color: orangered;
+}
+
+#box1 {
+    background-color: #0997d3;
+}
+#box2 {
+    background-color: #262f33;
+}
+#box3 {
+    background-color: #2f5b6e8a;
+}
+#box4 {
+    background-color: #c9ae17;
+}
+
+/*---------footer-colors-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+#left-foot  {
+    background-color: rgba(19, 142, 190, 0.486);
+}
+
+#content-foot {
+    float: left;
+    background-color: chartreuse;
+}
+
+#right-foot {
+    background-color: #21082c4b;
+}
+
+#box1-foot {
+    background-color: olivedrab;
+}
+
+#box2-foot {
+    background-color: yellow;
+}
+
+#left-masthead {
+    background-color: #000000;
+}
+
+/*---------masthead-colors---------------------------------------------------------------------------=============================================================================================-------*/
+
+#right-masthead {
+    background-color: red;
+}
+
+#masthead {
+    background-color: chartreuse;
+}
+
+
+/*------------Header--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+header {
     height: 140px;
     position: relative;
     z-index:1000;
 }
 
-
-
 .logo p {
     height: 120px; 
     text-align: center;
-    color: #ffffff;
     position: relative;
     z-index:1000;
 }
 
-/*------------Nav-----------*/
+/*------------Nav-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 nav {
-    background-color: #000000;
     height: 70px;
 }
 
-.button-menu {
-    background-color: red;
+.menuitem {
     height: 70px;
 }
 
 .side-left {
     float: left;
     width: 0%;
-    background-color: olivedrab;
     height: 70px;
     display: none;
     
@@ -55,7 +148,6 @@ nav {
 .side-right {
     float: left;
     width: 0%;
-    background-color: yellow;
     height: 70px;
     display: none;
     
@@ -70,10 +162,6 @@ nav {
     font-weight: 300;
     letter-spacing: 2px;
     float: left;
-    color: white;
-
-
-
 }
 
 .resize-a {
@@ -88,120 +176,20 @@ nav {
 .menuitem a{
     width: 100%;
     text-decoration: none;
-    color: #ffffff;
     height: 70px;
     padding-top:20px;
 }
 
 
 
-/*-----botton-hover------*/
-
-a.hvr-sweep-to-bottom::before {
-    background-color: rgba(0, 0, 0, 0.5);
-    height: 70px;
-}
 
 
-/*-------------------------------------dropdown---------------------------------*/
-
-.lock {
-display: none;
-}
-
-.hvr-sweep-to-bottom {
-	position: absolute;
-	z-index: 3;
-
-}
-
-
-.navDefault {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    background-color: #4a4a4f;
-
-	
-}
-
-
-button {
-    border: none;
-    background-color: #0997d3;
-    width: 150px;
-    height: 50px;
-    color: #fff;
-    text-transform: uppercase;
-    cursor: pointer;
-
-	
-    
-
-}
-
-
-.dropdownMenu{
-   list-style: none;
-   margin: 0; 
-   left: 0;
-   right: 0;
-   top: 50;
-   position: relative;
-   z-index:-1;
-   text-align: center;
-   padding: 0;
-   /*box-shadow: -2px 13px 61px -1px rgba(0,0,0,0.75);*/
-   transform: translateY(-100%);
-   transition: transform 1s ease-in-out;
-}   
-
-section {
-	
-   position: relative;
-   z-index:-100;
-
-}   
-
-
-
-.dropdownLink {
-    text-decoration: none;
-    display: block;
-    background-color: red;
-    padding-left: 2px;
-    padding-right: 2px;
-    padding-bottom: 4px;
-    color: #4a4a4f;
-    transition: background-color .5s ease-in-out, color .5s ease-in-out;
-
-}
-.dropdownLink:hover {
-    color: #fff;
-    background-color: rgba(0, 0, 0, 0.7);
-
-}
-
-
-.menuitem:hover .dropdown 
-{
-    background-color: brown;
-}
-
-.menuitem:hover .dropdownMenu {
-    transform: translateY(0%);  
-    z-index: 1;
-}
-
-
-/*------------section-----------*/
+/*------------section------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
   
 
 .left  {
     float: left;
     width: 0%;
-    background-color: blue;
     height: 480px;
     display: none;
     
@@ -210,13 +198,11 @@ section {
     float: left;
     width: 100%;
     height: 480px;
-    background-color: chartreuse;
 }
 
 .right {
     float: left;
     width: 0%;
-    background-color: orangered;
     height: 480px;
     display: none;
     
@@ -224,36 +210,27 @@ section {
 
 .box1 {
     height: 50%;
-    background-color: #0997d3;
     display: none;
 }
 .box2 {
     height: 50%;
-    background-color: #262f33;
     display: none;
 }
 .box3 {
     height: 50%;
-    background-color: #2f5b6e8a;
     display: none;
 }
 .box4 {
     height: 50%;
-    background-color: #c9ae17;
     display: none;
 }
 
 
-
-
-
-
-/*------------footer-----------*/
+/*------------footer------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 .left-foot  {
     float: left;
     width: 0%;
-    background-color: rgba(19, 142, 190, 0.486);
     height: 300px;
     display: none;
     
@@ -267,7 +244,6 @@ section {
 .right-foot {
     float: left;
     width: 0%;
-    background-color: #21082c4b;
     height: 300px;
     display: none;
     
@@ -275,175 +251,259 @@ section {
 
 .box1-foot {
     height: 300px;
-    background-color: olivedrab;
     float: left;
 }
 .box2-foot {
     height: 300px;
-    background-color: yellow;
     float: left;
 }
 
 .left-masthead {
     height: 100px;
-    background-color: #000000;
     float: left;
 }
 
-    .right-masthead {
+.right-masthead {
     height: 100px;
-    background-color: red;
     float: left;
 }
 
-    .masthead {
-        width: 100%;
-        float: left;
-        height: 100px;
-        background-color: chartreuse;
+.masthead {
+    width: 100%;
+    float: left;
+    height: 100px;
+}
+
+/*-----------------------------------------------------------------------------------------HOOVER AND DROPDOWN-------------------------------------------------------------------------------------------*/
+
+/*-----botton-hover------*/
+
+a.hvr-sweep-to-bottom::before {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 70px;
 }
 
 
+/*-----------------------------------------------------------------------------------------------DROPDOWN-----------------------------------------------------------------------------------------------*/
+
+.lock {
+    display: none;
+}
+
+.hvr-sweep-to-bottom {
+	position: absolute;
+	z-index: 3;
+}
+
+.navDefault {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #4a4a4f;
+}
+
+button {
+    border: none;
+    background-color: #0997d3;
+    width: 150px;
+    height: 50px;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.dropdownMenu{
+   list-style: none;
+   margin: 0; 
+   left: 0;
+   right: 0;
+   top: 50;
+   position: relative;
+   z-index:-1;
+   text-align: center;
+   padding: 0;
+   /*box-shadow: -2px 13px 61px -1px rgba(0,0,0,0.75);-------------------------------------------------------Shadow do wykorzystania-----------------------------------------------------*/
+   transform: translateY(-100%);
+   transition: transform 1s ease-in-out;
+}   
+
+section {
+	
+   position: relative;
+   z-index:-100;
+
+} 
+
+.dropdownLink {
+    text-decoration: none;
+    display: block;
+    background-color: red;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 4px;
+    color: #4a4a4f;
+    transition: background-color .5s ease-in-out, color .5s ease-in-out;
+}
+
+.dropdownLink:hover {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7);
+
+}
+
+.menuitem:hover .dropdown 
+{
+    background-color: brown;
+}
+
+.menuitem:hover .dropdownMenu {
+    transform: translateY(0%);  
+    z-index: 1;
+}
+
+/*-----------------------------------------------------------------------------------------HOOVER AND DROPDOWN------------------------------------------------------------------------------------------*/
 
 
-/*------------media queries-----------*/
+/*-----------------------------------------------------------------------------------------MEDIA QUERIES -----------------------------------------------------------------------------------------------*/
 
 @media (max-width: 576px) {
 
-    .logo {
-      background-color: green;
-      padding-top: 0px;
-      font-size: 30px;
-      padding-top: 20px;
-    }
+.logo {
+    background-color: green;
+    padding-top: 0px;
+    font-size: 30px;
+    padding-top: 20px;
+}
 
-    .content {
-        width: 100%;
-        height: 240px;
-    }
+.content {
+    width: 100%;
+    height: 240px;
+}
 
+.content-foot {
+    width: 100%;
+}
 
-    .content-foot {
-        width: 100%;
-    }
+.box1 {
+    display: initial;
+    height: 100%;
+}
 
-  
+.box2 {
+    display: none;
+}
 
-    .box1 {
-        display: initial;
-        height: 100%;
-    }
-    .box2 {
-        display: none;
-    }
-    .box3 {
-        display: none;
-    }
-    .box4 {
-        display: none;
-    }
+.box3 {
+    display: none;
+}
+
+.box4 {
+    display: none;
+}
 
 }
 
 @media (min-width: 576px) {
 
-  .logo {
+.logo {
     background-color: red;
     font-size: 42px;
     padding-top: 20px;
-   }
+}
 
-   .content {
+.content {
     width: 100%;
-    }
+}
 
-    .content-foot {
-        width: 100%;
-    }
+.content-foot {
+    width: 100%;
+}
 
+.box1 {
+    display: initial;
+}
 
-    .box1 {
-        display: initial;
-    }
-    .box2 {
-        display: none;
-    }
-    .box3 {
-        display: none;
-    }
-    .box4 {
-        display: initial;
-    }
+.box2 {
+    display: none;
+}
 
+.box3 {
+    display: none;
+}
+
+.box4 {
+    display: initial;
+}
 
 }
      
 
 @media (min-width: 768px) {
-    .logo {
+.logo {
     background-color: orange;
     font-size: 50px;
     padding-top: 20px;
-    }
-    .masthead {
-        width: 100%;
-    }
+}
+.masthead {
+    width: 100%;
+}
 
-    .side-right, .side-left, .left, .right, .right-foot, .left-foot {
-        width: 0%;
-        display: initial;
-    }
+.side-right, .side-left, .left, .right, .right-foot, .left-foot {
+    width: 0%;
+    display: initial;
+}
     
-    .menu-list{
-        float: left;
-        width: 100%;
-        display: initial;
-    }
-    .content {
-        width: 100%;
-    }
+.menu-list{
+    float: left;
+    width: 100%;
+    display: initial;
+}
+.content {
+    width: 100%;
+}
 
-    .content-foot {
-        width: 100%;
-    }
+.content-foot {
+    width: 100%;
+}
 
+.badboy {
+    display: none;
+}    
 
-    .badboy
-    {
-      display: none;
-    }    
+.box1 {
+    display: initial;
+}
 
-    .box1 {
-        display: initial;
-        }
-        .box2 {
-            display: initial;
-        }
-        .box3 {
-            display: initial;
-        }
-        .box4 {
-            display: initial;
-        }  
+.box2 {
+    display: initial;
+}
+
+.box3 {
+    display: initial;
+}
+
+.box4 {
+    display: initial;
+}  
 
 }
 
 
 @media(min-width: 992px) {
-    .logo {
-        background-color: green;
-        font-size: 56px;
-        padding-top: 20px;
-    }
-    .masthead {
-        width: 100%;
-    }
+.logo {
+    background-color: green;
+    font-size: 56px;
+    padding-top: 20px;
+}
+.masthead {
+     width: 100%;
+}
 
-    .side-right, .side-left, .left, .right, .right-foot, .left-foot {
+.side-right, .side-left, .left, .right, .right-foot, .left-foot {
     width: 0%;
     display: initial;
 }
-
 
 .menu-list{
     float: left;
@@ -458,23 +518,24 @@ section {
     width: 100%;
 }
 
-.badboy
-    {
-      display: none;
-    }
+.badboy {
+    display: none;
+}
 
-    .box1 {
-            display: initial;
-        }
-        .box2 {
-            display: initial;
-        }
-        .box3 {
-            display: initial;
-        }
-        .box4 {
-            display: initial;
-        }
+.box1 {
+    display: initial;
+}
+
+.box2 {
+    display: initial;
+}
+
+.box3 {
+    display: initial;
+}
+.box4 {
+    display: initial;
+}
 
 }
 
@@ -482,198 +543,203 @@ section {
 
 
 @media(min-width: 1292px) {
-    .logo {
-        background-color: bisque;
-        font-size: 56px;
-        padding-top: 20px;
-    }
-    .masthead {
-        width: 100%;
-    }
-    .side-right, .side-left, .left, .right, .right-foot, .left-foot {
-        width: 10%;
-        display: initial;
-    }
+.logo {
+    background-color: bisque;
+    font-size: 56px;
+    padding-top: 20px;
+}
 
-    .menu-list{
-        float: left;
-        width: 80%;
-        display: initial;
-    }
-    .content {
-        width: 80%;
-    }
+.masthead {
+    width: 100%;
+}
 
-    .content-foot {
-        width: 80%;
-    }
+.side-right, .side-left, .left, .right, .right-foot, .left-foot {
+    width: 10%;
+     display: initial;
+}
 
-    .badboy
-    {
-      display: none;
-    }
+.menu-list{
+    float: left;
+    width: 80%;
+    display: initial;
+}
+.content {
+    width: 80%;
+}
 
-    .box1 {
-        display: initial;
-        }
-        .box2 {
-            display: initial;
-        }
-        .box3 {
-            display: initial;
-        }
-        .box4 {
-            display: initial;
-        }
-}    
+.content-foot {
+    width: 80%;
+}
+
+.badboy {
+    display: none;
+}
+
+.box1 {
+    display: initial;
+}
+
+.box2 {
+     display: initial;
+}
+
+.box3 {
+    display: initial;
+}
+.box4 {
+    display: initial;
+}
+
+}   
+
+
 
 @media(min-width: 1500px) {
-    .logo {
-        background-color: bisque;
-        font-size: 56px;
-        padding-top: 20px;
-    }
-    .masthead {
-        width: 100%;
-    }
-    .side-right, .side-left, .left, .right, .right-foot, .left-foot {
-        width: 15%;
-        display: initial;
-    }
+.logo {
+    background-color: bisque;
+    font-size: 56px;
+    padding-top: 20px;
+}
 
-    .menu-list{
-        float: left;
-        width: 70%;
-        display: initial;
-    }
-    .content {
-        width: 70%;
-    }
+.masthead {
+    width: 100%;
+}
 
-    .content-foot {
-        width: 70%;
-    }
+.side-right, .side-left, .left, .right, .right-foot, .left-foot {
+    width: 15%;
+    display: initial;
+}
 
+.menu-list {
+    float: left;
+    width: 70%;
+    display: initial;
+}
 
-    .badboy
-    {
-      display: none;
-    }
+.content {
+    width: 70%;
+}
 
+.content-foot {
+    width: 70%;
+}
 
-    .box1 {
-        display: initial;
-        }
-        .box2 {
-            display: initial;
-        }
-        .box3 {
-            display: initial;
-        }
-        .box4 {
-            display: initial;
-        }
+.badboy {
+    display: none;
+}
 
+.box1 {
+    display: initial;
+}
 
+.box2 {
+    display: initial;
+}
+
+.box3 {
+    display: initial;
+}
+
+.box4 {
+    display: initial;
+}
     
 }
 
 
 @media(min-width: 1900px) {
-    .logo {
-        background-color: bisque;
-        font-size: 56px;
-        padding-top: 20px;
-    }
-    .side-right, .side-left, .left, .right, .right-foot, .left-foot {
-        width: 17%;
-    }
+.logo {
+    background-color: bisque;
+    font-size: 56px;
+    padding-top: 20px;
+}
 
-    .menu-list{
-        float: left;
-        width: 66%;
-        display: initial;
-    }
-    .content {
-        width: 66%;
-    }
+.side-right, .side-left, .left, .right, .right-foot, .left-foot {
+    width: 17%;
+}
 
-    .content-foot {
-        width: 66%;
-    }
-
-
-    .badboy
-   {
-    display: none;
-   }
-
-   .box1 {
+.menu-list{
+    float: left;
+    width: 66%;
     display: initial;
-    }
-    .box2 {
-        display: initial;
-    }
-    .box3 {
-        display: initial;
-    }
-    .box4 {
-        display: initial;
-    }
+}
 
+.content {
+    width: 66%;
+}
 
+.content-foot {
+    width: 66%;
+}
 
+.badboy {
+    display: none;
+}
+
+.box1 {
+    display: initial;
+}
+.box2 {
+    display: initial;
+}
+.box3 {
+    display: initial;
+}
+.box4 {
+    display: initial;
+}
     
 }
 
 @media(min-width: 2200px) {
-    .logo {
-        background-color: bisque;
-        font-size: 56px;
-        padding-top: 20px;
-    }
-    .side-right, .side-left, .left, .right, .right-foot, .left-foot {
-        width: 20%;
-    }
+.logo {
+    background-color: bisque;
+    font-size: 56px;
+    padding-top: 20px;
+}
 
-    .menu-list{
+.side-right, .side-left, .left, .right, .right-foot, .left-foot {
+    width: 20%;
+}
+
+.menu-list{
         float: left;
         width: 60%;
         display: initial;
     }
-    .content {
+.content {
         width: 60%;
     }
 
-    .content-foot {
+.content-foot {
         width: 60%;
     }
 
 
-    .badboy
+.badboy
    {
     display: none;
    }
 
-   .box1 {
+.box1 {
     display: initial;
-    }
-    .box2 {
-        display: initial;
-    }
-    .box3 {
-        display: initial;
-    }
-    .box4 {
-        display: initial;
-    }
+}
 
+.box2 {
+    display: initial;
+}
 
+.box3 {
+    display: initial;
+}
 
+.box4 {
+    display: initial;
+}
     
 } 
 
 
-/*------------media queries-----------*/
+/*------------media queries--------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 
