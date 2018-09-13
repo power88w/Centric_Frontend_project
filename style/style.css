@@ -17,6 +17,7 @@ header {
 }
 
 
+
 .logo p {
     height: 120px; 
     text-align: center;
@@ -39,7 +40,7 @@ nav {
 .side-left {
     float: left;
     width: 0%;
-    background-color: blue;
+    background-color: olivedrab;
     height: 70px;
     display: none;
     
@@ -190,14 +191,14 @@ section {
     float: left;
     width: 0%;
     background-color: blue;
-    height: 550px;
+    height: 480px;
     display: none;
     
 }
 .content {
     float: left;
     width: 100%;
-    height: 550px;
+    height: 480px;
     background-color: chartreuse;
 }
 
@@ -205,7 +206,7 @@ section {
     float: left;
     width: 0%;
     background-color: orangered;
-    height: 550px;
+    height: 480px;
     display: none;
     
 }
@@ -235,15 +236,67 @@ section {
 
 
 
+
 /*------------footer-----------*/
 
-.overtop {
-     background-color: pink;
-     height: 275px;
-     width: 100%;
-     float: left;
-
+.left-foot  {
+    float: left;
+    width: 0%;
+    background-color: rgba(19, 142, 190, 0.486);
+    height: 300px;
+    display: none;
+    
 }
+
+.content-foot {
+    float: left;
+    background-color: chartreuse;
+}
+
+.right-foot {
+    float: left;
+    width: 0%;
+    background-color: #21082c4b;
+    height: 300px;
+    display: none;
+    
+}
+
+.box1-foot {
+    height: 300px;
+    background-color: #0997d3;
+    float: left;
+}
+.box2-foot {
+    height: 300px;
+    background-color: yellow;
+    float: left;
+}
+.box3-foot {
+    height: 300px;
+    background-color: #2f5b6e8a;
+    float: left;
+}
+
+.left-masthead {
+    height: 100px;
+    background-color: #000000;
+    float: left;
+}
+
+    .right-masthead {
+    height: 100px;
+    background-color: red;
+    float: left;
+}
+
+.masthead {
+        width: 100%;
+        float: left;
+        height: 100px;
+        background-color: chartreuse;
+}
+
 
 
 
@@ -257,11 +310,16 @@ section {
       font-size: 30px;
       padding-top: 20px;
     }
+
     .content {
-        float: left;
         width: 100%;
-        height: 400px;
     }
+
+    .content-foot {
+        width: 100%;
+    }
+
+  
 
     .box1 {
         display: initial;
@@ -276,6 +334,7 @@ section {
     .box4 {
         display: none;
     }
+
 }
 
 @media (min-width: 576px) {
@@ -287,10 +346,13 @@ section {
    }
 
    .content {
-    float: left;
     width: 100%;
-    height: 450px;
     }
+
+    .content-foot {
+        width: 100%;
+    }
+
 
     .box1 {
         display: initial;
@@ -314,12 +376,11 @@ section {
     font-size: 50px;
     padding-top: 20px;
     }
-
-    .side-left, .left, .right {
-        width: 0%;
-        display: initial;
+    .masthead {
+        width: 100%;
     }
-    .side-right, {
+
+    .side-right, .side-left, .left, .right, .right-foot, .left-foot {
         width: 0%;
         display: initial;
     }
@@ -327,14 +388,16 @@ section {
     .menu-list{
         float: left;
         width: 100%;
-        height: 70px;
         display: initial;
     }
     .content {
-        float: left;
         width: 100%;
-        height: 500px;
     }
+
+    .content-foot {
+        width: 100%;
+    }
+
 
     .badboy
     {
@@ -352,7 +415,7 @@ section {
         }
         .box4 {
             display: initial;
-        }
+        }  
 
 }
 
@@ -363,34 +426,36 @@ section {
         font-size: 56px;
         padding-top: 20px;
     }
+    .masthead {
+        width: 100%;
+    }
 
-.side-left, .left, .right {
-    width: 10%;
+    .side-right, .side-left, .left, .right, .right-foot, .left-foot {
+    width: 0%;
     display: initial;
 }
-.side-right {
-    width: 10%;
-    display: initial;
-}
+
 
 .menu-list{
     float: left;
-    width: 80%;
-    height: 70px;
+    width: 100%;
     display: initial;
 }
 .content {
-    float: left;
-    width: 80%;
-    height: 550px;
+    width: 100%;
 }
+
+.content-foot {
+    width: 100%;
+}
+
 .badboy
     {
       display: none;
     }
 
     .box1 {
-        display: initial;
+            display: initial;
         }
         .box2 {
             display: initial;
@@ -400,8 +465,9 @@ section {
         }
         .box4 {
             display: initial;
-    }
+        }
 
+}
 
 
 
@@ -412,26 +478,27 @@ section {
         font-size: 56px;
         padding-top: 20px;
     }
-    .side-left, .left, .right {
-        width: 18%;
-        display: initial;
+    .masthead {
+        width: 100%;
     }
-    .side-right {
-        width: 18%;
+    .side-right, .side-left, .left, .right, .right-foot, .left-foot {
+        width: 10%;
         display: initial;
     }
 
     .menu-list{
         float: left;
-        width: 64%;
-        height: 70px;
+        width: 80%;
         display: initial;
     }
     .content {
-        float: left;
-        width: 64%;
-        height: 550px;
+        width: 80%;
     }
+
+    .content-foot {
+        width: 80%;
+    }
+
     .badboy
     {
       display: none;
@@ -457,26 +524,27 @@ section {
         font-size: 56px;
         padding-top: 20px;
     }
-    .side-left, .left, .right {
-        width: 20%;
-        display: initial;
+    .masthead {
+        width: 100%;
     }
-    .side-right {
-        width: 20%;
+    .side-right, .side-left, .left, .right, .right-foot, .left-foot {
+        width: 15%;
         display: initial;
     }
 
     .menu-list{
         float: left;
-        width: 60%;
-        height: 70px;
+        width: 70%;
         display: initial;
     }
     .content {
-        float: left;
-        width: 60%;
-        height: 550px;
+        width: 70%;
     }
+
+    .content-foot {
+        width: 70%;
+    }
+
 
     .badboy
     {
@@ -497,6 +565,7 @@ section {
             display: initial;
         }
 
+
     
 }
 
@@ -507,24 +576,23 @@ section {
         font-size: 56px;
         padding-top: 20px;
     }
-    .side-left, .left, .right {
-        width: 25%;
-    }
-    .side-right {
-        width: 25%;
+    .side-right, .side-left, .left, .right, .right-foot, .left-foot {
+        width: 17%;
     }
 
     .menu-list{
         float: left;
-        width: 50%;
-        height: 70px;
+        width: 66%;
         display: initial;
     }
     .content {
-        float: left;
-        width: 50%;
-        height: 550px;
+        width: 66%;
     }
+
+    .content-foot {
+        width: 66%;
+    }
+
 
     .badboy
    {
@@ -545,8 +613,56 @@ section {
     }
 
 
+
     
-}    
+}
+
+@media(min-width: 2200px) {
+    .logo {
+        background-color: bisque;
+        font-size: 56px;
+        padding-top: 20px;
+    }
+    .side-right, .side-left, .left, .right, .right-foot, .left-foot {
+        width: 20%;
+    }
+
+    .menu-list{
+        float: left;
+        width: 60%;
+        display: initial;
+    }
+    .content {
+        width: 60%;
+    }
+
+    .content-foot {
+        width: 60%;
+    }
+
+
+    .badboy
+   {
+    display: none;
+   }
+
+   .box1 {
+    display: initial;
+    }
+    .box2 {
+        display: initial;
+    }
+    .box3 {
+        display: initial;
+    }
+    .box4 {
+        display: initial;
+    }
+
+
+
+    
+} 
 
 
 /*------------media queries-----------*/
