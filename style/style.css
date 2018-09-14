@@ -68,41 +68,54 @@ nav {
 #box4 {
     background-color: #c9ae17;
 }
+/*---------River-Head-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+#side-head  {
+    background-color: #c9ae17;
+}
+
+#content-head {
+    background-color: #2f5b6e8a;
+}
+
+#box1-head {
+    background-color: #0997d3;
+}
 
 /*---------footer-colors-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
-#left-foot  {
+.left-foot  {
     background-color: rgba(19, 142, 190, 0.486);
 }
 
-#content-foot {
+.content-foot {
     float: left;
     background-color: chartreuse;
 }
 
-#right-foot {
-    background-color: #21082c4b;
+.right-foot {
+    background-color: #c0c00d4b;
 }
 
-#box1-foot {
+.box1-foot {
     background-color: olivedrab;
 }
 
-#box2-foot {
+.box2-foot {
     background-color: yellow;
 }
 
-#left-masthead {
+.left-masthead {
     background-color: #000000;
 }
 
 /*---------masthead-colors---------------------------------------------------------------------------=============================================================================================-------*/
 
-#right-masthead {
+.right-masthead {
     background-color: red;
 }
 
-#masthead {
+.masthead {
     background-color: chartreuse;
 }
 
@@ -180,6 +193,37 @@ nav {
     padding-top:20px;
 }
 
+/*------------Rivers Section Extra----------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+.content-head {
+    float: left;
+    width: 100%;
+    height: 240px;
+}
+
+.side-head {
+    float: left;
+    width: 0%;
+    height: 240px;
+    
+}
+
+.content-river {
+    float: left;
+    width: 100%;
+    height: 480px;
+}
+
+.box1-head {
+    height: 100%;
+}
+
+.rivers {
+    height: 50%;
+    display: initial;
+}
 
 
 
@@ -224,6 +268,8 @@ nav {
     height: 50%;
     display: none;
 }
+
+
 
 
 /*------------footer------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -381,6 +427,20 @@ section {
     height: 240px;
 }
 
+/*---River Head--*/
+.content-head {
+    width: 100%;
+}
+.content-river {
+    width: 100%;
+    height: 960px;
+}
+.rivers {
+    height: 25%;
+    display: initial;
+}
+/*---River Head--*/
+
 .content-foot {
     width: 100%;
 }
@@ -411,6 +471,20 @@ section {
     font-size: 42px;
     padding-top: 20px;
 }
+
+/*---River Head--*/
+.content-head {
+    width: 100%;
+}
+.content-river {
+    width: 100%;
+    height: 960px;
+}
+.rivers {
+    height: 25%;
+    display: initial;
+}
+/*---River Head--*/
 
 .content {
     width: 100%;
@@ -459,6 +533,21 @@ section {
     width: 100%;
     display: initial;
 }
+
+/*---River Head--*/
+.content-head {
+    width: 100%;
+}
+.content-river {
+    width: 100%;
+    height: 480px;
+}
+.rivers {
+    height: 50%;
+    display: initial;
+}
+/*---River Head--*/
+
 .content {
     width: 100%;
 }
@@ -510,6 +599,15 @@ section {
     width: 100%;
     display: initial;
 }
+
+/*---River Head--*/
+.content-head {
+    width: 100%;
+}
+.content-river {
+    width: 100%;
+}
+/*---River Head--*/
 .content {
     width: 100%;
 }
@@ -563,6 +661,18 @@ section {
     width: 80%;
     display: initial;
 }
+/*---River Head--*/
+.content-head {
+    width: 80%;
+}
+
+.side-head {
+    width: 10%;
+}
+.content-river {
+    width: 80%;
+}
+/*---River Head--*/
 .content {
     width: 80%;
 }
@@ -616,6 +726,20 @@ section {
     display: initial;
 }
 
+/*---River Head--*/
+.content-head {
+    width: 70%;
+}
+
+.side-head {
+    width: 15%;
+}
+.content-river {
+    width: 70%;
+}
+
+/*---River Head--*/
+
 .content {
     width: 70%;
 }
@@ -664,6 +788,18 @@ section {
     display: initial;
 }
 
+/*---River Head--*/
+.content-head {
+    width: 66%;
+}
+.side-head {
+    width: 17%;
+}
+.content-river {
+    width: 66%;
+}
+/*---River Head--*/
+
 .content {
     width: 66%;
 }
@@ -706,20 +842,34 @@ section {
         float: left;
         width: 60%;
         display: initial;
-    }
+}
+
+/*---River Head--*/
+.content-head {
+    width: 60%;
+}
+.side-head {
+    width: 20%;
+}
+
+.content-river {
+    width: 60%;
+}
+
+/*---River Head--*/
+
 .content {
         width: 60%;
-    }
+}
 
 .content-foot {
         width: 60%;
-    }
+}
 
 
-.badboy
-   {
+.badboy {
     display: none;
-   }
+}
 
 .box1 {
     display: initial;
