@@ -1,17 +1,32 @@
 
 /*------------Fonts-------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-header, nav {
-    font-family: 'Permanent Marker', cursive;
+
+
+@font-face {
+  font-family: 'Papyrus';
+  src: URL('papyrus.ttf') format('ttf');
 }
 
+header {
+    font-family: 'Papyrus', cursive;
+    font-weight: 500;
+}
+nav {
+    font-family: 'Baloo', cursive;
+    font-weight: 700;
+    font-size: 24px;
+}
 
+.menuitem a{
+    font-family: 'Lemonada', cursive;
+    font-weight: 400;
 
+}
 /*------------Colors Top Logo---------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 body {
     background-color: #4a4a4f;
 }
-
 
 .logo p {
     color: #ffffff;
@@ -21,6 +36,7 @@ header {
     background-color: #000000;
 }
 
+
 /*------------Colors Navbar------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 nav {
@@ -28,15 +44,15 @@ nav {
 }
 
 .menuitem {
-    background-color: red;
+    background-color: #0b1712
 }
 
 .side-left {
-    background-color: olivedrab;
+    background-color: #0b1712
 }
 
 .side-right {
-    background-color: yellow;
+    background-color: #0b1712
 }
 
 .menuitem a{
@@ -56,19 +72,19 @@ nav {
     background-color: orangered;
 }
 
-#box1 {
+#main1 {
     background-color: #0997d3;
 }
-#box2 {
+#main2 {
     background-color: #262f33;
 }
-#box3 {
+#main3 {
     background-color: #2f5b6e8a;
 }
-#box4 {
+#main4 {
     background-color: #c9ae17;
 }
-/*---------River-Head-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*---------River-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 #side-head  {
     background-color: #c9ae17;
@@ -81,6 +97,151 @@ nav {
 #box1-head {
     background-color: #0997d3;
 }
+
+#box1-river {
+    background-color: #0997d3;
+}
+#box2-river {
+    background-color: #262f33;
+}
+#box3-river {
+    background-color: #2f5b6e8a;
+}
+#box4-river {
+    background-color: #c9ae17;
+}
+#box1-river2 {
+    background-color: #0997d3;
+}
+#box2-river2 {
+    background-color: #262f33;
+}
+#box3-river2 {
+    background-color: #2f5b6e8a;
+}
+#box4-river2 {
+    background-color: #c9ae17;
+}
+#box1-river3 {
+    background-color: #0997d3;
+}
+#box2-river3 {
+    background-color: #262f33;
+}
+#box3-river3 {
+    background-color: #2f5b6e8a;
+}
+#box4-river3 {
+    background-color: #c9ae17;
+}
+#box1-river4 {
+    background-color: #0997d3;
+}
+#box2-river4 {
+    background-color: #262f33;
+}
+#box3-river4 {
+    background-color: #2f5b6e8a;
+}
+#box4-river4 {
+    background-color: #c9ae17;
+}
+
+
+
+/*---------Species-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+#fish1 {
+    background-color: #0997d3;
+}
+#fish2 {
+    background-color: #262f33;
+}
+#fish3 {
+    background-color: #2f5b6e8a;
+}
+#fish4 {
+    background-color: #c9ae17;
+}
+#fish5 {
+    background-color: #0997d3;
+}
+#fish6 {
+    background-color: #262f33;
+}
+#fish7 {
+    background-color: #2f5b6e8a;
+}
+#fish8 {
+    background-color: #c9ae17;
+}
+#fish9 {
+    background-color: #0997d3;
+}
+#fish10 {
+    background-color: #262f33;
+}
+#fish11 {
+    background-color: #2f5b6e8a;
+}
+#fish12 {
+    background-color: #c9ae17;
+}
+#fish13 {
+    background-color: #0997d3;
+}
+#fish14 {
+    background-color: #262f33;
+}
+#fish15 {
+    background-color: #2f5b6e8a;
+}
+#fish16 {
+    background-color: red;
+}
+#fish17 {
+    background-color: blue;
+}
+#fish18 {
+    background-color: gold;
+}
+#fish19 {
+    background-color: firebrick;
+}
+#fish20 {
+    background-color: grey;
+}
+
+/*-----------Contact-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+#contact1 {
+    background-color: #0997d3;
+}
+#contact2 {
+    background-color: #262f33;
+}
+#contact3 {
+    background-color: #2f5b6e8a;
+}
+#contact4 {
+    background-color: #c9ae17;
+}
+
+/*-----------Gallery-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+#gallery1 {
+    background-color: #0997d3;
+}
+#gallery2 {
+    background-color: #262f33;
+}
+#gallery3 {
+    background-color: #2f5b6e8a;
+}
+#gallery4 {
+    background-color: #c9ae17;
+}
+
 
 /*---------footer-colors-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
@@ -171,7 +332,7 @@ nav {
     text-align: center;
     padding: 0;
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 300;
     letter-spacing: 2px;
     float: left;
@@ -252,22 +413,11 @@ nav {
     
 }
 
-.box1 {
+.box {
     height: 50%;
     display: none;
 }
-.box2 {
-    height: 50%;
-    display: none;
-}
-.box3 {
-    height: 50%;
-    display: none;
-}
-.box4 {
-    height: 50%;
-    display: none;
-}
+
 
 
 
@@ -384,7 +534,7 @@ section {
 .dropdownLink {
     text-decoration: none;
     display: block;
-    background-color: red;
+    background-color: #0b1712;
     padding-left: 2px;
     padding-right: 2px;
     padding-bottom: 4px;
@@ -445,21 +595,9 @@ section {
     width: 100%;
 }
 
-.box1 {
+.box {
     display: initial;
     height: 100%;
-}
-
-.box2 {
-    display: none;
-}
-
-.box3 {
-    display: none;
-}
-
-.box4 {
-    display: none;
 }
 
 }
@@ -468,7 +606,7 @@ section {
 
 .logo {
     background-color: red;
-    font-size: 42px;
+    font-size: 45px;
     padding-top: 20px;
 }
 
@@ -494,19 +632,7 @@ section {
     width: 100%;
 }
 
-.box1 {
-    display: initial;
-}
-
-.box2 {
-    display: none;
-}
-
-.box3 {
-    display: none;
-}
-
-.box4 {
+.box {
     display: initial;
 }
 
@@ -516,7 +642,7 @@ section {
 @media (min-width: 768px) {
 .logo {
     background-color: orange;
-    font-size: 50px;
+    font-size: 54px;
     padding-top: 20px;
 }
 .masthead {
@@ -560,21 +686,9 @@ section {
     display: none;
 }    
 
-.box1 {
+.box {
     display: initial;
-}
-
-.box2 {
-    display: initial;
-}
-
-.box3 {
-    display: initial;
-}
-
-.box4 {
-    display: initial;
-}  
+} 
 
 }
 
@@ -582,7 +696,7 @@ section {
 @media(min-width: 992px) {
 .logo {
     background-color: green;
-    font-size: 56px;
+    font-size: 67px;
     padding-top: 20px;
 }
 .masthead {
@@ -620,18 +734,7 @@ section {
     display: none;
 }
 
-.box1 {
-    display: initial;
-}
-
-.box2 {
-    display: initial;
-}
-
-.box3 {
-    display: initial;
-}
-.box4 {
+.box {
     display: initial;
 }
 
@@ -643,7 +746,7 @@ section {
 @media(min-width: 1292px) {
 .logo {
     background-color: bisque;
-    font-size: 56px;
+    font-size: 75px;
     padding-top: 20px;
 }
 
@@ -685,20 +788,10 @@ section {
     display: none;
 }
 
-.box1 {
+.box {
     display: initial;
 }
 
-.box2 {
-     display: initial;
-}
-
-.box3 {
-    display: initial;
-}
-.box4 {
-    display: initial;
-}
 
 }   
 
@@ -707,7 +800,7 @@ section {
 @media(min-width: 1500px) {
 .logo {
     background-color: bisque;
-    font-size: 56px;
+    font-size: 77px;
     padding-top: 20px;
 }
 
@@ -752,21 +845,11 @@ section {
     display: none;
 }
 
-.box1 {
+.box {
     display: initial;
 }
 
-.box2 {
-    display: initial;
-}
 
-.box3 {
-    display: initial;
-}
-
-.box4 {
-    display: initial;
-}
     
 }
 
@@ -774,7 +857,7 @@ section {
 @media(min-width: 1900px) {
 .logo {
     background-color: bisque;
-    font-size: 56px;
+    font-size: 78px;
     padding-top: 20px;
 }
 
@@ -812,16 +895,7 @@ section {
     display: none;
 }
 
-.box1 {
-    display: initial;
-}
-.box2 {
-    display: initial;
-}
-.box3 {
-    display: initial;
-}
-.box4 {
+.box {
     display: initial;
 }
     
@@ -829,8 +903,8 @@ section {
 
 @media(min-width: 2200px) {
 .logo {
-    background-color: bisque;
-    font-size: 56px;
+    background-color: black;
+    font-size: 80px;
     padding-top: 20px;
 }
 
@@ -871,21 +945,10 @@ section {
     display: none;
 }
 
-.box1 {
+.box {
     display: initial;
 }
 
-.box2 {
-    display: initial;
-}
-
-.box3 {
-    display: initial;
-}
-
-.box4 {
-    display: initial;
-}
     
 } 
 
