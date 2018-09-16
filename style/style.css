@@ -152,7 +152,7 @@ nav {
 /*---------Species-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 #fish1 {
-    background-color: #262f33;
+    background-color: black;
     padding: 4px 4px 4px 4px;
 }    
 
@@ -164,7 +164,7 @@ nav {
 }   
     
 #fish2 {
-    background-color: #262f33;
+    background-color: black;
     color: white;
     display: table-cell;
     vertical-align: middle;
