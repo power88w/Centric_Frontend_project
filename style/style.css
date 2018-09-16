@@ -152,11 +152,27 @@ nav {
 /*---------Species-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 #fish1 {
-    background-color: #0997d3;
-}
+    background-color: #262f33;
+    padding: 4px 4px 4px 4px;
+}    
+
+.fish-photo {
+    height: 100%;
+    width: auto;
+    margin: 0 auto;
+    display: block;
+}   
+    
 #fish2 {
     background-color: #262f33;
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Lemonada', cursive;
+    font-weight: 400;
 }
+
+          
 #fish3 {
     background-color: #2f5b6e8a;
 }
@@ -186,30 +202,6 @@ nav {
 }
 #fish12 {
     background-color: #c9ae17;
-}
-#fish13 {
-    background-color: #0997d3;
-}
-#fish14 {
-    background-color: #262f33;
-}
-#fish15 {
-    background-color: #2f5b6e8a;
-}
-#fish16 {
-    background-color: red;
-}
-#fish17 {
-    background-color: blue;
-}
-#fish18 {
-    background-color: gold;
-}
-#fish19 {
-    background-color: firebrick;
-}
-#fish20 {
-    background-color: grey;
 }
 
 /*-----------Contact-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -294,6 +286,7 @@ header {
     text-align: center;
     position: relative;
     z-index:1000;
+    text-shadow: 4px 4px #26596d;
 }
 
 /*------------Nav-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -303,6 +296,14 @@ nav {
 
 .menuitem {
     height: 70px;
+    border-style: ridge;
+    border-top-width: 0.5px;
+    border-bottom-width: 0.5px;
+    border-left-width: 0.5px;
+    border-right-width: 0.5px;
+    border-color: rgb(48, 41, 41);
+    text-shadow: 2px 2px #26596d;
+
 }
 
 .side-left {
@@ -310,6 +311,12 @@ nav {
     width: 0%;
     height: 70px;
     display: none;
+    border-style: ;
+    border-top-width: 4px;
+    border-bottom-width: 4px;
+    border-left-width: 4px;
+    border-right-width: 4px;
+    border-color: white;
     
 }
 .menu-list {
@@ -339,7 +346,7 @@ nav {
 }
 
 .resize-a {
-    width: 20%;
+    width: 20.00%;
 }
 
 .resize-b {
@@ -352,6 +359,13 @@ nav {
     text-decoration: none;
     height: 70px;
     padding-top:20px;
+    border-style: ridge;
+    border-top-width: 0.1px;
+    border-bottom-width: 0.1px;
+    border-left-width: 0.1px;
+    border-right-width: 0.1px;
+    border-color: rgb(53, 52, 52);
+    text-shadow: 2px 2px #26596d;
 }
 
 /*------------Rivers Section Extra----------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -520,7 +534,7 @@ button {
    text-align: center;
    padding: 0;
    /*box-shadow: -2px 13px 61px -1px rgba(0,0,0,0.75);-------------------------------------------------------Shadow do wykorzystania-----------------------------------------------------*/
-   transform: translateY(-100%);
+   transform: translateY(-101%);
    transition: transform 1s ease-in-out;
 }   
 
