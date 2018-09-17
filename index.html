@@ -58,7 +58,7 @@
 <!--------Hamburger----------------------------------------------------------------------------------->
 
 <div class="col-xs-12 col-sm-12 menuitem resize-b badboy">
-    <a href="index.html" class="hvr-sweep-to-bottom dropdown"><span class="glyphicon glyphicon-home"></span>Home</a>
+    <a href="" class="hvr-sweep-to-bottom dropdown active"><span class="glyphicon glyphicon-home"></span>Home</a>
         <ul class="dropdownMenu" id="hiden"> 
             <li class="dropdownItem"><a href="rivers.html" class="dropdownLink">Rivers</a></li>
             <li class="dropdownItem"><a href="species.html" class="dropdownLink">Species</a></li>
@@ -128,6 +128,15 @@
     $(document).ready(function() {
         $('.lock').removeClass('lock').addClass('black');
     });
+
+  (function() {
+  $("*").on( 'touchstart', function() {
+    $(this).trigger('hover') ;
+  } ).on('touchend', function() {
+    $(this).trigger('hover') ;
+  } ) ;
+})() ;
+
 
 
 </script>

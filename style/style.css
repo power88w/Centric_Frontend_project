@@ -561,7 +561,7 @@ nav {
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;                        
 
 }
 
@@ -637,10 +637,8 @@ button {
    padding: 0;
    /*box-shadow: -2px 13px 61px -1px rgba(0,0,0,0.75);-------------------------------------------------------Shadow do wykorzystania-----------------------------------------------------*/
    transform: translateY(-101%);
-   -webkit-transition: transform 0.2s ease-in-out;
-   -moz-transition:  transform 0.2s ease-in-out;
-    -o-transition: transform 0.2s ease-in-out;
-   transition: transform 0.2s ease-in-out;
+   transition: transform 1s ease-in-out;
+   transition-duration: 1s, 1s, 2s, 4s;
 }   
 
 section {
@@ -668,6 +666,7 @@ section {
     color: #fff;
     background-color: rgba(0, 0, 0, 0.5);
 
+
 }
 
 .menuitem:hover .dropdown 
@@ -675,10 +674,11 @@ section {
     background-color: brown;
 }
 
-.menuitem:hover .dropdownMenu {
-    transform: translateY(0%);  
+.menuitem:hover .dropdownMenu {  
+    transform: translateY(0%);
     z-index: 1;
 }
+
 
 /*-----------------------------------------------------------------------------------------HOOVER AND DROPDOWN------------------------------------------------------------------------------------------*/
 
