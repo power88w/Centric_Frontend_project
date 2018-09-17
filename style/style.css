@@ -637,6 +637,9 @@ button {
    padding: 0;
    /*box-shadow: -2px 13px 61px -1px rgba(0,0,0,0.75);-------------------------------------------------------Shadow do wykorzystania-----------------------------------------------------*/
    transform: translateY(-101%);
+   -webkit-transition: transform 1s ease-in-out;
+   -moz-transition:  transform 1s ease-in-out;
+     -o-transition: transform 1s ease-in-out;
    transition: transform 1s ease-in-out;
 }   
 
@@ -656,6 +659,9 @@ section {
     padding-bottom: 4px;
     color: #4a4a4f;
     transition: background-color .5s ease-in-out, color .5s ease-in-out;
+    -webkit-transition: .5s ease-in-out, color .5s ease-in-out; 
+    -moz-transition: .5s ease-in-out, color .5s ease-in-out;
+    -o-transition: .5s ease-in-out, color .5s ease-in-out; 
 }
 
 .dropdownLink:hover {
@@ -719,6 +725,7 @@ section {
 .fish-photo1 {
     padding-left: 0px;
     display: table-cell;
+    height: 90%;
 }   
 
 .fish-photo2 {
@@ -827,6 +834,7 @@ section {
 .fish-photo1 {
     padding-left: 0px;
     display: table-cell;
+    height: 100%;
 }   
 
 .fish-photo2 {
