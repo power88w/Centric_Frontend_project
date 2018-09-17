@@ -25,7 +25,7 @@ nav {
 /*------------Colors Top Logo---------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 body {
-    background-color: #4a4a4f;
+    background-color: black;
 }
 
 .logo p {
@@ -62,27 +62,33 @@ nav {
 /*---------section-colors--------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 #left  {
-    background-color: blue;
+    background-color: black;
 }
 #content {
-    background-color: chartreuse;
+    background: url('../photos/cover.JPG') no-repeat center center;
+    background-size: 115% auto;
+
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
 }
 
 #right {
-    background-color: orangered;
+    background-color: black;
 }
 
 #main1 {
-    background-color: #0997d3;
+    background-color: rgba(0, 0, 0, 0.1);
 }
 #main2 {
-    background-color: #262f33;
+    background-color: rgba(0, 0, 0, 0.1);
 }
 #main3 {
-    background-color: #2f5b6e8a;
+    background-color: rgba(0, 0, 0, 0.1);
 }
 #main4 {
-    background-color: #c9ae17;
+    background-color: rgba(0, 0, 0, 0.1);
 }
 /*---------River-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
@@ -162,6 +168,27 @@ nav {
     margin: 0 auto;
     display: block;
 }   
+
+
+
+.fish-photo1 {
+    height: 100%;
+    width: auto;
+    margin: 0 auto;
+    display: inline-block;
+    border-width: 8px;
+    padding-left: 50px;
+    
+}   
+
+.fish-photo2 {
+    height: 100%;
+    width: auto;
+    margin: 0 auto;
+    display: inline-block;
+    border-width: 8px;
+    padding-left: 50px;
+}  
     
 #fish2 {
     background-color: black;
@@ -238,38 +265,38 @@ nav {
 /*---------footer-colors-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 .left-foot  {
-    background-color: rgba(19, 142, 190, 0.486);
+    background-color: #0b1712;
 }
 
 .content-foot {
     float: left;
-    background-color: chartreuse;
+    background-color: #0b1712;
 }
 
 .right-foot {
-    background-color: #c0c00d4b;
+    background-color: #0b1712;;
 }
 
 .box1-foot {
-    background-color: olivedrab;
+    background-color: #0b1712;
 }
 
 .box2-foot {
-    background-color: yellow;
+    background-color: #0b1712;
 }
 
 .left-masthead {
-    background-color: #000000;
+    background-color: black;
 }
 
 /*---------masthead-colors---------------------------------------------------------------------------=============================================================================================-------*/
 
 .right-masthead {
-    background-color: red;
+    background-color: black;
 }
 
 .masthead {
-    background-color: chartreuse;
+    background-color: black;
 }
 
 
@@ -409,20 +436,20 @@ nav {
 .left  {
     float: left;
     width: 0%;
-    height: 480px;
+    height: 640px;
     display: none;
     
 }
 .content {
     float: left;
-    width: 100%;
-    height: 480px;
+    width: auto;
+    height: 640px;
 }
 
 .right {
     float: left;
     width: 0%;
-    height: 480px;
+    height: 640px;
     display: none;
     
 }
@@ -432,6 +459,19 @@ nav {
     display: none;
 }
 
+.text-box {
+    margin-top: 12%;
+    margin-right: 20%;
+    height: 50%;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    padding-top: 2%;
+    text-align: center;
+    font-family: 'Lemonada', cursive;
+    font-weight: 100;
+    
+
+}
 
 
 
@@ -441,32 +481,94 @@ nav {
 .left-foot  {
     float: left;
     width: 0%;
-    height: 300px;
+    height: 305px;
     display: none;
+    border-top: #8b8a8a;
+    border-top-width: 5px;
+    border-top-style: solid;
     
 }
 
 .content-foot {
     float: left;
     background-color: chartreuse;
+    border-top: #8b8a8a;
+    border-top-width: 5px;
+    border-top-style: solid;
+    
 }
 
 .right-foot {
     float: left;
     width: 0%;
-    height: 300px;
+    height: 305px;
     display: none;
+    border-top: #8b8a8a;
+    border-top-width: 5px;
+    border-top-style: solid;
     
 }
 
 .box1-foot {
     height: 300px;
     float: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
 }
+
 .box2-foot {
     height: 300px;
     float: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    align-items: center;
 }
+
+.social-links {
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+}
+.midland {
+    width: auto;
+    margin: 0 auto;
+    display: block;
+    padding-top: 20px;
+} 
+
+.cr {
+    color: #ffffff;
+    margin: 0 auto;
+    display: block;
+    padding-top: 40px;
+    text-align: center;
+
+}
+
+.social-links li a i {
+    width: 42px;
+    height: 42px;
+    padding: 18px 0;
+    border-radius: 50%;
+    font-size: 28px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+
+}
+
+.social-links li a i:hover {
+    background-color: darkgreen;
+}
+
 
 .left-masthead {
     height: 100px;
@@ -558,7 +660,7 @@ section {
 
 .dropdownLink:hover {
     color: #fff;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.5);
 
 }
 
@@ -580,7 +682,7 @@ section {
 @media (max-width: 576px) {
 
 .logo {
-    background-color: green;
+    background-color: black;
     padding-top: 0px;
     font-size: 30px;
     padding-top: 20px;
@@ -614,12 +716,21 @@ section {
     height: 100%;
 }
 
+.fish-photo1 {
+    padding-left: 0px;
+    display: table-cell;
+}   
+
+.fish-photo2 {
+    display: none;
+}  
+
 }
 
 @media (min-width: 576px) {
 
 .logo {
-    background-color: red;
+    background-color: black;
     font-size: 45px;
     padding-top: 20px;
 }
@@ -650,12 +761,21 @@ section {
     display: initial;
 }
 
+.fish-photo1 {
+    padding-left: 0px;
+    display: table-cell;
+}   
+
+.fish-photo2 {
+    display: none;
+}
+
 }
      
 
 @media (min-width: 768px) {
 .logo {
-    background-color: orange;
+    background-color: black;
     font-size: 54px;
     padding-top: 20px;
 }
@@ -704,12 +824,21 @@ section {
     display: initial;
 } 
 
+.fish-photo1 {
+    padding-left: 0px;
+    display: table-cell;
+}   
+
+.fish-photo2 {
+    display: none;
+}
+
 }
 
 
 @media(min-width: 992px) {
 .logo {
-    background-color: green;
+    background-color: black;
     font-size: 67px;
     padding-top: 20px;
 }
@@ -751,6 +880,14 @@ section {
 .box {
     display: initial;
 }
+.fish-photo1 {
+    padding-left: 0px;
+    display: table-cell;
+}   
+
+.fish-photo2 {
+    display: none;
+}
 
 }
 
@@ -759,7 +896,7 @@ section {
 
 @media(min-width: 1292px) {
 .logo {
-    background-color: bisque;
+    background-color: black;
     font-size: 75px;
     padding-top: 20px;
 }
@@ -805,6 +942,14 @@ section {
 .box {
     display: initial;
 }
+.fish-photo1 {
+    padding-left: 0px;
+    display: table-cell;
+}   
+
+.fish-photo2 {
+    display: none;
+}
 
 
 }   
@@ -813,7 +958,7 @@ section {
 
 @media(min-width: 1500px) {
 .logo {
-    background-color: bisque;
+    background-color: black;
     font-size: 77px;
     padding-top: 20px;
 }
@@ -863,6 +1008,14 @@ section {
     display: initial;
 }
 
+.fish-photo1 {
+    padding-left: 0px;
+    display: table-cell;
+}   
+
+.fish-photo2 {
+    display: none;
+}
 
     
 }
@@ -870,7 +1023,7 @@ section {
 
 @media(min-width: 1900px) {
 .logo {
-    background-color: bisque;
+    background-color: black;
     font-size: 78px;
     padding-top: 20px;
 }
@@ -912,6 +1065,16 @@ section {
 .box {
     display: initial;
 }
+
+.fish-photo1 {
+    padding-left: 0px;
+    display: table-cell;
+}   
+
+.fish-photo2 {
+    display: none;
+}
+
     
 }
 
@@ -963,8 +1126,17 @@ section {
     display: initial;
 }
 
+.fish-photo1 {
+    padding-left: 50px;
+    display: inline-block;
+}   
+
+.fish-photo2 {
+    display: inline;
+}
     
 } 
+
 
 
 /*------------media queries--------------------------------------------------------------------------------------------------------------------------------------------------------------*/
