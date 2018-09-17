@@ -65,7 +65,7 @@ nav {
     background-color: black;
 }
 #content {
-    background: url('../photos/cover.JPG') no-repeat center center;
+    background: url('../images/cover.JPG') no-repeat center center;
     background-size: 115% auto;
 
     align-items: center;
