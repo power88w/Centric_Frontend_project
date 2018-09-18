@@ -163,7 +163,7 @@ nav {
 }    
 
 .fish-photo {
-    height: 100%;
+    height: auto;
     width: auto;
     margin: 0 auto;
     display: block;
@@ -172,7 +172,7 @@ nav {
 
 
 .fish-photo1 {
-    height: 100%;
+    height: auto;
     width: auto;
     margin: 0 auto;
     display: inline-block;
@@ -802,7 +802,7 @@ section {
 .fish-photo1 {
     padding-left: 0px;
     display: table-cell;
-    height: 90%;
+    height: 80%;
 }   
  
 
@@ -841,10 +841,11 @@ section {
 .box {
     display: initial;
 }
-
 .fish-photo1 {
     padding-left: 0px;
-}   
+    display: table-cell;
+    height: 80%;
+}  
 
 
 }
@@ -955,10 +956,8 @@ section {
 .box {
     display: initial;
 }
-.fish-photo1 {
-    padding-left: 0px;
-    display: table-cell;
-}   
+
+  
 
 
 }
