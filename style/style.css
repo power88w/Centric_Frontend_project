@@ -36,6 +36,11 @@ header {
     background-color: #000000;
 }
 
+.img-thumbnail {
+    border-width: 2px;
+    border-style: solid;
+    border-color: #232324;
+}
 
 /*------------Colors Navbar------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
@@ -66,7 +71,7 @@ nav {
 }
 #content {
     background: url('../images/cover.JPG') no-repeat center center;
-    background-size: 115% auto;
+    background-size: 110% ;
 
     align-items: center;
     justify-content: center;
@@ -162,33 +167,13 @@ nav {
     padding: 4px 4px 4px 4px;
 }    
 
-.fish-photo {
-    height: auto;
-    width: auto;
-    margin: 0 auto;
-    display: block;
-}   
-
-
-
 .fish-photo1 {
-    height: auto;
+    height: 240px;
     width: auto;
     margin: 0 auto;
-    display: inline-block;
-    border-width: 8px;
-    padding-left: 50px;
+    display: table-cell;
     
-}   
-
-.fish-photo2 {
-    height: 100%;
-    width: auto;
-    margin: 0 auto;
-    display: inline-block;
-    border-width: 8px;
-    padding-left: 50px;
-}  
+}    
     
 #fish2 {
     background-color: black;
@@ -281,9 +266,6 @@ nav {
     background-color: #0b1712;
 }
 
-.box2-foot {
-    background-color: #0b1712;
-}
 
 .left-masthead {
     background-color: black;
@@ -466,8 +448,8 @@ nav {
 .text-box {
     margin-top: 12%;
     margin-right: 20%;
-    height: 50%;
-    background-color: rgba(0, 0, 0, 0.3);
+    height: 70%;
+    background-color: rgba(0, 0, 0, 0.4);
     color: #ffffff;
     padding-top: 2%;
     text-align: center;
@@ -521,19 +503,12 @@ nav {
     
 }
 
-.box2-foot {
-    height: 300px;
-    float: left;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    align-items: center;
-}
 
 .social-links {
 
     display:flex;
-    justify-content:center;
-    align-items:center;
+    align-items:left;
+    padding-top: 25px;
     
 }
 .midland {
@@ -549,6 +524,7 @@ nav {
     display: block;
     padding-top: 40px;
     text-align: center;
+    font-family: 'Lemonada', cursive;
 
 }
 
@@ -586,8 +562,6 @@ nav {
 
 .masthead {
     width: 100%;
-    float: left;
-    height: 100px;
 }
 
 /*-----------------------------------------------------------------------------------------HOOVER AND DROPDOWN-------------------------------------------------------------------------------------------*/
@@ -754,7 +728,7 @@ section {
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
 
-/*-----------------------------------------------------------------------------------------MEDIA QUERIES -----------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------MEDIA QUERIES X12-----------------------------------------------------------------------------------------------*/
 
 @media (max-width: 576px) {
 
@@ -793,12 +767,26 @@ section {
     height: 100%;
 }
 
+#content {
+    background-size: 90% ;
+}
+
+.social-links {
+
+    justify-content:center;
+    align-items:center;
+    
+}
+
 .fish-photo1 {
-    padding-left: 0px;
+    height: 260px;
+    width: 440px;
+    margin: 0 auto;
     display: table-cell;
-    height: 80%;
-}   
- 
+    
+}
+
+
 
 }
 
@@ -826,6 +814,7 @@ section {
 
 .content {
     width: 100%;
+    height: 320px;
 }
 
 .content-foot {
@@ -835,11 +824,36 @@ section {
 .box {
     display: initial;
 }
+
+#content {
+    background-size: 80% ;
+}
+
+.social-links {
+
+    justify-content:center;
+    align-items:center;
+    
+}
+
 .fish-photo1 {
-    padding-left: 0px;
+    height: 360px;
+    width: 560px;
+    margin: 0 auto;
     display: table-cell;
-    height: 80%;
-}  
+    
+}
+
+.box1-foot {
+    height: 400px;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+
+
 
 
 }
@@ -852,7 +866,8 @@ section {
     padding-top: 20px;
 }
 .masthead {
-    width: 100%;
+    background-color: #000000;
+    height: 100px;
 }
 
 .side-right, .side-left, .left, .right, .right-foot, .left-foot {
@@ -882,6 +897,7 @@ section {
 
 .content {
     width: 100%;
+    height: 600px;
 }
 
 .content-foot {
@@ -896,11 +912,35 @@ section {
     display: initial;
 } 
 
+#content {
+    background-size: 100% ;
+}
+
+.social-links {
+
+    justify-content:left;
+    align-items:left;
+    
+}
+
 .fish-photo1 {
-    padding-left: 0px;
+    height: 240px;
+    width: auto;
+    margin: 0 auto;
     display: table-cell;
-    height: 100%;
-}   
+    
+}
+
+.box1-foot {
+    height: 300px;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+
+
 
 
 }
@@ -937,6 +977,7 @@ section {
 /*---River Head--*/
 .content {
     width: 100%;
+    height: 640px;
 }
 
 .content-foot {
@@ -949,6 +990,10 @@ section {
 
 .box {
     display: initial;
+}
+
+#content {
+    background-size: 110% ;
 }
 
   
@@ -1007,10 +1052,7 @@ section {
 .box {
     display: initial;
 }
-.fish-photo1 {
-    padding-left: 0px;
-    display: table-cell;
-}   
+  
 
 
 
@@ -1070,10 +1112,7 @@ section {
     display: initial;
 }
 
-.fish-photo1 {
-    padding-left: 0px;
-    display: table-cell;
-}   
+
 
 
     
@@ -1125,15 +1164,7 @@ section {
     display: initial;
 }
 
-.fish-photo1 {
-    padding-left: 0px;
-    display: table-cell;
-    
-}   
-
-.fish-photo2 {
-    display: inline;
-}
+  
 
     
 }
@@ -1186,14 +1217,6 @@ section {
     display: initial;
 }
 
-.fish-photo1 {
-    padding-left: 50px;
-    display: inline-block;
-}   
-
-.fish-photo2 {
-    display: inline;
-}
     
 } 
 
