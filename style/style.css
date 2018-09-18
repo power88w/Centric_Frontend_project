@@ -32,9 +32,11 @@ body {
     color: #ffffff;
 }
 
-header {
-    background-color: #000000;
+.logo-river p {
+    color: #ffffff;
+    font-family: 'Papyrus', cursive;
 }
+
 
 .img-thumbnail {
     border-width: 2px;
@@ -95,32 +97,35 @@ nav {
 #main4 {
     background-color: rgba(0, 0, 0, 0.1);
 }
-/*---------River-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*---------River-x13------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
-#side-head  {
+.box-river-div {
+    background-color: black;
+    height: 25vh;
+
+    background: url('../images/cover.jpg') no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    background-position: bottom;
+}
+
+
+.box1-river {
+    background-color: #0997d3;
+}
+.box2-river {
+    background-color: red;
+}
+.box3-river {
+    background-color: #2f5b6e8a;
+}
+.box4-river {
     background-color: #c9ae17;
 }
 
-#content-head {
-    background-color: #2f5b6e8a;
-}
-
-#box1-head {
-    background-color: #0997d3;
-}
-
-#box1-river {
-    background-color: #0997d3;
-}
-#box2-river {
-    background-color: #262f33;
-}
-#box3-river {
-    background-color: #2f5b6e8a;
-}
-#box4-river {
-    background-color: #c9ae17;
-}
 #box1-river2 {
     background-color: #0997d3;
 }
@@ -296,6 +301,14 @@ header {
     position: relative;
     z-index:1000;
     text-shadow: 4px 4px #26596d;
+}
+
+.logo-river p {
+    text-align: center;
+    position: relative;
+    text-shadow: 4px 4px #26596d;
+    font-size: 5vh;
+    padding-top: 20px;
 }
 
 /*------------Nav-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
