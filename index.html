@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
@@ -58,22 +59,16 @@
 <!--------Hamburger----------------------------------------------------------------------------------->
 
 <div class="col-xs-12 col-sm-12 menuitem resize-b badboy">
-    <div class="hvr-sweep-to-bottom dropdown active" >
-                <button onclick="myFunction()" class="hvr-sweep-to-bottom">
-                    <div class="hamburger-position">
-                        <div class="hamburger"></div>
-                        <div class="hamburger"></div>
-                        <div class="hamburger"></div>
-                    </div>    
-                </button>
-                <div id="myDropdown" class="dropdown-content dropdown">
+    <div class="hvr-sweep-to-bottom dropdown active">
+                <button onclick="myFunction()" class="hamb fas fa-bars click""></button>
+                        <div id="myDropdown" class="dropdown-content dropdown">
                         <div class="dropdownItem"><a href="index.html" class="dropdownLink">Home</a></div>
                         <div class="dropdownItem"><a href="rivers.html" class="dropdownLink">Rivers</a></div>
                         <div class="dropdownItem"><a href="species.html" class="dropdownLink">Species</a></div>
                         <div class="dropdownItem"><a href="gallery.html" class="dropdownLink">gallery</a></div>
                         <div class="dropdownItem"><a href="contact.html" class="dropdownLink">Contact</a></div> 
-                </div>
-    </div>            
+                </div>  
+    </div>             
 </div>
 </nav>
 
@@ -128,20 +123,10 @@
         $('.lock').removeClass('lock').addClass('black');
     });
 
-  (function() {
-  $("*").on( 'touchstart', function() {
-    $(this).trigger('hover') ;
-  } ).on('touchend', function() {
-    $(this).trigger('hover') ;
-  } ) ;
-})() ;
-
-
-
 </script>
 <script>
 
-    /* When the user clicks on the button, 
+    /* When the user clicks on the button,   
 toggle between hiding and showing the dropdown content */
 function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
@@ -149,7 +134,7 @@ function myFunction() {
 
 // Close the dropdown menu if the user clicks outside of it
 window.onclick = function(event) {
-  if (!event.target.matches('.hvr-sweep-to-bottom')) {
+  if (!event.target.matches('.hamb')) {
 
     var dropdowns = document.getElementsByClassName("dropdown-content");
     var i;
@@ -161,6 +146,7 @@ window.onclick = function(event) {
     }
   }
 }
+
 
 </script>
 

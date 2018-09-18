@@ -637,13 +637,7 @@ button {
     color: #fff;
     text-transform: uppercase;
     cursor: pointer;
-    border-style: ridge;
-    border-top-width: 0.5px;
-    border-bottom-width: 0.5px;
-    border-left-width: 0.5px;
-    border-right-width: 0.5px;
-    border-color: rgb(48, 41, 41);
-    text-shadow: 2px 2px #26596d;
+
 }
 
 .hamburger {
