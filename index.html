@@ -58,13 +58,20 @@
 <!--------Hamburger----------------------------------------------------------------------------------->
 
 <div class="col-xs-12 col-sm-12 menuitem resize-b badboy">
-    <a href="" class="hvr-sweep-to-bottom dropdown active"><span class="glyphicon glyphicon-home"></span>Home</a>
-        <ul class="dropdownMenu" id="hiden"> 
-            <li class="dropdownItem"><a href="rivers.html" class="dropdownLink">Rivers</a></li>
-            <li class="dropdownItem"><a href="species.html" class="dropdownLink">Species</a></li>
-            <li class="dropdownItem"><a href="gallery.html" class="dropdownLink">gallery</a></li>
-            <li class="dropdownItem"><a href="contact.html" class="dropdownLink">Contact</a></li>      
-        </ul>
+    <div class="hvr-sweep-to-bottom dropdown active">
+                <button onclick="myFunction()" class="hvr-sweep-to-bottom">
+                        <div class="hamburger"></div>
+                        <div class="hamburger"></div>
+                        <div class="hamburger"></div>
+                </button>
+                <div id="myDropdown" class="dropdown-content dropdown">
+                        <div class="dropdownItem"><a href="index.html" class="dropdownLink">Home</a></div>
+                        <div class="dropdownItem"><a href="rivers.html" class="dropdownLink">Rivers</a></div>
+                        <div class="dropdownItem"><a href="species.html" class="dropdownLink">Species</a></div>
+                        <div class="dropdownItem"><a href="gallery.html" class="dropdownLink">gallery</a></div>
+                        <div class="dropdownItem"><a href="contact.html" class="dropdownLink">Contact</a></div> 
+                </div>
+    </div>            
 </div>
 </nav>
 
@@ -97,19 +104,9 @@
     <div class="row">
         <div class="left-foot"></div>
             <div class="content-foot">
-                <div class="box1-foot col-xs-12 col-sm-6 col-lg-8"><img src="images/pikeone.jpg" alt="pike1" class="fish-photo1"><img src="images/okon1.jpg" alt="pike1" class="fish-photo2"></div>
-                <div class="box2-foot col-xs-12 col-sm-6 col-lg-4">
-                    <ul class="list-inline social-links">
-                        <li><a target="_blank" href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a target="_blank" href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a target="_blank" href="#"><i class="fa fa-linkedin"></i></a></li>
-                        <li><a target="_blank" href="#"><i class="fa fa-pinterest"></i></a></li>
-                        <li><a target="_blank" href="#"><i class="fa fa-instagram"></i></a></li>
-                        <li><a target="_blank" href="#"><i class="fa fa-youtube"></i></a></li>
-                     </ul>
-                     <a href="http://www.midlandangling.com/"><img src="http://www.midlandangling.com/wp-content/uploads/2016/03/logo7-300x57.png" alt="" title="" class="midland"></a>
-                     <p class="cr">&copy; Copyright 2018 Marek Kulpa</p>
-                </div>
+                <div class="box1-foot col-xs-12 col-sm-5 col-lg-4"><img src="images/pikeone.jpg" alt="pike1" class="fish-photo1 border-success"></div>
+                <div class="box1-foot col-xs-12 col-sm-3 col-lg-4"><img src="images/okon1.jpg" alt="pike1" class="fish-photo1 border-success"></div>
+                <div class="box2-foot col-xs-12 col-sm-3 col-lg-4"><img src="images/pike2.jpg" alt="pike1" class="fish-photo1 border-success"></div>
             </div>    
         <div class="right-foot"></div>
     </div>
@@ -138,6 +135,30 @@
 })() ;
 
 
+
+</script>
+<script>
+
+    /* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.hvr-sweep-to-bottom')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
 
 </script>
 

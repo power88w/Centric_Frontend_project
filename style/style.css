@@ -338,7 +338,6 @@ nav {
     width: 0%;
     height: 70px;
     display: none;
-    border-style: ;
     border-top-width: 4px;
     border-bottom-width: 4px;
     border-left-width: 4px;
@@ -394,6 +393,11 @@ nav {
     border-color: rgb(53, 52, 52);
     text-shadow: 2px 2px #26596d;
 }
+
+.hvr-sweep-to-bottom::after {
+    background: #000000;
+}
+
 
 /*------------Rivers Section Extra----------------------------------------------------------------------------------------------------------------------------------------------------*/
 
@@ -491,7 +495,7 @@ nav {
 
 .content-foot {
     float: left;
-    background-color: chartreuse;
+    background-color: #0b1712;
     border-top: #8b8a8a;
     border-top-width: 5px;
     border-top-style: solid;
@@ -512,16 +516,16 @@ nav {
 .box1-foot {
     height: 300px;
     float: left;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     
 }
 
 .box2-foot {
     height: 300px;
     float: left;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     align-items: center;
 }
 
@@ -590,9 +594,19 @@ nav {
 
 /*-----botton-hover------*/
 
-a.hvr-sweep-to-bottom::before {
-    background-color: rgba(0, 0, 0, 0.5);
+a.hvr-sweep-to-bottom:before {
+    background-color: black;
     height: 70px;
+}
+
+button.hvr-sweep-to-bottom:before {
+    background-color: black;
+    height: 70px;
+}
+
+.hvr-sweep-to-bottom:before {
+    background-color: black;
+
 }
 
 
@@ -617,13 +631,29 @@ a.hvr-sweep-to-bottom::before {
 
 button {
     border: none;
-    background-color: #0997d3;
-    width: 150px;
-    height: 50px;
+    background-color: #0b1712;
+    width: 100%;
+    height: 70px;
     color: #fff;
     text-transform: uppercase;
     cursor: pointer;
+    border-style: ridge;
+    border-top-width: 0.5px;
+    border-bottom-width: 0.5px;
+    border-left-width: 0.5px;
+    border-right-width: 0.5px;
+    border-color: rgb(48, 41, 41);
+    text-shadow: 2px 2px #26596d;
 }
+
+.hamburger {
+    margin-left: 20px;
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+}
+
 
 .dropdownMenu{
    list-style: none;
@@ -655,7 +685,7 @@ section {
     padding-left: 2px;
     padding-right: 2px;
     padding-bottom: 4px;
-    color: #4a4a4f;
+    color: #232324;
     transition: background-color .5s ease-in-out, color .5s ease-in-out;
     -webkit-transition: .5s ease-in-out, color .5s ease-in-out; 
     -moz-transition: .5s ease-in-out, color .5s ease-in-out;
@@ -671,7 +701,7 @@ section {
 
 .menuitem:hover .dropdown 
 {
-    background-color: brown;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .menuitem:hover .dropdownMenu {  
@@ -680,8 +710,55 @@ section {
 }
 
 
+
 /*-----------------------------------------------------------------------------------------HOOVER AND DROPDOWN------------------------------------------------------------------------------------------*/
 
+/* Dropdown Button */
+.dropbtn {
+    background-color: #0b1712;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #0b1712;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #0b1712;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color:rgba(255, 255, 255, 0.158);
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
 
 /*-----------------------------------------------------------------------------------------MEDIA QUERIES -----------------------------------------------------------------------------------------------*/
 
@@ -727,10 +804,7 @@ section {
     display: table-cell;
     height: 90%;
 }   
-
-.fish-photo2 {
-    display: none;
-}  
+ 
 
 }
 
@@ -770,12 +844,8 @@ section {
 
 .fish-photo1 {
     padding-left: 0px;
-    display: table-cell;
 }   
 
-.fish-photo2 {
-    display: none;
-}
 
 }
      
@@ -837,9 +907,6 @@ section {
     height: 100%;
 }   
 
-.fish-photo2 {
-    display: none;
-}
 
 }
 
@@ -893,9 +960,6 @@ section {
     display: table-cell;
 }   
 
-.fish-photo2 {
-    display: none;
-}
 
 }
 
@@ -955,9 +1019,6 @@ section {
     display: table-cell;
 }   
 
-.fish-photo2 {
-    display: none;
-}
 
 
 }   
@@ -1021,9 +1082,6 @@ section {
     display: table-cell;
 }   
 
-.fish-photo2 {
-    display: none;
-}
 
     
 }
@@ -1077,10 +1135,11 @@ section {
 .fish-photo1 {
     padding-left: 0px;
     display: table-cell;
+    
 }   
 
 .fish-photo2 {
-    display: none;
+    display: inline;
 }
 
     
