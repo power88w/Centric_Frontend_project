@@ -130,6 +130,7 @@ nav {
     align-items: left;
     padding-top: 60px;
     padding-bottom:20px;
+    z-index: 1000;
 }
 .box4-river {
     background-color: black;
