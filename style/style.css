@@ -3,13 +3,20 @@
 
 
 @font-face {
-  font-family: 'Papyrus';
-  src: URL('papyrus.ttf') format('ttf');
+        font-family: 'papyrus';
+        src: url('papyrus.eot');
+        src: url('papyrus.eot?#iefix') format('embedded-opentype'),
+        url('papyrus.woff') format('woff'),
+        url('papyrus.ttf') format('truetype'),
+        url('papyrus.svg') format('svg');
+        font-weight: bold;
+        font-style: normal;
 }
 
+
+
 header {
-    font-family: 'Papyrus', cursive;
-    font-weight: 500;
+    font-family: 'papyrus', cursive;
 }
 nav {
     font-family: 'Baloo', cursive;
@@ -33,7 +40,7 @@ section.index {
 }
 
 .logo-river p {
-    font-family: 'Papyrus', cursive;
+    font-family: 'papyrus', cursive;
 }
 
 
