@@ -321,13 +321,13 @@ header {
     text-align: center;
     position: relative;
     z-index:1000;
-    text-shadow: 4px 4px #26596d;
+    text-shadow: 4px 4px green;
 }
 
 .logo-river p {
     text-align: center;
     position: relative;
-    text-shadow: 4px 4px #26596d;
+    text-shadow: 4px 4px green;
     font-size: 8vh;
     padding-top: 6vh;
 }
