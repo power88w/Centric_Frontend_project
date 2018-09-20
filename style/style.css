@@ -281,15 +281,10 @@ nav {
 }
 
 
-.left-masthead {
-    background-color: black;
-}
+
 
 /*---------masthead-colors---------------------------------------------------------------------------=============================================================================================-------*/
 
-.right-masthead {
-    background-color: black;
-}
 
 .masthead {
     background-color: black;
@@ -595,20 +590,6 @@ nav {
     background-color: darkgreen;
 }
 
-
-.left-masthead {
-    height: 100px;
-    float: left;
-}
-
-.right-masthead {
-    height: 100px;
-    float: left;
-}
-
-.masthead {
-    width: 100%;
-}
 
 /*----------------------------------------------------------------------------------------Hover-------------------------------------------------------------------------------------------*/
 
@@ -1070,7 +1051,6 @@ img.pike2b {
 }
 .masthead {
     background-color: #000000;
-    height: 100px;
 }
 
 .side-right, .side-left, .left, .right, .right-foot, .left-foot {
