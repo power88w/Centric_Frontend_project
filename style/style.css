@@ -24,8 +24,8 @@ nav {
 }
 /*------------Colors Top Logo---------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
-body {
-    background-color: black;
+section.index {
+    background-color: #000000;
 }
 
 .logo p {
@@ -33,7 +33,6 @@ body {
 }
 
 .logo-river p {
-    color: #ffffff;
     font-family: 'Papyrus', cursive;
 }
 
@@ -99,8 +98,33 @@ nav {
 }
 /*---------River-x13------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
-.box-river-div {
+
+#brosna {
     background-color: black;
+    color: white;
+    
+}
+
+#shannon {
+    background-color: white;
+    color: black;
+    
+}
+
+#suck {
+    background-color: rgb(10, 10, 19);
+    color: white;
+    
+}
+
+#inny {
+    background-color: rgb(53, 242, 255);
+    color: black;
+    
+}
+
+.box-river-div {
+    
     height: 25vh;
     background: url('../images/cover2.jpg') no-repeat fixed;
     -webkit-background-size: cover;
@@ -112,38 +136,32 @@ nav {
 }
 
 
-.box1-river {
-    background-color: black;
-    
-}
 .box2-river {
-    background-color: black;
-    color: white;
     align-items: center;
     padding-top: 60px;
     padding-bottom:20px;
 
 }
 .box3-river {
-    background-color: black;
-    color: white;
     align-items: left;
     padding-top: 60px;
     padding-bottom:20px;
     z-index: 1000;
 }
 .box4-river {
-    background-color: black;
-    color: white;
-    padding-left: 25vw;
-    padding-right: 25vw;
-    text-align: center;
+    padding-left: 18vw;
+    padding-right: 18vw;
+    text-align: justify;
     font-family: 'Lemonada', cursive;
     font-weight: 100;
     font-size: 15px;
 }
 
-.r-brosna-image {
+.box5-river {
+    height: 12vh;
+}
+
+.r-image {
     height: 18vw;
     width: auto;
     margin: 0 auto;
@@ -151,7 +169,7 @@ nav {
 }
 
 .brosna-map {
-    height: 17.95vw;
+    height: 18vw;
     width: 30vw;
     float: left;
     margin-left: 30px;
@@ -161,42 +179,6 @@ nav {
 
 
 
-#box1-river2 {
-    background-color: #0997d3;
-}
-#box2-river2 {
-    background-color: #262f33;
-}
-#box3-river2 {
-    background-color: #2f5b6e8a;
-}
-#box4-river2 {
-    background-color: #c9ae17;
-}
-#box1-river3 {
-    background-color: #0997d3;
-}
-#box2-river3 {
-    background-color: #262f33;
-}
-#box3-river3 {
-    background-color: #2f5b6e8a;
-}
-#box4-river3 {
-    background-color: #c9ae17;
-}
-#box1-river4 {
-    background-color: #0997d3;
-}
-#box2-river4 {
-    background-color: #262f33;
-}
-#box3-river4 {
-    background-color: #2f5b6e8a;
-}
-#box4-river4 {
-    background-color: #c9ae17;
-}
 
 
 
@@ -757,7 +739,7 @@ img.pike1b {
 }
 
 .hov1:hover .pike1b {
-    display: table-cell; 
+    display: initial;
 }
 
 
@@ -785,7 +767,7 @@ img.pike2b {
 
 .hov3 {
 
-    transition: transform 10s ease-in-out;
+ transition: transform 10s ease-in-out;
 }
 
 .hov3:hover .pike2a {
@@ -947,7 +929,7 @@ img.pike2b {
 
 
 
-.r-brosna-image {
+.r-image {
     height: 260px;
     width: 440px;
     margin: 0 auto;
@@ -1036,7 +1018,6 @@ img.pike2b {
     display: table-cell;
     
 }
-
 .hov1:hover .pike1b {
     margin: 0 auto;
     display: table-cell;
@@ -1060,7 +1041,7 @@ img.pike2b {
     
 }
 
-.r-brosna-image {
+.r-image {
     height: 360px;
     width: 560px;
     margin: 0 auto;
@@ -1138,10 +1119,12 @@ img.pike2b {
     background-size: 100% ;
 }
 
+
+
 .social-links {
 
-    justify-content:left;
-    align-items:left;
+    justify-content:center;
+    align-items:center;
     
 }
 
@@ -1194,7 +1177,7 @@ img.pike2b {
     
 }
 
-.r-brosna-image {
+.r-image {
     height: 360px;
     width: 560px;
     margin: 0 auto;
@@ -1271,11 +1254,12 @@ img.pike2b {
     }
     
     .social-links {
-    
-        justify-content:left;
-        align-items:left;
+
+        justify-content:center;
+        align-items:center;
         
     }
+   
     
     .fish-photo1 {
         height: 240px;
@@ -1309,7 +1293,7 @@ img.pike2b {
         
     }
     
-    .r-brosna-image {
+    .r-image {
         height: 460px;
         width: 660px;
         margin: 0 auto;
@@ -1395,7 +1379,7 @@ img.pike2b {
     background-size: 110% ;
 }
 
-.r-brosna-image {
+.r-image {
     height: 18vw;
     width: auto;
     margin: 0 auto;
@@ -1423,8 +1407,8 @@ img.pike2b {
     height: 240px;
     width: auto;
     margin: 0 auto;
-    display: initial;
-    float: initial;
+    display: table-cell;
+
     
 }
 
@@ -1434,6 +1418,13 @@ img.pike2b {
     margin: 0 auto;
     display: initial;
     float: left;
+    
+}
+
+.social-links {
+    
+    justify-content:center;
+    align-items:center;
     
 }
 
