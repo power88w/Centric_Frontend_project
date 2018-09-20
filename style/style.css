@@ -87,6 +87,8 @@ nav {
     position: relative;
 }
 
+
+
 #right {
     background-color: black;
 }
@@ -106,7 +108,7 @@ nav {
 /*---------River-x13------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 
-#inny {
+#inny, div#inny {
     background-color: black;
     color: white;
     
@@ -116,19 +118,19 @@ hr#inny {
     border-top: 1px solid white;
 }
 
-#shannon {
-    background-color: white;
-    color: black;
+#shannon, div#shannon{
+    background-color: rgb(1, 6, 10);
+    color: white;
     
 }
 
 hr#shannon {
-    border-top: 1px solid black;
+    border-top: 1px solid white;
 }
 
 
-#suck {
-    background-color: rgb(10, 10, 19);
+#suck, div#suck {
+    background-color: rgb(1, 6, 15);
     color: white;
     
 }
@@ -137,20 +139,31 @@ hr#suck {
     border-top: 1px solid white;
 }
 
-#brosna {
-    background-color: #fafafa;
-    color: black;
+#brosna, div#brosna {
+    background-color: rgb(2, 10, 24);
+    color: white;
     
 }
 
 hr#brosna {
-    border-top: 1px solid black;
+    border-top: 1px solid white;
 }
 
 .box-river-div {
     
     height: 25vh;
     background: url('../images/cover2.jpg') no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    background-position: bottom;
+}
+
+.box-species-div {
+    height: 25vh;
+    background: url('../images/cover3.jpg') no-repeat fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -206,53 +219,15 @@ hr#brosna {
 
 
 
-/*---------Species-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*---------Species-----------a88------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
-#fish1 {
-    background-color: black;
-    padding: 4px 4px 4px 4px;
-}    
-    
-#fish2 {
-    background-color: black;
-    color: white;
-    display: table-cell;
-    vertical-align: middle;
-    font-family: 'Lemonada', cursive;
-    font-weight: 400;
+.spieces-section{
+    background-color: #e3e3e3;
 }
 
-          
-#fish3 {
-    background-color: #2f5b6e8a;
-}
-#fish4 {
-    background-color: #c9ae17;
-}
-#fish5 {
-    background-color: #0997d3;
-}
-#fish6 {
-    background-color: #262f33;
-}
-#fish7 {
-    background-color: #2f5b6e8a;
-}
-#fish8 {
-    background-color: #c9ae17;
-}
-#fish9 {
-    background-color: #0997d3;
-}
-#fish10 {
-    background-color: #262f33;
-}
-#fish11 {
-    background-color: #2f5b6e8a;
-}
-#fish12 {
-    background-color: #c9ae17;
-}
+
+
+
 
 /*-----------Contact-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
