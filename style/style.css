@@ -105,11 +105,20 @@ nav {
     
 }
 
+hr#inny {
+    border-top: 1px solid white;
+}
+
 #shannon {
     background-color: white;
     color: black;
     
 }
+
+hr#shannon {
+    border-top: 1px solid black;
+}
+
 
 #suck {
     background-color: rgb(10, 10, 19);
@@ -117,10 +126,18 @@ nav {
     
 }
 
+hr#suck {
+    border-top: 1px solid white;
+}
+
 #brosna {
-    background-color: rgb(53, 242, 255);
+    background-color: #fafafa;
     color: black;
     
+}
+
+hr#brosna {
+    border-top: 1px solid black;
 }
 
 .box-river-div {
@@ -311,8 +328,8 @@ header {
     text-align: center;
     position: relative;
     text-shadow: 4px 4px #26596d;
-    font-size: 7vh;
-    padding-top: 20px;
+    font-size: 8vh;
+    padding-top: 6vh;
 }
 
 /*------------Nav-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
