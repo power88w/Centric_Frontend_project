@@ -1,11 +1,11 @@
 
 /*------------Fonts-------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 @charset "utf-8";
-@import 'fonts';
 
 @media screen {
     //imports
         @import 'normalise';
+        @import 'fonts';
 
 @font-face {
         font-family: 'papyrus';
@@ -226,9 +226,42 @@ hr#brosna {
 
 /*---------Species-----------a88------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
-.spieces-section{
+.spieces-area {
     background-color: #e3e3e3;
 }
+
+.spectest {
+    background-color: white;
+    padding: 20px 20px 20px 20px;
+}
+   
+
+}
+.pike {
+    height: 100%;
+    width: auto;
+}
+
+#text-box {
+    margin-top: 20px;
+    height: 20vw;
+    width: 50%;
+    margin-bottom: 20px;
+    float: left;
+    margin-right: 0;
+    text-align: center;
+    font-family: 'Lemonada', cursive;
+    font-weight: 100;
+}
+
+.fish-box {
+    margin-top: 20px;
+    height: 20vw;
+    float: right;
+    margin-bottom: 20px;
+    margin-left: 0;
+}
+
 
 
 
@@ -918,16 +951,20 @@ img.pike2b {
     height: 260px;
     width: 440px;
     margin: 0 auto;
-    display: table-cell;
-    float: initial;
+    display: inline;
 }
 
 .brosna-map {
     height: 260px;
     width: 440px;
     margin: 0 auto;
-    display: table-cell;
-    float: initial;
+    display: inline;
+
+}
+
+.spieces-area {
+    background-color: #e3e3e3;
+
 }
 
 
