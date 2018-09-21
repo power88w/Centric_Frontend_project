@@ -6,6 +6,7 @@
     //imports
         @import 'normalise';
         @import 'fonts';
+     
 
 @font-face {
         font-family: 'papyrus';
@@ -236,7 +237,7 @@ hr#brosna {
 }
    
 
-}
+
 .pike {
     height: 100%;
     width: auto;
@@ -947,18 +948,19 @@ img.pike2b {
 
 
 .r-image {
-    height: 260px;
-    width: 440px;
+    height: 198px;
+    width: 308px;
     margin: 0 auto;
-    display: inline;
+    display: table-cell;
+    float: initial;
 }
 
 .brosna-map {
-    height: 260px;
-    width: 440px;
+    height: 198px;
+    width: 308px;
     margin: 0 auto;
-    display: inline;
-
+    display: table-cell;
+    float: initial;
 }
 
 .spieces-area {
@@ -1023,16 +1025,16 @@ img.pike2b {
 }
 
 .fish-photo2 {
-    height: 360px;
-    width: 560px;
+    height: 270px;
+    width: 420px;
     margin: 0 auto;
     display: table-cell;
     
 }
 
 .fish-photo3 {
-    height: 360px;
-    width: 560px;
+    height: 270px;
+    width: 420px;
     margin: 0 auto;
     display: table-cell;
     
@@ -1061,16 +1063,16 @@ img.pike2b {
 }
 
 .r-image {
-    height: 360px;
-    width: 560px;
+    height: auto;
+    width: 60%;
     margin: 0 auto;
     display: table-cell;
     float: initial;
 }
 
 .brosna-map {
-    height: 360px;
-    width: 560px;
+    height: 50vh;
+    width: 60%;
     margin: 0 auto;
     display: table-cell;
     float: initial;
@@ -1188,7 +1190,7 @@ img.pike2b {
 
 
 .box1-foot {
-    height: 300px;
+    height: auto;
     float: left;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -1196,16 +1198,16 @@ img.pike2b {
 }
 
 .r-image {
-    height: 360px;
-    width: 560px;
+    height: auto;
+    width: 60%;
     margin: 0 auto;
     display: table-cell;
     float: initial;
 }
 
 .brosna-map {
-    height: 360px;
-    width: 560px;
+    height: 50vh;
+    width: 60%;
     margin: 0 auto;
     display: table-cell;
     float: initial;
@@ -1312,16 +1314,16 @@ img.pike2b {
     }
     
     .r-image {
-        height: 460px;
-        width: 660px;
+        height: auto;
+        width: 55%;
         margin: 0 auto;
         display: table-cell;
         float: initial;
     }
     
     .brosna-map {
-        height: 460px;
-        width: 660px;
+        height: 50vh;
+        width: 55%;
         margin: 0 auto;
         display: table-cell;
         float: initial;
@@ -1398,18 +1400,19 @@ img.pike2b {
 }
 
 .r-image {
-    height: 18vw;
-    width: auto;
+    height: auto;
+    width: 50%;
     margin: 0 auto;
-    float: right;
+    display: table-cell;
+    float: initial;
 }
 
 .brosna-map {
-    height: 17.95vw;
-    width: 30vw;
-    float: left;
-    margin-left: 30px;
-
+    height: 50vh;
+    width: 50%;
+    margin: 0 auto;
+    display: table-cell;
+    float: initial;
 }
 
 .fish-photo1 {
