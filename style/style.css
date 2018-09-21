@@ -970,7 +970,7 @@ img.pike2b {
 }
 
 #text-box {
-    height: 398px;
+    height: 500px;
     width: 308px;
     margin: auto;
     float: initial;
@@ -1108,11 +1108,11 @@ img.pike2b {
 }
 
 #text-box {
-    height: 300px;
+    height: 350px;
     width: 468px;
     margin: auto;
     float: initial;
-    font-size: 2.0vw;
+    font-size: 2.4vw;
 }
 
 .fish-box {
@@ -1268,7 +1268,7 @@ img.pike2b {
     width: 585px;
     margin: auto;
     float: initial;
-    font-size: 1.5vw;
+    font-size: 1.7vw;
 }
 
 .fish-box {
@@ -1405,7 +1405,7 @@ img.pike2b {
         width: 877px;
         margin: auto;
         float: initial;
-        font-size: 1vw;
+        font-size: 2vw;
     }
     
     .fish-box {
@@ -1512,6 +1512,7 @@ img.pike2b {
     height: 250px;
     width: 877px;
     margin: auto;
+    font-size: 1.0vw;
     float: initial;
 }
 
