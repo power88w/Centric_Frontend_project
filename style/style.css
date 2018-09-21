@@ -251,6 +251,7 @@ hr#brosna {
     float: left;
     margin-right: 0;
     text-align: center;
+    font-size: 1vw;
     font-family: 'Lemonada', cursive;
     font-weight: 100;
 }
@@ -908,26 +909,31 @@ img.pike2b {
 }
 
 .fish-photo1 {
-    height: 260px;
-    width: 440px;
+    height: 182px;
+    width: 308px;
     margin: 0 auto;
     display: table-cell;
     
 }
 
 .fish-photo2 {
-    height: 260px;
-    width: 440px;
+    height: 182px;
+    width: 308px;
     margin: 0 auto;
     display: table-cell;
     
 }
 
 .fish-photo3 {
-    height: 260px;
-    width: 440px;
+    height: 182px;
+    width: 308px;
     margin: 0 auto;
     display: table-cell;
+    
+}
+
+.box1-foot {
+    height: 230px;
     
 }
 
@@ -961,6 +967,29 @@ img.pike2b {
     margin: 0 auto;
     display: table-cell;
     float: initial;
+}
+
+#text-box {
+    height: 398px;
+    width: 308px;
+    margin: auto;
+    float: initial;
+    font-size: 3vw;
+}
+
+.fish-box {
+    height: 228px;
+    width: 308px;
+    margin: 0 auto;
+    float: initial;
+}
+
+.pike {
+    height: auto;
+    width: 100%;
+}
+.spectest {
+    padding: 20px 20px 20px 20px;
 }
 
 .spieces-area {
@@ -1017,8 +1046,8 @@ img.pike2b {
 }
 
 .fish-photo1 {
-    height: 360px;
-    width: 560px;
+    height: 270px;
+    width: 420px;
     margin: 0 auto;
     display: table-cell;
     
@@ -1055,7 +1084,7 @@ img.pike2b {
 }
 
 .box1-foot {
-    height: 400px;
+    height: 300px;
     float: left;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -1077,6 +1106,27 @@ img.pike2b {
     display: table-cell;
     float: initial;
 }
+
+#text-box {
+    height: 300px;
+    width: 468px;
+    margin: auto;
+    float: initial;
+    font-size: 2.0vw;
+}
+
+.fish-box {
+    height: 346px;
+    width: 468px;
+    margin: 0 auto;
+    float: initial;
+}
+
+.pike {
+    height: auto;
+    width: 100%;
+}
+
 
 
 
@@ -1213,6 +1263,27 @@ img.pike2b {
     float: initial;
 }
 
+#text-box {
+    height: 250px;
+    width: 585px;
+    margin: auto;
+    float: initial;
+    font-size: 1.5vw;
+}
+
+.fish-box {
+    height: 432px;
+    width: 585px;
+    margin: 0 auto;
+    float: initial;
+}
+
+.pike {
+    height: auto;
+    width: 100%;
+}
+
+
 }
 
 
@@ -1329,6 +1400,28 @@ img.pike2b {
         float: initial;
     }
 
+    #text-box {
+        height: 250px;
+        width: 877px;
+        margin: auto;
+        float: initial;
+        font-size: 1vw;
+    }
+    
+    .fish-box {
+        height: 648px;
+        width: 877px;
+        margin: 0 auto;
+        float: initial;
+    }
+    
+    .pike {
+        height: auto;
+        width: 100%;
+    }
+
+    
+
     .hov1:hover .pike1b {
         margin: 0 auto;
         display: table-cell;
@@ -1415,6 +1508,25 @@ img.pike2b {
     float: initial;
 }
 
+#text-box {
+    height: 250px;
+    width: 877px;
+    margin: auto;
+    float: initial;
+}
+
+.fish-box {
+    height: 648px;
+    width: 877px;
+    margin: 0 auto;
+    float: initial;
+}
+
+.pike {
+    height: auto;
+    width: 100%;
+}
+
 .fish-photo1 {
     height: 240px;
     width: auto;
@@ -1459,7 +1571,7 @@ img.pike2b {
 
 
 
-@media(min-width: 1292px) {
+@media(min-width: 1200px) {
 .logo {
     background-color: black;
     font-size: 75px;
@@ -1507,7 +1619,26 @@ img.pike2b {
 .box {
     display: initial;
 }
-  
+
+#text-box {
+    height: 25vw;
+    width: 60%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+.fish-box {
+    height: 25vw;
+    width: auto;
+    margin-top: 20px;
+    float: right;
+}
+
+.pike {
+    height: 100%;
+    width: auto;
+}
 
 
 
