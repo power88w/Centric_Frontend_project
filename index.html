@@ -19,7 +19,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lemonada&amp;subset=latin-ext" 
         rel="stylesheet">
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
-    <title>Fishing In The Midland Rivers</title>
+    <title>Midland Fishing</title>
 </head>
 <body id="inny">
 
@@ -29,7 +29,7 @@
 <header class="container-fluid">
     <div class="row">
         <div class="logo">
-            <p>Fishing In The Midland Rivers</p>
+                <p>Midland Fishing</p>
         </div>
      </div>
 </header>
@@ -131,8 +131,8 @@
             <div class="content-foot">
                 <div class="box1-foot col-xs-12 col-sm-4 col-lg-4">
                     <a class="hov1" href="rivers.html">
-                        <img src="images/pikeone.jpg" alt="pike1" 
-                        class="pike1a img-thumbnail fish-photo1 img-responsive">
+                        <div id="text1"><img src="images/pikeone.jpg" alt="pike1" 
+                        class="pike1a img-thumbnail fish-photo1 img-responsive"></div>
                         <img src="images/pikeone-rivers.jpg" alt="pike1" 
                         class="pike1b img-thumbnail fish-photo1 img-responsive">
                     </a>
@@ -199,28 +199,24 @@
 <!--------Script-------------------------------------------------------------------------------------->
 
 <script>
-    $(document).ready(function() {
-        $('.lock').removeClass('lock').addClass('black');
+    $(document).ready(function () {
+    $('.lock').removeClass('lock').addClass('black');
     });
-</script>
-<script>
-function myFunction() {
+    function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
-}
-window.onclick = function(event) {
-  if (!event.target.matches('.hamb')) {
+    }
+    window.onclick = function (event) {
+    if (!event.target.matches('.hamb')) {
     var dropdowns = document.getElementsByClassName("dropdown-content");
     var i;
     for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
+    var openDropdown = dropdowns[i];
+    if (openDropdown.classList.contains('show')) {
         openDropdown.classList.remove('show');
-      }
     }
-  }
-}
-
-
+    }
+    }
+    }
 </script>
 
 

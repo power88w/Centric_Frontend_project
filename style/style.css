@@ -211,7 +211,7 @@ hr#brosna {
     float: right;
 }
 
-.brosna-map {
+. {
     height: 18vw;
     width: 30vw;
     float: left;
@@ -254,6 +254,7 @@ hr#brosna {
     font-size: 1vw;
     font-family: 'Lemonada', cursive;
     font-weight: 100;
+    color: #000000;
 }
 
 .fish-box {
@@ -271,18 +272,45 @@ hr#brosna {
 
 /*-----------Contact-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
-#contact1 {
-    background-color: #0997d3;
+.contact{
+    padding: 40px 40px 40px 40px; 
+    background-color: #e3e3e3;
+
 }
-#contact2 {
-    background-color: #262f33;
+
+.contact-row { 
+    background-color: #ffffff;
+    
 }
-#contact3 {
-    background-color: #2f5b6e8a;
+
+#map-box {
+    padding: 32px 32px 32px 32px;
+    background-color: #ffffff;
 }
-#contact4 {
-    background-color: #c9ae17;
+
+#contact {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 22px;
 }
+
+.contact-box {
+   padding-left: 25%;
+   padding-right: 25%; 
+}
+
+.ico {
+    font-size: 34px;
+
+}
+
+a.link-decor {
+    text-decoration: none;
+    color:green;
+}
+
 
 /*-----------Gallery-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
@@ -304,12 +332,6 @@ div.gal-box {
     background-color: #ffffff;
 
 }
-
-div.fotorama__arr{
-
-}
-
-
 
 
 /*---------footer-colors-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -756,6 +778,7 @@ section {
 }
 /*-----------------------------------------------------------------------------------------Hoover Pic x14---------------------------------------------------------------------------------------*/
 
+
 img.pike1b {
     display: none;
 }
@@ -974,7 +997,7 @@ img.pike2b {
     float: initial;
 }
 
-.brosna-map {
+.b-map {
     height: 198px;
     width: 308px;
     margin: 0 auto;
@@ -1009,6 +1032,10 @@ img.pike2b {
     background-color: #e3e3e3;
 
 }
+.contact-box {
+    padding-left: 0%;
+    padding-right: 0%; 
+ }
 
 }
 
@@ -1112,8 +1139,8 @@ img.pike2b {
     float: initial;
 }
 
-.brosna-map {
-    height: 50vh;
+.b-map {
+    height: 25vh;
     width: 60%;
     margin: 0 auto;
     display: table-cell;
@@ -1138,6 +1165,10 @@ img.pike2b {
 .pike {
     height: auto;
     width: 100%;
+}
+.contact-box {
+    padding-left: 0%;
+    padding-right: 0%; 
 }
 
 
@@ -1268,8 +1299,8 @@ img.pike2b {
     float: initial;
 }
 
-.brosna-map {
-    height: 50vh;
+.b-map {
+    height: 25vh;
     width: 60%;
     margin: 0 auto;
     display: table-cell;
@@ -1405,8 +1436,8 @@ img.pike2b {
         float: initial;
     }
     
-    .brosna-map {
-        height: 50vh;
+    .b-map {
+        height: 25vh;
         width: 55%;
         margin: 0 auto;
         display: table-cell;
@@ -1513,8 +1544,8 @@ img.pike2b {
     float: initial;
 }
 
-.brosna-map {
-    height: 50vh;
+.b-map {
+    height: 35vh;
     width: 50%;
     margin: 0 auto;
     display: table-cell;
@@ -1525,7 +1556,7 @@ img.pike2b {
     height: 250px;
     width: 877px;
     margin: auto;
-    font-size: 1.0vw;
+    font-size: 1.5vw;
     float: initial;
 }
 
@@ -1573,6 +1604,10 @@ img.pike2b {
     justify-content:center;
     align-items:center;
     
+}
+.contact-box {
+    padding-left: 5%;
+    padding-right: 5%; 
 }
 
 
@@ -1640,6 +1675,8 @@ img.pike2b {
     margin-top: 20px;
     margin-bottom: 20px;
     float: left;
+    color: #000000;
+    font-size: 1.0vw;
 }
 
 .fish-box {
@@ -1653,6 +1690,11 @@ img.pike2b {
     height: 100%;
     width: auto;
 }
+
+.contact-box {
+    padding-left: 15%;
+    padding-right: 15%; 
+ }
 
 
 
@@ -1711,6 +1753,11 @@ img.pike2b {
 .box {
     display: initial;
 }
+
+.contact-box {
+    padding-left: 25%;
+    padding-right: 25%; 
+ }
 
 
 
