@@ -4,125 +4,196 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" 
+        href="style/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" 
+        href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" 
+        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" 
+        crossorigin="anonymous">
     <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lemonada&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" 
+        type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" 
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lemonada&amp;subset=latin-ext" 
+        rel="stylesheet">
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
     <title>Fishing In The Midland Rivers</title>
 </head>
 <body id="inny">
 
-<!---------------------------------------------------------Index---------------------------------------------------------->   
+<!--------------------------------------------------------IndeX---------------------------->   
 
-<!--------Logo----------------------------------------------------------------------------------------->    
-      <header class="conteiner-fluid">
-            <div class="row">
-            <div class="logo">
-                <p>Fishing In The Midland Rivers</p>
+<!--------Logo----------------------------------------------------------------------------->    
+<header class="container-fluid">
+    <div class="row">
+        <div class="logo">
+            <p>Fishing In The Midland Rivers</p>
+        </div>
+     </div>
+</header>
+<!--------Navigation bar------------------------------------------------------------------->      
+<nav class="container-fluid">
+    <div class="row">
+        <div class="side-left">
+        </div>   
+        <div class="menu-list">        
+            <div class="menuitem resize-a">
+                <a href="index.html" class="hvr-sweep-to-bottom">Home</a>
             </div>
+            <div class="menuitem resize-a">
+                <a href="rivers.html" class="hvr-sweep-to-bottom dropdown">Rivers</a>
+                <ul class="dropdownMenu lock">  
+                    <li class="dropdownItem"><a href="rivers.html#inny" 
+                        class="dropdownLink">River Inny</a></li>             
+                    <li class="dropdownItem"><a href="rivers.html#shannon" 
+                        class="dropdownLink">River Shannon</a></li>
+                    <li class="dropdownItem"><a href="rivers.html#suck" 
+                        class="dropdownLink">River Suck</a></li>
+                    <li class="dropdownItem"><a href="rivers.html#brosna" 
+                        class="dropdownLink">River Brosna</a></li>                     
+                    </ul>
+            </div> 
+            <div class="menuitem resize-a">
+                <a href="species.html" class="hvr-sweep-to-bottom">Species</a>
             </div>
-      </header>
-<!--------Navigation bar----------------------------------------------------------------------------------->      
-<nav class="conteiner-fluid">
-            <div class="row">
-                <div class="side-left"><p></p></div>   
-                 
-                <div class="menu-list">        
-                    <div class="menuitem resize-a">
-                        <a href="index.html" class="hvr-sweep-to-bottom">Home</a>
-                    </div>
-                    <div class="menuitem resize-a">
-                        <a href="rivers.html" class="hvr-sweep-to-bottom dropdown">Rivers</a>
-                            <ul class="dropdownMenu lock">  
-							        <li class="dropdownItem"><a href="rivers.html#inny" class="dropdownLink">River Inny</a></li>             
-                                    <li class="dropdownItem"><a href="rivers.html#shannon" class="dropdownLink">River Shannon</a></li>
-                                    <li class="dropdownItem"><a href="rivers.html#suck" class="dropdownLink">River Suck</a></li>
-									<li class="dropdownItem"><a href="rivers.html#brosna" class="dropdownLink">River Brosna</a></li>                     
-                            </ul>
-                    </div> 
-                    <div class="menuitem resize-a">
-                        <a href="species.html" class="hvr-sweep-to-bottom">Species</a>
-                    </div>
-                    <div class="menuitem resize-a">
-                        <a href="gallery.html" class="hvr-sweep-to-bottom">gallery</a>
-                    </div>
-                    <div class="menuitem resize-a">
-                        <a href="contact.html" class="hvr-sweep-to-bottom">Contact</a>
-                    </div>
+            <div class="menuitem resize-a">
+                <a href="gallery.html" class="hvr-sweep-to-bottom">gallery</a>
+            </div>
+            <div class="menuitem resize-a">
+                <a href="contact.html" class="hvr-sweep-to-bottom">Contact</a>
+            </div>
+        </div>
+        <div class="side-right">
+        </div>
+        <!--------Hamburger----------->
+        <div class="col-xs-12 col-sm-12 menuitem resize-b badboy">
+        <div class="hvr-sweep-to-bottom dropdown active">
+            <button onclick="myFunction()" class="hamb fas fa-bars click""></button>
+            <div id="myDropdown" class="dropdown-content dropdown">
+                <div class="dropdownItem">
+                    <a href="index.html" class="dropdownLink">Home</a>
                 </div>
-                <div class="side-right"></div>
-           </div>
-<!--------Hamburger----------------------------------------------------------------------------------->
-
-<div class="col-xs-12 col-sm-12 menuitem resize-b badboy">
-    <div class="hvr-sweep-to-bottom dropdown active">
-                <button onclick="myFunction()" class="hamb fas fa-bars click""></button>
-                        <div id="myDropdown" class="dropdown-content dropdown">
-                        <div class="dropdownItem"><a href="index.html" class="dropdownLink">Home</a></div>
-                        <div class="dropdownItem"><a href="rivers.html" class="dropdownLink">Rivers</a></div>
-                        <div class="dropdownItem"><a href="species.html" class="dropdownLink">Species</a></div>
-                        <div class="dropdownItem"><a href="gallery.html" class="dropdownLink">gallery</a></div>
-                        <div class="dropdownItem"><a href="contact.html" class="dropdownLink">Contact</a></div> 
-                </div>  
-    </div>             
+                <div class="dropdownItem">
+                    <a href="rivers.html" class="dropdownLink">Rivers</a>
+                </div>
+                <div class="dropdownItem">
+                    <a href="species.html" class="dropdownLink">Species</a>
+                </div>
+                <div class="dropdownItem">
+                    <a href="gallery.html" class="dropdownLink">gallery</a>
+                </div>
+                <div class="dropdownItem">
+                    <a href="contact.html" class="dropdownLink">Contact</a>
+                </div> 
+            </div>  
+        </div>
+    </div>                 
 </nav>
 
-<!--------Section-------------------------------------------------------------------------------------->
+<!--------Section-------------------------------------------------------------->
 
-<section id="inny" class="conteiner-fluid index">
-        <div class="row">
-            <div class="left" id="left"></div>
-                <div class="content" id="content">
-                        <div class="box col-xs-12 col-sm-6 col-lg-6" id="main1"><h3></h3></div>
-                        <div class="box col-xs-12 col-sm-6 col-lg-6" id="main2"></div>
-                        <div class="box col-xs-12 col-sm-6 col-lg-6" id="main3"></div>
-                        <div class="box col-xs-12 col-sm-6 col-lg-6" id="main4">
-                                <div class="text-box col-xs-12 col-sm-12 col-lg-12"><h4>Midland Fishing</h4>
-                                        <p>
-                                        "Ireland is recognised as being the outstanding fishing holiday destination in Europe.
-                                        The vast variety and quality of fishing in Ireland makes it the perfect destination for your angling holiday. 
-                                        One of the interesting directions for fishing trips is midland, 
-                                        where you can visit some amazing rivers and catch record pike or unprecedented brown trout.
-                                        </p></div>
-                            </div>
-                </div>
-            <div class="right" id="right"></div>
+<section id="inny" class="container-fluid index">
+    <div class="row">
+        <div class="left" id="left">
         </div>
+        <div class="content" id="content">
+            <div class="box col-xs-12 col-sm-6 col-lg-6" id="main1"></div>
+            <div class="box col-xs-12 col-sm-6 col-lg-6" id="main2"></div>
+            <div class="box col-xs-12 col-sm-6 col-lg-6" id="main3"></div>
+            <div class="box col-xs-12 col-sm-6 col-lg-6" id="main4">
+                <div class="text-box col-xs-12 col-sm-12 col-lg-12">
+                    <h4>Midland Fishing</h4>
+                    <p> 
+                    "Ireland is recognised as being the outstanding 
+                    fishing holiday destination in Europe.
+                    The vast variety and quality of fishing in 
+                    Ireland makes it the perfect destination for your angling holiday. 
+                    One of the interesting directions for 
+                    fishing trips is midland, 
+                    where you can visit some amazing rivers 
+                    and catch record pike or unprecedented brown trout.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="right" id="right"></div>
+    </div>
 </section>
 
-<!--------Footer-------------------------------------------------------------------------------------->
+<!--------Footer--------------------------------------------------------------->
 
 
-<footer class="conteiner-fluid">
+<footer class="container-fluid">
     <div class="row">
         <div class="left-foot"></div>
             <div class="content-foot">
-                <div class="box1-foot col-xs-12 col-sm-4 col-lg-4"><a class="hov1" href="rivers.html"><img src="images/pikeone.jpg" alt="pike1" class="pike1a img-thumbnail fish-photo1 img-responsive"><img src="images/pikeone-rivers.jpg" alt="pike1" class="pike1b img-thumbnail fish-photo1 img-responsive"></a></div>
-                <div class="box1-foot col-xs-12 col-sm-4 col-lg-4"><a class="hov2" href="species.html"><img src="images/okon1.jpg" alt="okon" class="okona img-thumbnail fish-photo2 img-responsive"><img src="images/okon1-species.jpg" alt="okon1" class="okonb img-thumbnail fish-photo2 img-responsive"></a></div>
-                <div class="box1-foot col-xs-12 col-sm-4 col-lg-4"><a class="hov3" href="gallery.html"><img src="images/pike2.jpg" alt="pike2" class="pike2a img-thumbnail fish-photo3 img-responsive"><img src="images/pike2-gallery.jpg" alt="pike2" class="pike2b img-thumbnail fish-photo3 img-responsive"></a></div>
+                <div class="box1-foot col-xs-12 col-sm-4 col-lg-4">
+                    <a class="hov1" href="rivers.html">
+                        <img src="images/pikeone.jpg" alt="pike1" 
+                        class="pike1a img-thumbnail fish-photo1 img-responsive">
+                        <img src="images/pikeone-rivers.jpg" alt="pike1" 
+                        class="pike1b img-thumbnail fish-photo1 img-responsive">
+                    </a>
+                </div>
+                <div class="box1-foot col-xs-12 col-sm-4 col-lg-4">
+                    <a class="hov2" href="species.html">
+                        <img src="images/okon1.jpg" alt="okon" 
+                        class="okona img-thumbnail fish-photo2 img-responsive">
+                        <img src="images/okon1-species.jpg" alt="okon1" 
+                        class="okonb img-thumbnail fish-photo2 img-responsive"></a>
+                    </div>
+                <div class="box1-foot col-xs-12 col-sm-4 col-lg-4">
+                    <a class="hov3" href="gallery.html">
+                        <img src="images/pike2.jpg" alt="pike2" 
+                        class="pike2a img-thumbnail fish-photo3 img-responsive">
+                        <img src="images/pike2-gallery.jpg" alt="pike2" 
+                        class="pike2b img-thumbnail fish-photo3 img-responsive"></a>
+                </div>
             </div>    
         <div class="right-foot"></div>
-    </div>
-<!--------Masthead-------------------------------------------------------------------------------------->       
-            <div class="row">
-                    <div class="masthead">
-                    <div id="inny" class="col-xs-12 col-sm-12 col-lg-4"></div>
-                    <div id="inny" class="col-xs-12 col-sm-12 col-lg-4"><p class="cr">&copy; Copyright 2018 Marek Kulpa</p></div>
-                    <div id="inny" class="col-xs-12 col-sm-12 col-lg-4">
-                        <ul class="list-inline social-links">
-                            <li><a target="_blank" href="#"><i class="fab fa-facebook-square"></i></a></li>
-                            <li><a target="_blank" href="#"><i class="fab fa-twitter"></i></a></li>
-                            <li><a target="_blank" href="#"><i class="fab fa-linkedin"></i></a></li>
-                            <li><a target="_blank" href="#"><i class="fab fa-pinterest"></i></a></li>
-                            <li><a target="_blank" href="#"><i class="fab fa-instagram"></i></a></li>
-                            <li><a target="_blank" href="#"><i class="fab fa-youtube"></i></a></li>
+    </div>  
+    <div class="row">
+        <div class="masthead">
+            <div id="inny" class="col-xs-12 col-sm-12 col-lg-4">
+            </div>
+            <div id="inny" class="col-xs-12 col-sm-12 col-lg-4">
+                <p class="cr">&copy; Copyright 2018 Marek Kulpa</p></div>
+            <div id="inny" class="col-xs-12 col-sm-12 col-lg-4">
+                <ul class="list-inline social-links">
+                    <li><a target="_blank" href="#">
+                            <i class="fab fa-facebook-square"></i>
+                        </a>
+                    </li>
+                    <li><a target="_blank" href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="#">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="#">
+                            <i class="fab fa-pinterest"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="#">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </li>
                         </ul>
                     </div>
-                </div>      
-        </div>    
+        </div>      
+    </div>    
 </footer>
 
 <!--------Script-------------------------------------------------------------------------------------->
@@ -131,17 +202,13 @@
     $(document).ready(function() {
         $('.lock').removeClass('lock').addClass('black');
     });
-
 </script>
 <script>
-
 function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
 }
-
 window.onclick = function(event) {
   if (!event.target.matches('.hamb')) {
-
     var dropdowns = document.getElementsByClassName("dropdown-content");
     var i;
     for (i = 0; i < dropdowns.length; i++) {
