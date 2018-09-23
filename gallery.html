@@ -14,17 +14,20 @@
     <link rel="stylesheet" 
         href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
         type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" 
-        rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lemonada&amp;subset=latin-ext"
         rel="stylesheet">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js" 
+        integrity="sha384-pjaaA8dDz/5BgdFUPX6M/9SUZv4d12SUPF0axWc+VRZkx5xU3daN+lYb49+Ax+Tl" 
+        crossorigin="anonymous">
+    </script>    
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js">
+    </script>
+    <link  href="style/fotorama.css" rel="stylesheet">
+    <script src="style/fotorama.js">
     </script>
     <title>Fishing In The Midland Rivers- Species</title>
 </head>
-
 <body>
-
     <!--------Logo----------------------------------------------------------------------------------------->
     <header class="conteiner-fluid">
         <div class="row">
@@ -36,69 +39,98 @@
     <!--------Navigation bar----------------------------------------------------------------------------------->
 <nav class="conteiner-fluid">
     <div class="row">
-        <div class="side-left"></div>
+        <div class="side-left">   
+        </div>
             <div class="menu-list">
                 <div class="menuitem resize-a">
                     <a href="index.html" class="hvr-sweep-to-bottom">Home</a>
                 </div>
-            <div class="menuitem resize-a">
-                <a href="rivers.html" 
-                    class="hvr-sweep-to-bottom dropdown">Rivers</a>
-                <ul class="dropdownMenu lock">
-                    <li class="dropdownItem"><a href="rivers.html#inny"
-                        class="dropdownLink">River Inny</a></li>
-                    <li class="dropdownItem"><a href="rivers.html#shannon"
-                        class="dropdownLink">River Shannon</a></li>
-                    <li class="dropdownItem"><a href="rivers.html#suck"
-                        class="dropdownLink">River Suck</a></li>
-                    <li class="dropdownItem"><a href="rivers.html#brosna"
-                        class="dropdownLink">River Brosna</a></li>
+                <div class="menuitem resize-a">
+                    <a href="rivers.html" 
+                        class="hvr-sweep-to-bottom dropdown">Rivers</a>
+                    <ul class="dropdownMenu lock">
+                        <li class="dropdownItem"><a href="rivers.html#inny"
+                            class="dropdownLink">River Inny</a></li>
+                        <li class="dropdownItem"><a href="rivers.html#shannon"
+                            class="dropdownLink">River Shannon</a></li>
+                        <li class="dropdownItem"><a href="rivers.html#suck"
+                            class="dropdownLink">River Suck</a></li>
+                        <li class="dropdownItem"><a href="rivers.html#brosna"
+                            class="dropdownLink">River Brosna</a></li>
                     </ul>
-            </div>
-            <div class="menuitem resize-a">
-                <a href="species.html" 
-                   class="hvr-sweep-to-bottom">Species</a>
-            </div>
-            <div class="menuitem resize-a">
-                <a href="gallery.html" 
-                    class="hvr-sweep-to-bottom">gallery</a>
                 </div>
-            <div class="menuitem resize-a">
-                <a href="contact.html" 
-                    class="hvr-sweep-to-bottom">Contact</a>
+                <div class="menuitem resize-a">
+                    <a href="species.html" 
+                        class="hvr-sweep-to-bottom">Species</a>
+                </div>
+                <div class="menuitem resize-a">
+                    <a href="gallery.html" 
+                        class="hvr-sweep-to-bottom">gallery</a>
+                </div>
+                <div class="menuitem resize-a">
+                    <a href="contact.html" 
+                        class="hvr-sweep-to-bottom">Contact</a>
+                </div>
             </div>
-            </div>
-            <div class="side-right"></div>
+        <div class="side-right">
+        </div>
     </div>
-        <!--------Hamburger----------------------------------------------------------------------------------->
-
-        <div class="col-xs-12 col-sm-12 menuitem resize-b badboy">
-            <div class="hvr-sweep-to-bottom dropdown active">
-                <button onclick="myFunction()" class="hamb fas fa-bars click""></button>
-                    <div id="
-                    myDropdown" class="dropdown-content dropdown">
-                    <div class="dropdownItem">
-                        <a href="index.html" class="dropdownLink">Home</a></div>
-                    <div class="dropdownItem"><a href="rivers.html" 
-                        class="dropdownLink">Rivers</a></div>
-                    <div class="dropdownItem"><a href="species.html" 
-                        class="dropdownLink">Species</a></div>
-                    <div class="dropdownItem"><a href="gallery.html" 
-                        class="dropdownLink">gallery</a></div>
-                    <div class="dropdownItem"><a href="contact.html" 
-                        class="dropdownLink">Contact</a></div>
+<!--------Hamburger--------->
+    <div class="col-xs-12 col-sm-12 menuitem resize-b badboy">
+        <div class="hvr-sweep-to-bottom dropdown active">
+            <button onclick="myFunction()" class="hamb fas fa-bars click">
+            </button>
+            <div id="myDropdown" class="dropdown-content dropdown">
+                <div class="dropdownItem">
+                    <a href="index.html" class="dropdownLink">Home</a>
+                </div>
+                <div class="dropdownItem"><a href="rivers.html" 
+                    class="dropdownLink">Rivers</a>
+                </div>
+                <div class="dropdownItem"><a href="species.html" 
+                    class="dropdownLink">Species</a>
+                </div>
+                <div class="dropdownItem"><a href="gallery.html" 
+                    class="dropdownLink">gallery</a>
+                </div>
+                <div class="dropdownItem"><a href="contact.html" 
+                    class="dropdownLink">Contact</a>
+                </div>
             </div>
         </div>
     </nav>
+<!--------Section------------------------------------------------------------------------------------>
+<section>
+        
+<div class="container-fluid">
+    <div class="row gal-box">
+        <div class="fotorama gal-box2">
+            <img src="images/okon1.jpg">
+            <img src="images/cover.JPG">
+            <img src="images/cover2.jpg">
+            <img src="images/cover3.jpg">
+            <img src="images/inny.jpg">
+            <img src="images/pike2.jpg">
+            <img src="images/pikeone.jpg">
+            <img src="images/r-bros-img.JPG">
+            <img src="images/suck.jpg">
+            <img src="images/tench.jpg">
+            <img src="images/trout.jpg">
+            <img src="images/Bream.jpg">
+            <img src="images/gal1.jpg">
+            <img src="images/gal2.jpg">
+            <img src="images/gal3.jpg">
+            <img src="images/gal4.jpg">
+            <img src="images/gal5.jpg">
+            <img src="images/gal6.jpg">
+        </div>        
+    </div>
+</div>
 
-
-    <!--------River One------------------------------------------------------------------------------------>
-
-    <!--------Section-------------------------------------------------------------------------------------->
-
-
-    <!--------Footer-------------------------------------------------------------------------------------->
-    <!--------Masthead-------------------------------------------------------------------------------------->
+</section>
+<!--------Section-------------------------------------------------------------------------------------->
+<!--------Footer-------------------------------------------------------------------------------------->
+<!--------Masthead-------------------------------------------------------------------------------------->
 
     <footer class="conteiner-fluid">
         <div class="row">
@@ -110,57 +142,55 @@
                 <div id="inny" class="col-xs-12 col-sm-12 col-lg-4">
                     <ul class="list-inline social-links">
                         <li><a target="_blank" href="#">
-                            <i class="fab fa-facebook-square"></i></a></li>
+                            <i class="fab fa-facebook-square"></i>
+                            </a>
+                        </li>
                         <li><a target="_blank" href="#">
-                            <i class="fab fa-twitter"></i></a></li>
+                            <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
                         <li><a target="_blank" href="#">
-                            <i class="fab fa-linkedin"></i></a></li>
+                            <i class="fab fa-linkedin"></i>
+                            </a>
+                        </li>
                         <li><a target="_blank" href="#">
-                            <i class="fab fa-pinterest"></i></a></li>
+                            <i class="fab fa-pinterest"></i></a>
+                        </li>
                         <li><a target="_blank" href="#">
-                            <i class="fab fa-instagram"></i></a></li>
+                            <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
                         <li><a target="_blank" href="#">
-                            <i class="fab fa-youtube"></i></a></li>
+                            <i class="fab fa-youtube"></i>
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
         </div>
     </footer>
-
     <!--------Script-------------------------------------------------------------------------------------->
-
-    <script>
-        $(document).ready(function () {
-            $('.lock').removeClass('lock').addClass('black');
-        });
-
-    </script>
-    <script>
-
-        function myFunction() {
-            document.getElementById("myDropdown").classList.toggle("show");
-        }
-
-        window.onclick = function (event) {
-            if (!event.target.matches('.hamb')) {
-
-                var dropdowns = document.getElementsByClassName("dropdown-content");
-                var i;
-                for (i = 0; i < dropdowns.length; i++) {
-                    var openDropdown = dropdowns[i];
-                    if (openDropdown.classList.contains('show')) {
-                        openDropdown.classList.remove('show');
-                    }
-                }
-            }
-        }
-
-
-    </script>
-
-
+<script>
+    $(document).ready(function () {
+    $('.lock').removeClass('lock').addClass('black');
+    });
+    function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+    }
+    window.onclick = function (event) {
+    if (!event.target.matches('.hamb')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+    var openDropdown = dropdowns[i];
+    if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+    }
+    }
+    }
+    }
+</script>
 </body>
-
 </html>
 
 <!--------End----------------------------------------------------------------------------------------->

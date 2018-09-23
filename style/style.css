@@ -286,18 +286,30 @@ hr#brosna {
 
 /*-----------Gallery-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
-#gallery1 {
-    background-color: #0997d3;
+div.gal-box {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding-top: 32px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 32px;
+    background-color: #e3e3e3;
 }
-#gallery2 {
-    background-color: #262f33;
+
+.gal-box2 {
+    padding: 40px 40px 20px 40px;
+    max-width: 1300px;
+    max-height: 1300px;
+    background-color: #ffffff;
+
 }
-#gallery3 {
-    background-color: #2f5b6e8a;
+
+div.fotorama__arr{
+
 }
-#gallery4 {
-    background-color: #c9ae17;
-}
+
+
 
 
 /*---------footer-colors-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -708,7 +720,7 @@ button {
 section {
 	
    position: relative;
-   z-index:-100;
+   z-index:0;
 
 } 
 
