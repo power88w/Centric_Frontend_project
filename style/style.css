@@ -172,8 +172,8 @@ hr#brosna2 {
 
 .box-river-div {
     
-    height: 18vw;
-    background: url('../images/cover2fix.jpg') no-repeat fixed;
+    height: 23vw;
+    background: url('../images/cover2.jpg') no-repeat fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -182,8 +182,8 @@ hr#brosna2 {
 }
 
 .box-species-div {
-    height: 18vw;
-    background: url('../images/cover3fix.jpg') no-repeat fixed;
+    height: 23vw;
+    background: url('../images/cover3.jpg') no-repeat fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -1086,7 +1086,16 @@ button.click {
 .contact-box {
     padding-left: 0%;
     padding-right: 0%; 
- }
+}
+
+.box-river-div {
+    
+    height: 53vw;
+}
+
+.box-species-div {
+    height: 53vw;
+}
 
 }
 
@@ -1229,6 +1238,15 @@ button.click {
 .contact-box {
     padding-left: 0%;
     padding-right: 0%; 
+}
+
+.box-river-div {
+    
+    height: 53vw;
+}
+
+.box-species-div {
+    height: 53vw;
 }
 
 
@@ -1394,6 +1412,15 @@ button.click {
     width: 100%;
 }
 
+.box-river-div {
+    
+    height: 33vw;
+}
+
+.box-species-div {
+    height: 33vw;
+}
+
 
 }
 
@@ -1551,6 +1578,14 @@ button.click {
         margin: 0 auto;
         display: table-cell;
     }
+    .box-river-div {
+    
+        height: 23vw;
+    }
+    
+    .box-species-div {
+        height: 23vw;
+    }
 
 
 
@@ -1679,6 +1714,15 @@ button.click {
 .contact-box {
     padding-left: 5%;
     padding-right: 5%; 
+}
+
+.box-river-div {
+    
+    height: 20vw;
+}
+
+.box-species-div {
+    height: 20vw;
 }
 
 
