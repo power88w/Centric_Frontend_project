@@ -563,6 +563,27 @@ div a#navpoint {
 
 }
 
+#text-01 h4 {
+    text-align: center;
+    font-size: 4vw;
+
+
+}
+
+#text-01 {
+    text-align: justify;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: 'Lemonada', cursive;
+    background-color: #08100d;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 3vw;
+    display: inherit;
+
+}
+ 
+
 .fish-photo1 {
     height: 240px;
     width: auto;
@@ -1316,6 +1337,11 @@ button.click {
 
 #content {
     background-size: 100% ;
+}
+
+#text-01 {
+    display: none;
+
 }
 
 
