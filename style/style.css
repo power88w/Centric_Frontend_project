@@ -124,6 +124,10 @@ hr#inny {
     border-top: 1px solid white;
 }
 
+hr#inny2 {
+    border-top: 1px solid green;
+}
+
 #shannon, div#shannon{
     background-color: rgb(1, 6, 10);
     color: white;
@@ -132,6 +136,10 @@ hr#inny {
 
 hr#shannon {
     border-top: 1px solid white;
+}
+
+hr#shannon2 {
+    border-top: 1px solid green;
 }
 
 
@@ -145,6 +153,10 @@ hr#suck {
     border-top: 1px solid white;
 }
 
+hr#suck2 {
+    border-top: 1px solid green;
+}
+
 #brosna, div#brosna {
     background-color: rgb(2, 10, 24);
     color: white;
@@ -153,6 +165,10 @@ hr#suck {
 
 hr#brosna {
     border-top: 1px solid white;
+}
+
+hr#brosna2 {
+    border-top: 1px solid green;
 }
 
 .box-river-div {
@@ -384,7 +400,7 @@ header {
     text-align: center;
     position: relative;
     text-shadow: 4px 4px green;
-    font-size: 8vh;
+    font-size: 10vw;
     padding-top: 6vh;
 }
 
@@ -468,6 +484,10 @@ nav {
 
 .hvr-sweep-to-bottom::after {
     background: #000000;
+}
+
+div a#navpoint {
+    background-color: #000000;
 }
 
 
@@ -864,6 +884,34 @@ img.pike2b {
     width: 100%;
 }
 
+.dropdown2 {
+    position: relative;
+    display: inline-block;
+    top: -53px;
+    height: 0%;
+    left: 15%;
+    z-index: 1000;
+    border: none;
+    text-decoration: none;
+    
+}
+
+.dropdown2 a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Lemonada', cursive;
+    font-weight: 400;
+    font-size: 20px;
+
+}
+
+
+
+button.click {
+    text-align: right;
+    padding-right: 5%;    
+}
+
 
 .dropdown-content {
     display: none;
@@ -897,12 +945,21 @@ img.pike2b {
 
 @media (max-width: 576px) {
 
+#logo-box {
+    display: none;
+}   
+
 .logo {
     background-color: black;
     padding-top: 0px;
     font-size: 30px;
     padding-top: 20px;
 }
+
+.cont-box {
+    padding-left: 10%;
+    padding-right: 10%;
+} 
 
 .content {
     width: 100%;
@@ -945,31 +1002,31 @@ img.pike2b {
 }
 
 .fish-photo1 {
-    height: 182px;
-    width: 308px;
+    height: auto;
+    width: 75vw;
     margin: 0 auto;
     display: table-cell;
     
 }
 
 .fish-photo2 {
-    height: 182px;
-    width: 308px;
+    height: auto;
+    width: 75vw;
     margin: 0 auto;
     display: table-cell;
     
 }
 
 .fish-photo3 {
-    height: 182px;
-    width: 308px;
+    height: auto;
+    width: 75vw;
     margin: 0 auto;
     display: table-cell;
     
 }
 
 .box1-foot {
-    height: 230px;
+    height: 64vw;
     
 }
 
@@ -1041,11 +1098,20 @@ img.pike2b {
 
 @media (min-width: 576px) {
 
+#logo-box {
+    display: none;
+}
+
 .logo {
     background-color: black;
     font-size: 45px;
     padding-top: 20px;
 }
+
+.cont-box {
+    padding-left: 10%;
+    padding-right: 10%;
+} 
 
 /*---River Head--*/
 .content-head {
@@ -1172,17 +1238,24 @@ img.pike2b {
 }
 
 
-
-
 }
      
 
 @media (min-width: 768px) {
+#logo-box {
+    display: inherit;
+}
+
 .logo {
     background-color: black;
     font-size: 54px;
     padding-top: 20px;
 }
+
+.cont-box {
+    padding-left: 0%;
+    padding-right: 0%;
+} 
 .masthead {
     background-color: #000000;
 }
@@ -1354,6 +1427,10 @@ img.pike2b {
     }
     
     /*---River Head--*/
+    .logo-river p {
+        font-size: 84px;
+    }
+
     .content-head {
         width: 100%;
     }
@@ -1757,10 +1834,7 @@ img.pike2b {
 .contact-box {
     padding-left: 25%;
     padding-right: 25%; 
- }
-
-
-
+}
 
     
 }
