@@ -20,7 +20,6 @@
 }
 
 
-
 header {
     font-family: 'papyrus', cursive;
 }
@@ -173,19 +172,18 @@ hr#brosna2 {
 
 .box-river-div {
     
-    height: 25vh;
-    background: url('../images/cover2.jpg') no-repeat fixed;
+    height: 18vw;
+    background: url('../images/cover2fix.jpg') no-repeat fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
-    background-position: bottom;
+    background-position: center;
 }
 
 .box-species-div {
-    height: 25vh;
-    background: url('../images/cover3.jpg') no-repeat fixed;
+    height: 18vw;
+    background: url('../images/cover3fix.jpg') no-repeat fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -225,14 +223,6 @@ hr#brosna2 {
     width: auto;
     margin: 0 auto;
     float: right;
-}
-
-. {
-    height: 18vw;
-    width: 30vw;
-    float: left;
-    margin-left: 30px;
-
 }
 
 
@@ -342,9 +332,9 @@ div.gal-box {
 }
 
 .gal-box2 {
-    padding: 40px 40px 20px 40px;
-    max-width: 1300px;
-    max-height: 1300px;
+    padding: 3% 3% 3% 3%;
+    max-width: 78vw;
+    max-height: 78vw;
     background-color: #ffffff;
 
 }
@@ -388,18 +378,22 @@ header {
     z-index:1000;
 }
 
+.logo a {
+    text-decoration: none;
+}
+
 .logo p {
     height: 120px; 
     text-align: center;
     position: relative;
     z-index:1000;
-    text-shadow: 4px 4px green;
+    text-shadow: 2px 2px green;
 }
 
 .logo-river p {
     text-align: center;
     position: relative;
-    text-shadow: 4px 4px green;
+    text-shadow: 2px 2px green;
     font-size: 10vw;
     padding-top: 6vh;
 }
@@ -1709,33 +1703,33 @@ button.click {
 }
 
 .side-right, .side-left, .left, .right, .right-foot, .left-foot {
-    width: 10%;
+    width: 5%;
      display: initial;
 }
 
 .menu-list{
     float: left;
-    width: 80%;
+    width: 90%;
     display: initial;
 }
 /*---River Head--*/
 .content-head {
-    width: 80%;
+    width: 90%;
 }
 
 .side-head {
     width: 10%;
 }
 .content-river {
-    width: 80%;
+    width: 90%;
 }
 /*---River Head--*/
 .content {
-    width: 80%;
+    width: 90%;
 }
 
 .content-foot {
-    width: 80%;
+    width: 90%;
 }
 
 .badboy {
