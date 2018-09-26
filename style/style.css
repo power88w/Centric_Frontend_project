@@ -588,7 +588,7 @@ div a#navpoint {
     height: 240px;
     width: auto;
     margin: 0 auto;
-    display: table-cell;
+    display: block;
     
 }
 
@@ -596,7 +596,7 @@ div a#navpoint {
     height: 240px;
     width: auto;
     margin: 0 auto;
-    display: table-cell;
+    display: block;
     
 }
 
@@ -604,7 +604,7 @@ div a#navpoint {
     height: 340px;
     width: auto;
     margin: 0 auto;
-    display: table-cell;
+    display: block;
     
 }
 
@@ -1020,7 +1020,7 @@ button.click {
     height: auto;
     width: 75vw;
     margin: 0 auto;
-    display: table-cell;
+    display: block;
     
 }
 
@@ -1028,7 +1028,7 @@ button.click {
     height: auto;
     width: 75vw;
     margin: 0 auto;
-    display: table-cell;
+    display: block;
     
 }
 
@@ -1036,7 +1036,7 @@ button.click {
     height: auto;
     width: 75vw;
     margin: 0 auto;
-    display: table-cell;
+    display: block;
     
 }
 
@@ -1047,17 +1047,17 @@ button.click {
 
 .hov1:hover .pike1b {
     margin: 0 auto;
-    display: table-cell;
+    display: block;
 }
 
 .hov2:hover .okonb {
     margin: 0 auto;
-    display: table-cell;
+    display: block;
 }
 
 .hov3:hover .pike2b {
     margin: 0 auto;
-    display: table-cell;
+    display: block;
 }
 
 
@@ -1065,7 +1065,7 @@ button.click {
     height: 198px;
     width: 308px;
     margin: 0 auto;
-    display: table-cell;
+    display: block;
     float: initial;
 }
 
@@ -1073,7 +1073,7 @@ button.click {
     height: 198px;
     width: 308px;
     margin: 0 auto;
-    display: table-cell;
+    display: block;
     float: initial;
 }
 
@@ -1179,7 +1179,7 @@ button.click {
     height: 270px;
     width: 420px;
     margin: 0 auto;
-    display: table-cell;
+    display: block;
     
 }
 
@@ -1187,7 +1187,7 @@ button.click {
     height: 270px;
     width: 420px;
     margin: 0 auto;
-    display: table-cell;
+    display: block;
     
 }
 
@@ -1195,22 +1195,22 @@ button.click {
     height: 270px;
     width: 420px;
     margin: 0 auto;
-    display: table-cell;
+    display: block;
     
 }
 .hov1:hover .pike1b {
     margin: 0 auto;
-    display: table-cell;
+    display: block;
 }
 
 .hov2:hover .okonb {
     margin: 0 auto;
-    display: table-cell;
+    display: block;
 }
 
 .hov3:hover .pike2b {
     margin: 0 auto;
-    display: table-cell;
+    display: block;
 }
 
 .box1-foot {
@@ -1225,7 +1225,7 @@ button.click {
     height: auto;
     width: 60%;
     margin: 0 auto;
-    display: table-cell;
+    display: block;
     float: initial;
 }
 
@@ -1233,7 +1233,7 @@ button.click {
     height: 25vh;
     width: 60%;
     margin: 0 auto;
-    display: table-cell;
+    display: block;
     float: initial;
 }
 
@@ -1357,7 +1357,7 @@ button.click {
     height: 240px;
     width: auto;
     margin: 0 auto;
-    display: table-cell;
+    display: block;
     
 }
 
@@ -1365,7 +1365,7 @@ button.click {
     height: 240px;
     width: auto;
     margin: 0 auto;
-    display: table-cell;
+    display: block;
     
 }
 
@@ -1373,23 +1373,23 @@ button.click {
     height: 240px;
     width: auto;
     margin: 0 auto;
-    display: table-cell;
+    display: block;
     
 }
 
 .hov1:hover .pike1b {
     margin: 0 auto;
-    display: table-cell;
+    display: block;
 }
 
 .hov2:hover .okonb {
     margin: 0 auto;
-    display: table-cell;
+    display: block;
 }
 
 .hov3:hover .pike2b {
     margin: 0 auto;
-    display: table-cell;
+    display: block;
 }
 
 
@@ -1406,7 +1406,7 @@ button.click {
     height: auto;
     width: 60%;
     margin: 0 auto;
-    display: table-cell;
+    display: block;
     float: initial;
 }
 
@@ -1414,7 +1414,7 @@ button.click {
     height: 25vh;
     width: 60%;
     margin: 0 auto;
-    display: table-cell;
+    display: block;
     float: initial;
 }
 
@@ -1524,7 +1524,7 @@ button.click {
         height: 240px;
         width: auto;
         margin: 0 auto;
-        display: table-cell;
+        display: block;
         
     }
 
@@ -1532,7 +1532,7 @@ button.click {
         height: 240px;
         width: auto;
         margin: 0 auto;
-        display: table-cell;
+        display: block;
         
     }
 
@@ -1540,7 +1540,7 @@ button.click {
         height: 240px;
         width: auto;
         margin: 0 auto;
-        display: table-cell;
+        display: block;
         
     }
     
@@ -1556,7 +1556,7 @@ button.click {
         height: auto;
         width: 55%;
         margin: 0 auto;
-        display: table-cell;
+        display: block;
         float: initial;
     }
     
@@ -1564,7 +1564,7 @@ button.click {
         height: 25vh;
         width: 55%;
         margin: 0 auto;
-        display: table-cell;
+        display: block;
         float: initial;
     }
 
@@ -1592,17 +1592,17 @@ button.click {
 
     .hov1:hover .pike1b {
         margin: 0 auto;
-        display: table-cell;
+        display: block;
     }
     
     .hov2:hover .okonb {
         margin: 0 auto;
-        display: table-cell;
+        display: block;
     }
     
     .hov3:hover .pike2b {
         margin: 0 auto;
-        display: table-cell;
+        display: block;
     }
     .box-river-div {
     
@@ -1672,7 +1672,7 @@ button.click {
     height: auto;
     width: 50%;
     margin: 0 auto;
-    display: table-cell;
+    display: block;
     float: initial;
 }
 
@@ -1680,7 +1680,7 @@ button.click {
     height: 35vh;
     width: 50%;
     margin: 0 auto;
-    display: table-cell;
+    display: block;
     float: initial;
 }
 
@@ -1717,7 +1717,7 @@ button.click {
     height: 240px;
     width: auto;
     margin: 0 auto;
-    display: table-cell;
+    display: block;
 
     
 }
