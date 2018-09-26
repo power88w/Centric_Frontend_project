@@ -2,7 +2,7 @@
 
 This is a website primarily intended for anglers, the main task is to expose the Midland region, which is extremely attractive for them. The site is to serve as tourist information for angling tourists coming to Ireland - which will allow You to get to know and explore this part of Ireland faster and easier.
  
-## UX
+# UX
 
 The website is primarily for anglers and is supposed to be a guide - so as a user I would require from such a website.
 
@@ -19,16 +19,16 @@ The website is primarily for anglers and is supposed to be a guide - so as a use
 ## New and Existing Users
 
 
-# Wireframe
+## Wireframe
 
-# Home page
+### Home page
 - From the navigation menu I know that I am in the Home page and I can move from it to the section, Rivers, Species Gallery Contact. (the place where I am currently is highlighted in the black color)
 - In the central part I can see the main graphic and I can find short information about the page 
 - At the bottom of the page there are 3 graphic shortcuts that can move me to the 3 most important places on the page.
 - At the bottom easly i can find buttons for social media.
 
 
-# River section
+### River section
 
 - I can get here through the navigation bar by clicking the River button, (the place where I am currently is highlighted in the black color)
 - In the central part of the page  I can find descriptions of rivers available in Midland,  also I can find photos and places on the map where is
@@ -38,7 +38,7 @@ The website is primarily for anglers and is supposed to be a guide - so as a use
 
 
 
-# Species section
+### Species section
 
 - I can get here through the navigation bar by clicking the Species button, (the place where I am currently is highlighted in the black color)
 - In the central part of the page  I can find description and photos of species of fish that can be caught in this area.
@@ -47,7 +47,7 @@ The website is primarily for anglers and is supposed to be a guide - so as a use
 
 
 	
-# Gallery section
+### Gallery section
 
 - I can get here through the navigation bar by clicking the Gallery button, (the place where I am currently is highlighted in the black color)
 - In the central part of the page it is a simple Photo Gallery from fishing trips.  Pictures in the gallery can be slid left and right
@@ -55,7 +55,7 @@ The website is primarily for anglers and is supposed to be a guide - so as a use
 
 
 
-# Contact Section
+### Contact Section
 
 - I can get here through the navigation bar by clicking the Contact button, (the place where I am currently is highlighted in the black color).
 - In the central part of the page it is overview map of the region (which can be freely moved) and below addresses to three important places.
@@ -63,26 +63,23 @@ The website is primarily for anglers and is supposed to be a guide - so as a use
 
 
 
-## Features
+# Features
 
-- logo as a reference link to the main page 
-- Navigation bar with a drop down menu
-- buttons with a hover
+- logo as a reference link to the main page.
+- Navigation bar with a drop down menu.
+- buttons with a hover.
 - website is a mobile ready version with hamburger menu.
-- 
+- the site has photo galleries.
+- google maps have been implemented on the website.
  
-### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
-
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
 - Another feature idea
 
-## Technologies Used
+
+# Technologies Used
+
+
 
 For this project I used
 �	HTML5
@@ -110,16 +107,18 @@ o	The project uses JQuery to control scrolling and toggle features.
 Testing
 Testing for this project was done with several browsers and devices.
 Browsers
+
+Desktop
+- Chrome
+- Edge
+- 
 Mobile
 o		Firefox
 o		Chrome
 o		Safari
 o		Opera
-Desktop
-o		Firefox
-o		Chrome
-o		Opera
-o		Edge
+
+
 Devices
 o		Hp Laptop
 o		Lenovo Laptop
@@ -138,25 +137,17 @@ Why they are showing ? Why i leave them ?
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
+```md
+ git clone https://github.com/power88w/Centric_Frontend_project.git
+```
 
 
-## Credits
 
 ### Content
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 
 ### Media
-- The pictures I use on the website have been made by me and are my property.
+- The pictures I use on the website have been made by me.
 
-### Acknowledgements
-
-- I received inspiration for this project from X
 
