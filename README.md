@@ -7,7 +7,6 @@ This is a website primarily intended for anglers, the main task is to expose the
 The website is primarily for anglers and is supposed to be a guide - so as a user I would require from such a website.
 
 -	 should load very quick.
-
 -	 the graphics on the page should attract my attention and graphics quality should be at a high level.
 -	 navigating on the site should be easy and pleasant.
 -	 website should be clear and legible without any unnecessary additions that could distract you.
@@ -18,6 +17,9 @@ The website is primarily for anglers and is supposed to be a guide - so as a use
 
  
 ## New and Existing Users
+
+
+# Wireframe
 
 # Home page
 - From the navigation menu I know that I am in the Home page and I can move from it to the section, Rivers, Species Gallery Contact. (the place where I am currently is highlighted in the black color)
@@ -53,21 +55,21 @@ The website is primarily for anglers and is supposed to be a guide - so as a use
 
 
 
+# Contact Section
 
+- I can get here through the navigation bar by clicking the Contact button, (the place where I am currently is highlighted in the black color).
+- In the central part of the page it is overview map of the region (which can be freely moved) and below addresses to three important places.
+- I can go directly from the navigation bar to Home, Rivers, Species, Gallery, or go to social media in the lower right corner.
 
-
-Sekcja Contact
-
-
--  Mo�esz si� tu dosta� po przez pasek nawigacyjny klikaj�c na przycisk Contact.
--	Znajdziesz tu map� pogl�dowa regionu (kt�ra mo�na dowolnie przesuwa�) oraz poni�ej adresy do 3 istotnych miejsc.
-- At the bottom easly i can find buttons for social media.
--	 Mog� z tego miejsc bezpo�rednio do strony sklepu z raportami lub powr�ci� do Home, Rivers, Species, Gallery, lub przej�� do medi�w spo�eczno�ciowych w prawym dolnym rogu.
 
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+- logo as a reference link to the main page 
+- Navigation bar with a drop down menu
+- buttons with a hover
+- website is a mobile ready version with hamburger menu.
+- 
  
 ### Existing Features
 - Feature 1 - allows users X to achieve Y, by having them fill out Z
