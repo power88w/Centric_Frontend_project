@@ -16,15 +16,15 @@ The website is primarily for anglers and is supposed to be a guide - so as a use
 •	the website should be fully functional on mobile devices. 
 
  
-##New and Existing Users
+## New and Existing Users
 
-#Home page
+# Home page
 - From the navigation menu I know that I am in the Home page and I can move from it to the section, Rivers, Species Gallery Contact. (the place where I am currently is highlighted in the black color)
 - In the central part I can see the main graphic and I can find short information about the page 
 - At the bottom of the page there are 3 graphic shortcuts that can move me to the 3 most important places on the page.
 - At the bottom easly i can find buttons for social media.
 
-#River section
+# River section
 
 - I can get here through the navigation bar by clicking the River button, (the place where I am currently is highlighted in the black color)
 - In the central part of the page  I can find descriptions of rivers available in Midland,  also I can find photos and places on the map where is
@@ -32,18 +32,6 @@ The website is primarily for anglers and is supposed to be a guide - so as a use
 - At the bottom easly i can find buttons for social media.
 - I can go directly from the navigation bar to Home, Rivers,  Species, Contact, or go to social media in the lower right corner.
 
-
-Home � Strona Glowna
--	Z menu nawigacyjnego wiem ze jestem w miejscu Home i mog� si� z niego przenie�� do sekcji, Rivers, Species Gallery Contact. (miejsce w kt�rym obecnie si� znajduje pod�wietlone jest w menu nawigacyjnym na kolor czarny)
--	W centralnej cz�ci widz� grafik� g��wna oraz mog� przeczyta� krotk� informacje o stronie
--	U do�u strony znajduje si� 3 skr�ty graficzne kt�re mog� mnie przenie�� w 3 najwa�niejsze miejsca na stronie. 
--	At the bottom easly i can find buttons for social media.
-
-Sekcja River 
-
--	Mo�esz si� tu dosta� po przez pasek nawigacyjny klikaj�c na przycisk River, do opisu rzek dost�pnych w Midland, mo�esz tak�e znale�� zdj�cia a tak�e miejsca na mapie(mape mo�esz dowolnie przesowac, gdzie mo�esz zacz�� swoja w�dkarsk� przygod�. (mo�esz tez przej�� do wybranej rzeki po przez dropdown, menu. (miejsce, w kt�rym obecnie si� znajduje pod�wietlone jest w menu nawigacyjnym na kolor czarny)
--	At the bottom easly i can find buttons for social media.
--	Mog� z tego miejsc bezpo�rednio powr�ci� do Home, Rivers, Species, Contact, lub przej�� do medi�w spo�eczno�ciowych w prawym dolnym rogu.
 
 
 
