@@ -113,17 +113,17 @@ nav {
 /*---------River-x13------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 
-#inny, div#inny {
+.inny, div.inny {
     background-color: black;
     color: white;
     
 }
 
-hr#inny {
+hr.inny {
     border-top: 1px solid white;
 }
 
-hr#inny2 {
+hr.inny2 {
     border-top: 1px solid green;
 }
 

@@ -111,25 +111,27 @@ Browsers
 Desktop
 - Chrome
 - Edge
-- 
+- Safari 
+- Firefox
+
 Mobile
-o		Firefox
-o		Chrome
-o		Safari
-o		Opera
+-		Chrome
+-		Safari
 
 
 Devices
-o		Hp Laptop
-o		Lenovo Laptop
-o		Huawei Nexus 6P android phone
-o		Samsung Galaxy Tab 4
-o		Samsung Galaxy J3
-o		Iphone 6s
-o		Iphone 7
-o		Ipad AIR
+- Custom PC 4K and 2K screen	
+- Dell Latitude 7480
+- iMac 
+- IPad Air2
+- LG V30
+- Samsung S8 
+- Iphone 6
 
-Bugs
+
+
+
+# Bugs
 When validating using css validator there are known warnings:
 29 -webkit-box-sizing is an unknown vendor extension 73 -webkit-sticky is an unknown vendor extension 233 -webkit-box-shadow is an unknown vendor extension 254 -webkit-box-shadow is an unknown vendor extension
 Why they are showing ? Why i leave them ?
