@@ -25,30 +25,33 @@ The website is primarily for anglers and is supposed to be a guide - so as a use
 - At the bottom of the page there are 3 graphic shortcuts that can move me to the 3 most important places on the page.
 - At the bottom easly i can find buttons for social media.
 
+
 # River section
 
 - I can get here through the navigation bar by clicking the River button, (the place where I am currently is highlighted in the black color)
 - In the central part of the page  I can find descriptions of rivers available in Midland,  also I can find photos and places on the map where is
   best access to rivers (maps can be navigated freely)
 - At the bottom easly i can find buttons for social media.
-- I can go directly from the navigation bar to Home, Rivers,  Species, Contact, or go to social media in the lower right corner.
+- I can go directly from the navigation bar to Home, Species, Gallery, Contact, or go to social media in the lower right corner.
 
 
 
+# Species section
+
+- I can get here through the navigation bar by clicking the Species button, (the place where I am currently is highlighted in the black color)
+- In the central part of the page  I can find description and photos of species of fish that can be caught in this area.
+- I can go directly from the navigation bar to Home, Rivers,  Gallery, Contact, or go to social media in the lower right corner.
 
 
-Sekcja Species 
 
--	Mo�esz si� tu dosta� po przez pasek nawigacyjny do opisu gatunk�w ryb jakie mo�esz z�apa� w tym rejonie oraz zdj�cia kt�re przedstawiaj� opisywane gatunki ryb dost�pnych. (miejsce, w kt�rym obecnie si� znajduje pod�wietlone jest w menu nawigacyjnym na kolor czarny)
--	At the bottom easly i can find buttons for social media.
--	Mog� z tego miejsc bezpo�rednio powr�ci� do Home, Rivers, Contact, Gallery, Contact lub przej�� do medi�w spo�eczno�ciowych w prawym dolnym rogu.
--	
-Sekcja Gallery
+	
+# Gallery section
 
--	Mo�esz si� tu dosta� po przez menu nawigacyjne klikaj�c na przycisk Gallery (miejsce, w kt�rym obecnie si� znajduje pod�wietlone jest w menu nawigacyjnym na kolor czarny)
--	Jest to prosta Galeria przedstawiaj�ce region Midland oraz Ryby tu wyst�puj�ce � w kt�rej zdj�cia mo�esz prezesowa� w prawo lub w lewo.
--	At the bottom easly i can find buttons for social media.
--	Mog� z tego miejsc po przez pasek nawigacyjny bezpo�rednio powr�ci� do Home, Rivers, Species, Contact, lub przej�� do medi�w spo�eczno�ciowych w prawym dolnym rogu.
+- I can get here through the navigation bar by clicking the Gallery button, (the place where I am currently is highlighted in the black color)
+- In the central part of the page it is a simple Photo Gallery from fishing trips.  Pictures in the gallery can be slid left and right
+- I can go directly from the navigation bar to Home, Rivers, Species, Contact, or go to social media in the lower right corner.
+
+
 
 
 
