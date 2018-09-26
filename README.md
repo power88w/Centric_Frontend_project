@@ -6,15 +6,15 @@ This is a website primarily intended for anglers, the main task is to expose the
 
 The website is primarily for anglers and is supposed to be a guide - so as a user I would require from such a website.
 
-•	 should load very quick.
+-	 should load very quick.
 
-•	 the graphics on the page should attract my attention and graphics quality should be at a high level.
-•	 navigating on the site should be easy and pleasant.
-•	 website should be clear and legible without any unnecessary additions that could distract you.
-•	 the site should have photo galleries easy to navigate.
-•	 on the page should be maps and hints for the place described.
-•	 on the site should be maps of the region and useful links that allow you to prepare for the trip.
-•	 the website should be fully functional on mobile devices. 
+-	 the graphics on the page should attract my attention and graphics quality should be at a high level.
+-	 navigating on the site should be easy and pleasant.
+-	 website should be clear and legible without any unnecessary additions that could distract you.
+-	 the site should have photo galleries easy to navigate.
+-	 on the page should be maps and hints for the place described.
+-	 on the site should be maps of the region and useful links that allow you to prepare for the trip.
+-	 the website should be fully functional on mobile devices. 
 
  
 ## New and Existing Users
