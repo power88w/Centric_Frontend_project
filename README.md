@@ -69,38 +69,33 @@ The website is primarily for anglers and is supposed to be a guide - so as a use
 - Navigation bar with a drop down menu.
 - buttons with a hover.
 - website is a mobile ready version with hamburger menu.
-- the site has photo galleries.
+- several photos
+- the website has photo galleries.
 - google maps have been implemented on the website.
  
 
 ### Features Left to Implement
-- Another feature idea
+- multipoint marking on maps
 
 
 # Technologies Used
 
 
+- HTML5 - used to create a website structure 
 
-For this project I used
-�	HTML5
-o	The project uses HTML5 to structure the content in line with modern semantic html5.
-�	CSS3
-o	The project uses CSS3 to style the html content.
-�	Bootstrap3
-o	The project uses Bootstrap3 to Layout the html content on different screen sizes, I used a simple layout with a single column for mobile and 2-3 columns on desktop and tablets.
-�	FontAwesome
-o	The project uses FontAwesome to add icons for social media and contact forms.
-�	Animate.css
-o	The project uses Animate.css to add easy to use and smooth animations.
-�	GoogleFonts
-o	The project uses GoogleFonts to add the font Roboto to site.
-�	Normalise.css
-o	The project uses Normalise.css to perform a css reset.
-�	JQuery
-o	The project uses JQuery to control scrolling and toggle features.
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+-	CSS3 - used to stylize Html
 
+- Bootstrap3.3.7 - allows displaying the website in different resolutions
+
+- hover2.3.1 - improved the buttons
+
+- jquery - used to solve problems with dropdown
+
+- [fotorama](http://fotorama.io/) - free to use gallery 
+
+- fontawesome 5.3.1 - it allowed to insert ready to go icons
+
+- googlefonts - it allowed me to display a beautiful font
 
 ## Testing
 
@@ -132,10 +127,6 @@ Devices
 
 
 # Bugs
-When validating using css validator there are known warnings:
-29 -webkit-box-sizing is an unknown vendor extension 73 -webkit-sticky is an unknown vendor extension 233 -webkit-box-shadow is an unknown vendor extension 254 -webkit-box-shadow is an unknown vendor extension
-Why they are showing ? Why i leave them ?
-
 
 ## Deployment
 
@@ -143,6 +134,8 @@ Why they are showing ? Why i leave them ?
 ```md
  git clone https://github.com/power88w/Centric_Frontend_project.git
 ```
+
+(https://github.com/power88w/Centric_Frontend_project/index.html)
 
 
 
