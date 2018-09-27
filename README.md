@@ -16,7 +16,7 @@ The website is primarily for anglers and is supposed to be a guide - so as a use
 -	 the website should be fully functional on mobile devices. 
 
 ### Wireframe
-(https://power88w.github.io/Centric_Frontend_project/images/wireframe.JPG)
+![Wireframe](https://power88w.github.io/Centric_Frontend_project/images/wireframe.JPG)
 
 
 ## New and Existing Users
