@@ -1,5 +1,7 @@
 # Midland Fishing
 
+![overview](https://power88w.github.io/Centric_Frontend_project/images/main-overview.JPG)
+
 This is a website primarily intended for anglers, the main task is to expose the Midland region, which is extremely attractive for them. The site is to serve as tourist information for angling tourists coming to Ireland - which will allow You to get to know and explore this part of Ireland faster and easier.
  
 # UX
@@ -104,18 +106,18 @@ Testing
 Testing for this project was done with several browsers and devices.
 Browsers
 
-###Desktop
+### Desktop
 - Chrome
 - Edge
 - Safari 
 - Firefox
 
-###Mobile
+### Mobile
 - Chrome
 -	Safari
 
 
-###Devices
+### Devices
 - Custom PC 4K and 2K screen	
 - Dell Latitude 7480
 - iMac 27
@@ -135,7 +137,7 @@ Browsers
  git clone https://github.com/power88w/Centric_Frontend_project.git
 ```
 
-(https://github.com/power88w/Centric_Frontend_project/index.html)
+[Web on Github](https://github.com/power88w/Centric_Frontend_project/index.html)
 
 
 
