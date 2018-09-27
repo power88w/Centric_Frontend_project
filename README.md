@@ -1,8 +1,9 @@
 # Midland Fishing
 
-![overview](https://power88w.github.io/Centric_Frontend_project/images/main-overview.JPG)
+
 
 This is a website primarily intended for anglers, the main task is to expose the Midland region, which is extremely attractive for them. The site is to serve as tourist information for angling tourists coming to Ireland - which will allow You to get to know and explore this part of Ireland faster and easier.
+![overview](https://power88w.github.io/Centric_Frontend_project/images/main-overview.JPG)
  
 # UX
 
@@ -18,6 +19,8 @@ The website is primarily for anglers and is supposed to be a guide - so as a use
 -	 the website should be fully functional on mobile devices. 
 
 ### Wireframe
+
+The first concept has been slightly changed - to improve the quality of the website.
 ![Wireframe](https://power88w.github.io/Centric_Frontend_project/images/wireframe.JPG)
 
 
@@ -73,8 +76,8 @@ The website is primarily for anglers and is supposed to be a guide - so as a use
 - website is a mobile ready version with hamburger menu.
 - several photos
 - the website has photo galleries.
-- google maps have been implemented on the website.
-- easy access from the website to social media
+- google maps have been implemented.
+- easy access to social media
  
 
 ### Features Left to Implement
@@ -102,9 +105,12 @@ The website is primarily for anglers and is supposed to be a guide - so as a use
 
 ## Testing
 
-Testing
-Testing for this project was done with several browsers and devices.
-Browsers
+While testing the website I found the following problems:
+
+- hovers did not work on Apple devices (fixed)
+- dropdowne have been open while loading pages (fixed)
+- the font did not work on Edge (fixed)
+- has a problem with centering images on Firefox (fixed)
 
 ### Desktop
 - Chrome
@@ -132,7 +138,6 @@ Browsers
 
 ## Deployment
 
-
 ```md
  git clone https://github.com/power88w/Centric_Frontend_project.git
 ```
@@ -144,6 +149,13 @@ Browsers
 ### Content
 - [Wikipedia River_Inny](https://en.wikipedia.org/wiki/River_Inny_(Leinster))
 - [Wikipedia River_Shannon](https://en.wikipedia.org/wiki/River_Shannon)
+- [Wikipedia River_Suck](https://en.wikipedia.org/wiki/River_Suck)
+- [Wikipedia River_Brosna](https://en.wikipedia.org/wiki/River_Brosna)
+- [Old River Shannon Trust](https://oldrivershannon.com/2014/03/15/river-brosna/)
+- [offaly](https://www.visitoffaly.ie/Things-to-do/Outdoor-Adventures/Fishing/Rivers/)
+
+
+
 
 
 
