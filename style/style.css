@@ -123,56 +123,44 @@ hr.inny {
     border-top: 1px solid white;
 }
 
-hr#inny2 {
+hr.hr-under {
     border-top: 1px solid green;
-    width: 67%;
+    width: 50%;
 }
 
-#shannon, div#shannon{
+.shannon, div.shannon{
     background-color: rgb(1, 6, 10);
     color: white;
     
 }
 
-hr#shannon {
+hr.shannon {
     border-top: 1px solid white;
 }
 
-hr#shannon2 {
-    border-top: 1px solid green;
-    width: 67%;
-}
 
 
-#suck, div#suck {
+.suck, div.suck {
     background-color: rgb(1, 6, 15);
     color: white;
     
 }
 
-hr#suck {
+hr.suck {
     border-top: 1px solid white;
 }
 
-hr#suck2 {
-    border-top: 1px solid green;
-    width: 67%;
-}
 
-#brosna, div#brosna {
+.brosna, div.brosna {
     background-color: rgb(2, 10, 24);
     color: white;
     
 }
 
-hr#brosna {
+hr.brosna {
     border-top: 1px solid white;
 }
 
-hr#brosna2 {
-    border-top: 1px solid green;
-    width: 67%;
-}
 
 .box-river-div {
     
