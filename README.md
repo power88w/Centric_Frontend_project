@@ -1,14 +1,17 @@
 # Midland Fishing
 
-This is a website primarily intended for anglers, the main task is to expose the Midland region, 
-at it's attractiveness. The site is to serve as tourist information for angling tourists coming to 
-Ireland - which will allow You to get to know and explore this part of Ireland faster and easier.
+This is a website primarily for anglers, the main task is to expose the Midland region, 
+at it's attractiveness. The site is to serve as tourist information for angling tourists coming in to 
+Ireland - which will allow them to get to know and explore this part of Ireland faster and easier.
 
+
+===
 
 ![overview](https://power88w.github.io/Centric_Frontend_project/images/main-overview.JPG)
  
 # UX
-This webside target anglers and it is a quide for them  - so as a user I would require from such a website.
+This website targets anglers and serves a quide for them. 
+As a user I would require from such a website to:
 
 -	 load very quick.
 -	 the graphics on the page should cath my attention and graphics quality should be at a high level.
@@ -17,11 +20,13 @@ This webside target anglers and it is a quide for them  - so as a user I would r
 -	 the site should have photo galleries easy to navigate.
 -	 have a maps and hints for the place described.
 -	 have a maps of the region and useful links that allow you to prepare for the trip.
--	 fully functional on mobile devices. 
+-	 be fully functional on mobile devices. 
 
 ### Wireframe
 
 The first concept has been slightly changed - to improve the quality of the website.
+
+===
 ![Wireframe](https://power88w.github.io/Centric_Frontend_project/images/wireframe.JPG)
 
 
@@ -39,7 +44,7 @@ The first concept has been slightly changed - to improve the quality of the webs
 - I can get here through the navigation bar by clicking the River button, (the place where I am is currently highlighted black)
 - In the central part of the page  I can find descriptions of rivers available in Midland,  also I can find photos and places on the map where is
   best access to rivers (maps can be navigated freely)
-- At the bottom easly i can find buttons for the social media.
+- At the bottom I can easly find buttons for the social media.
 - I can go directly from the navigation bar to Home, Species, Gallery, Contact, or go to the social media in the lower right corner.
 
 
@@ -56,7 +61,8 @@ The first concept has been slightly changed - to improve the quality of the webs
 ### Gallery section
 
 - I can get here through the navigation bar by clicking the Gallery button, (the place where I am is currently highlighted black)
-- In the central part of the page it is a simple Photo Gallery from fishing trips.  Pictures in the gallery can be slid left and right
+- In the central part of the page it is a simple Photo Gallery from fishing trips.  
+  Pictures in the gallery can be slide left and right and also enlarge to a full screen by clicking on the upper right corner.
 - I can go directly from the navigation bar to Home, Rivers, Species, Contact, or go to the social media in the lower right corner.
 
 
@@ -164,6 +170,6 @@ While testing the website I found the following problems:
 
 
 ### Media
-- The pictures I use on the website are my propert.
+- The pictures I use on the website are my property.
 
 
