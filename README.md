@@ -5,7 +5,7 @@ at it's attractiveness. The site is to serve as tourist information for angling 
 Ireland - which will allow them to get to know and explore this part of Ireland faster and easier.
 
 
-===
+###
 
 ![overview](https://power88w.github.io/Centric_Frontend_project/images/main-overview.JPG)
  
@@ -26,7 +26,8 @@ As a user I would require from such a website to:
 
 The first concept has been slightly changed - to improve the quality of the website.
 
-===
+###
+
 ![Wireframe](https://power88w.github.io/Centric_Frontend_project/images/wireframe.JPG)
 
 
@@ -140,9 +141,6 @@ While testing the website I found the following problems:
 - Samsung S8 
 - Iphone 6
 
-
-
-# Bugs
 
 ## Deployment
 
