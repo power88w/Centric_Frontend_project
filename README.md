@@ -5,7 +5,7 @@ at it's attractiveness. The site is to serve as tourist information for angling 
 Ireland - which will allow them to get to know and explore this part of Ireland faster and easier.
 
 
-===
+###
 
 ![overview](https://power88w.github.io/Centric_Frontend_project/images/main-overview.JPG)
  
@@ -26,7 +26,8 @@ As a user I would require from such a website to:
 
 The first concept has been slightly changed - to improve the quality of the website.
 
-===
+###
+
 ![Wireframe](https://power88w.github.io/Centric_Frontend_project/images/wireframe.JPG)
 
 
@@ -111,7 +112,7 @@ The first concept has been slightly changed - to improve the quality of the webs
 
 - [googlefonts](https://fonts.google.com/) - it allowed me to display a beautiful font
 
-## Testing
+# Testing
 
 While testing the website I found the following problems:
 
@@ -119,6 +120,8 @@ While testing the website I found the following problems:
 - dropdowne menu has been open while loading pages (fixed)
 - the font did not work on Edge (fixed)
 - has a problem with centering images on Firefox (fixed)
+
+## Browsers
 
 ### Desktop
 - Chrome
@@ -128,10 +131,10 @@ While testing the website I found the following problems:
 
 ### Mobile
 - Chrome
--	Safari
+- Safari
 
 
-### Devices
+## Devices
 - Custom PC 4K and 2K screen	
 - Dell Latitude 7480
 - iMac 27
@@ -141,16 +144,13 @@ While testing the website I found the following problems:
 - Iphone 6
 
 
-
-# Bugs
-
 ## Deployment
 
 ```md
  git clone https://github.com/power88w/Centric_Frontend_project.git
 ```
 
-[Web on Github](https://github.com/power88w/Centric_Frontend_project/index.html)
+(https://github.com/power88w/Centric_Frontend_project/index.html)
 
 
 
