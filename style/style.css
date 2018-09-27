@@ -294,6 +294,12 @@ hr#brosna2 {
     background-color: #ffffff;
 }
 
+#map-contact {
+    height: 450px; 
+    width: 100%;
+    border: 0;
+}
+
 #contact {
     background-color: #ffffff;
     color: #000000;
