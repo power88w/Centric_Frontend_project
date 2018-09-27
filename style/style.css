@@ -1000,6 +1000,12 @@ button.click {
     height: 25%;
     display: initial;
 }
+
+.box4-river {
+    padding-left: 9vw;
+    padding-right: 9vw;
+}
+
 /*---River Head--*/
 
 .content-foot {
@@ -1085,16 +1091,16 @@ button.click {
 }
 
 #text-box {
-    height: 500px;
-    width: 308px;
+    height: 80vw;
+    width: 95vw;
     margin: auto;
     float: initial;
     font-size: 3vw;
 }
 
 .fish-box {
-    height: 228px;
-    width: 308px;
+    height: auto;
+    width: 95vw;
     margin: 0 auto;
     float: initial;
 }
@@ -1156,6 +1162,13 @@ button.click {
     height: 25%;
     display: initial;
 }
+
+.box4-river {
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+
 /*---River Head--*/
 
 .content {
@@ -1322,6 +1335,11 @@ button.click {
 .rivers {
     height: 50%;
     display: initial;
+}
+
+.box4-river {
+    padding-left: 15vw;
+    padding-right: 15vw;
 }
 /*---River Head--*/
 
@@ -1495,6 +1513,11 @@ button.click {
     .rivers {
         height: 50%;
         display: initial;
+    }
+
+    .box4-river {
+        padding-left: 22vw;
+        padding-right: 22vw;
     }
     /*---River Head--*/
     
@@ -1937,6 +1960,11 @@ button.click {
 }
 .content-river {
     width: 66%;
+}
+
+.box4-river {
+    padding-left: 25vw;
+    padding-right: 25vw;
 }
 /*---River Head--*/
 

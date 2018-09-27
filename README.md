@@ -106,11 +106,15 @@ The first concept has been slightly changed - to improve the quality of the webs
 
 - [jquery 3.3.1](https://docs.microsoft.com/en-us/aspnet/ajax/cdn/overview) - used to solve problems with dropdown menu.
 
-- [fotorama 4.6.4](http://fotorama.io/) - free to use gallery 
+- [fotorama 4.6.4](http://fotorama.io/) - free to use gallery. 
 
-- [fontawesome 5.3.1](https://fontawesome.com/) - it allowed to insert ready to go icons
+- [fontawesome 5.3.1](https://fontawesome.com/) - it allowed to insert ready to go icons.
 
-- [googlefonts](https://fonts.google.com/) - it allowed me to display a beautiful font
+- [googlefonts](https://fonts.google.com/) - it allowed me to display a beautiful font.
+
+- [Adobe XD](https://www.adobe.com/pl/products/xd.html) - was used to create a wireframe.
+
+
 
 # Testing
 
