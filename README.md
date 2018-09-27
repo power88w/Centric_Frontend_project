@@ -112,7 +112,7 @@ The first concept has been slightly changed - to improve the quality of the webs
 
 - [googlefonts](https://fonts.google.com/) - it allowed me to display a beautiful font
 
-## Testing
+# Testing
 
 While testing the website I found the following problems:
 
@@ -120,6 +120,8 @@ While testing the website I found the following problems:
 - dropdowne menu has been open while loading pages (fixed)
 - the font did not work on Edge (fixed)
 - has a problem with centering images on Firefox (fixed)
+
+## browsers
 
 ### Desktop
 - Chrome
@@ -129,10 +131,10 @@ While testing the website I found the following problems:
 
 ### Mobile
 - Chrome
--	Safari
+- Safari
 
 
-### Devices
+## Devices
 - Custom PC 4K and 2K screen	
 - Dell Latitude 7480
 - iMac 27
@@ -148,7 +150,7 @@ While testing the website I found the following problems:
  git clone https://github.com/power88w/Centric_Frontend_project.git
 ```
 
-[Web on Github](https://github.com/power88w/Centric_Frontend_project/index.html)
+(https://github.com/power88w/Centric_Frontend_project/index.html)
 
 
 
