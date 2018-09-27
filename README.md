@@ -147,6 +147,8 @@ While testing the website I found the following problems:
 - Samsung S8 
 - Iphone 6
 
+## Validated
+- [validator.w3](https://validator.w3.org/)
 
 ## Deployment
 
