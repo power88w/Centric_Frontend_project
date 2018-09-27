@@ -110,8 +110,8 @@ Desktop
 - Firefox
 
 Mobile
--		Chrome
--		Safari
+- Chrome
+-	Safari
 
 
 Devices
