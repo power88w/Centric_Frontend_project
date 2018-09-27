@@ -44,7 +44,7 @@ section.index {
     color: #ffffff;
 }
 
-.logo-river p {
+.logo-river h2 {
     font-family: 'papyrus', cursive;
 }
 
@@ -390,7 +390,7 @@ header {
     text-shadow: 2px 2px green;
 }
 
-.logo-river p {
+.logo-river h2 {
     text-align: center;
     position: relative;
     text-shadow: 2px 2px green;
@@ -1076,7 +1076,6 @@ button.click {
     display: block;
     float: initial;
     border: 0;
-
 }
 
 #text-box {
@@ -1476,7 +1475,7 @@ button.click {
     }
     
     /*---River Head--*/
-    .logo-river p {
+    .logo-river h2 {
         font-size: 84px;
     }
 
