@@ -15,11 +15,10 @@ The website is primarily for anglers and is supposed to be a guide - so as a use
 -	 on the site should be maps of the region and useful links that allow you to prepare for the trip.
 -	 the website should be fully functional on mobile devices. 
 
- 
+### Wireframe
+
+
 ## New and Existing Users
-
-
-## Wireframe
 
 ### Home page
 - From the navigation menu I know that I am in the Home page and I can move from it to the section, Rivers, Species Gallery Contact. (the place where I am currently is highlighted in the black color)
@@ -63,7 +62,7 @@ The website is primarily for anglers and is supposed to be a guide - so as a use
 
 
 
-# Features
+## Features
 
 - logo as a reference link to the main page.
 - Navigation bar with a drop down menu.
@@ -78,7 +77,7 @@ The website is primarily for anglers and is supposed to be a guide - so as a use
 - multipoint marking on maps
 
 
-# Technologies Used
+## Technologies Used
 
 
 - HTML5 - used to create a website structure 
@@ -103,18 +102,18 @@ Testing
 Testing for this project was done with several browsers and devices.
 Browsers
 
-Desktop
+###Desktop
 - Chrome
 - Edge
 - Safari 
 - Firefox
 
-Mobile
+###Mobile
 - Chrome
 -	Safari
 
 
-Devices
+###Devices
 - Custom PC 4K and 2K screen	
 - Dell Latitude 7480
 - iMac 
