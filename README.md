@@ -16,6 +16,7 @@ The website is primarily for anglers and is supposed to be a guide - so as a use
 -	 the website should be fully functional on mobile devices. 
 
 ### Wireframe
+(images/wireframe.JPG)
 
 
 ## New and Existing Users
@@ -71,6 +72,7 @@ The website is primarily for anglers and is supposed to be a guide - so as a use
 - several photos
 - the website has photo galleries.
 - google maps have been implemented on the website.
+- easy access from the website to social media
  
 
 ### Features Left to Implement
@@ -84,17 +86,17 @@ The website is primarily for anglers and is supposed to be a guide - so as a use
 
 -	CSS3 - used to stylize Html
 
-- Bootstrap3.3.7 - allows displaying the website in different resolutions
+- [Bootstrap3.3.7](https://getbootstrap.com/docs/3.3/getting-started/) - allows displaying the website in different resolutions
 
-- hover2.3.1 - improved the buttons
+- [hover2.3.1](http://ianlunn.github.io/Hover/) - improved the buttons
 
-- jquery - used to solve problems with dropdown
+- [jquery 3.3.1](https://docs.microsoft.com/en-us/aspnet/ajax/cdn/overview) - used to solve problems with dropdown
 
-- [fotorama](http://fotorama.io/) - free to use gallery 
+- [fotorama 4.6.4](http://fotorama.io/) - free to use gallery 
 
-- fontawesome 5.3.1 - it allowed to insert ready to go icons
+- [fontawesome 5.3.1](https://fontawesome.com/) - it allowed to insert ready to go icons
 
-- googlefonts - it allowed me to display a beautiful font
+- [googlefonts](https://fonts.google.com/) - it allowed me to display a beautiful font
 
 ## Testing
 
@@ -116,12 +118,11 @@ Browsers
 ###Devices
 - Custom PC 4K and 2K screen	
 - Dell Latitude 7480
-- iMac 
+- iMac 27
 - IPad Air2
 - LG V30
 - Samsung S8 
 - Iphone 6
-
 
 
 
@@ -139,7 +140,12 @@ Browsers
 
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- [Wikipedia River_Inny](https://en.wikipedia.org/wiki/River_Inny_(Leinster))
+- [Wikipedia River_Shannon](https://en.wikipedia.org/wiki/River_Shannon)
+
+
+
+
 
 ### Media
 - The pictures I use on the website have been made by me.
