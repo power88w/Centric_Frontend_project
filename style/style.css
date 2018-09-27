@@ -123,8 +123,9 @@ hr.inny {
     border-top: 1px solid white;
 }
 
-hr.inny2 {
+hr#inny2 {
     border-top: 1px solid green;
+    width: 67%;
 }
 
 #shannon, div#shannon{
@@ -139,6 +140,7 @@ hr#shannon {
 
 hr#shannon2 {
     border-top: 1px solid green;
+    width: 67%;
 }
 
 
@@ -154,6 +156,7 @@ hr#suck {
 
 hr#suck2 {
     border-top: 1px solid green;
+    width: 67%;
 }
 
 #brosna, div#brosna {
@@ -168,6 +171,7 @@ hr#brosna {
 
 hr#brosna2 {
     border-top: 1px solid green;
+    width: 67%;
 }
 
 .box-river-div {
@@ -555,7 +559,7 @@ div a#navpoint {
     display: none;
 }
 
-.text-box {
+.text-box-index {
     margin-top: 12%;
     margin-right: 20%;
     height: 70%;
@@ -566,7 +570,6 @@ div a#navpoint {
     font-family: 'Lemonada', cursive;
     font-weight: 100;
     
-
 }
 
 #text-01 h4 {
@@ -985,6 +988,10 @@ button.click {
 .content {
     width: 100%;
     height: 240px;
+}
+
+.text-box-index {
+    display: none;
 }
 
 /*---River Head--*/
