@@ -291,7 +291,7 @@ hr.brosna {
     border: 0;
 }
 
-#contact {
+.contact {
     background-color: #ffffff;
     color: #000000;
     font-size: 22px;
@@ -313,8 +313,6 @@ a.link-decor {
     text-decoration: none;
     color:green;
 }
-
-
 /*-----------Gallery-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 div.gal-box {
