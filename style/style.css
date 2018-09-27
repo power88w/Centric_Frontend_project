@@ -240,7 +240,7 @@ hr.brosna {
     width: auto;
 }
 
-#text-box {
+.species-txt-box {
     margin-top: 20px;
     height: 20vw;
     width: 50%;
@@ -1084,7 +1084,7 @@ button.click {
     border: 0;
 }
 
-#text-box {
+.species-txt-box {
     height: 80vw;
     width: 95vw;
     margin: auto;
@@ -1251,7 +1251,7 @@ button.click {
     float: initial;
 }
 
-#text-box {
+.species-txt-box {
     height: 350px;
     width: 468px;
     margin: auto;
@@ -1437,7 +1437,7 @@ button.click {
     float: initial;
 }
 
-#text-box {
+.species-txt-box {
     height: 250px;
     width: 585px;
     margin: auto;
@@ -1592,7 +1592,7 @@ button.click {
         float: initial;
     }
 
-    #text-box {
+    .species-txt-box {
         height: 250px;
         width: 877px;
         margin: auto;
@@ -1708,7 +1708,7 @@ button.click {
     float: initial;
 }
 
-#text-box {
+.species-txt-box {
     height: 250px;
     width: 877px;
     margin: auto;
@@ -1834,7 +1834,7 @@ button.click {
     display: initial;
 }
 
-#text-box {
+.species-txt-box {
     height: 25vw;
     width: 60%;
     margin-top: 20px;
