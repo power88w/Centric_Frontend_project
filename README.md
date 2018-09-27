@@ -156,7 +156,7 @@ While testing the website I found the following problems:
  git clone https://github.com/power88w/Centric_Frontend_project.git
 ```
 
-(https://github.com/power88w/Centric_Frontend_project/index.html)
+(https://power88w.github.io/Centric_Frontend_project/index.html)
 
 
 
