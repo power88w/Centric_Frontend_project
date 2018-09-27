@@ -121,7 +121,7 @@ While testing the website I found the following problems:
 - the font did not work on Edge (fixed)
 - has a problem with centering images on Firefox (fixed)
 
-## browsers
+## Browsers
 
 ### Desktop
 - Chrome
