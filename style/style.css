@@ -1075,7 +1075,7 @@ button.click {
     margin: 0 auto;
     display: block;
     float: initial;
-    border-width: 20px;
+    border: 0;
 
 }
 
