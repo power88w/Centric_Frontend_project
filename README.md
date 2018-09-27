@@ -1,22 +1,23 @@
 # Midland Fishing
 
+This is a website primarily intended for anglers, the main task is to expose the Midland region, 
+at it's attractiveness. The site is to serve as tourist information for angling tourists coming to 
+Ireland - which will allow You to get to know and explore this part of Ireland faster and easier.
 
 
-This is a website primarily intended for anglers, the main task is to expose the Midland region, which is extremely attractive for them. The site is to serve as tourist information for angling tourists coming to Ireland - which will allow You to get to know and explore this part of Ireland faster and easier.
 ![overview](https://power88w.github.io/Centric_Frontend_project/images/main-overview.JPG)
  
 # UX
+This webside target anglers and it is a quide for them  - so as a user I would require from such a website.
 
-The website is primarily for anglers and is supposed to be a guide - so as a user I would require from such a website.
-
--	 should load very quick.
--	 the graphics on the page should attract my attention and graphics quality should be at a high level.
+-	 load very quick.
+-	 the graphics on the page should cath my attention and graphics quality should be at a high level.
 -	 navigating on the site should be easy and pleasant.
--	 website should be clear and legible without any unnecessary additions that could distract you.
+-	 website should be clear and easy to read without any unnecessary additions that could distract you.
 -	 the site should have photo galleries easy to navigate.
--	 on the page should be maps and hints for the place described.
--	 on the site should be maps of the region and useful links that allow you to prepare for the trip.
--	 the website should be fully functional on mobile devices. 
+-	 have a maps and hints for the place described.
+-	 have a maps of the region and useful links that allow you to prepare for the trip.
+-	 fully functional on mobile devices. 
 
 ### Wireframe
 
@@ -27,44 +28,45 @@ The first concept has been slightly changed - to improve the quality of the webs
 ## New and Existing Users
 
 ### Home page
-- From the navigation menu I know that I am in the Home page and I can move from it to the section, Rivers, Species Gallery Contact. (the place where I am currently is highlighted in the black color)
+- From the navigation menu I know that I am in the Home Page and I can move from it to the sections: Rivers, Species Gallery Contact. (the place where I am is currently highlighted black)
 - In the central part I can see the main graphic and I can find short information about the page 
 - At the bottom of the page there are 3 graphic shortcuts that can move me to the 3 most important places on the page.
-- At the bottom easly i can find buttons for social media.
+- At the bottom I can easly find buttons for the social media.
 
 
 ### River section
 
-- I can get here through the navigation bar by clicking the River button, (the place where I am currently is highlighted in the black color)
+- I can get here through the navigation bar by clicking the River button, (the place where I am is currently highlighted black)
 - In the central part of the page  I can find descriptions of rivers available in Midland,  also I can find photos and places on the map where is
   best access to rivers (maps can be navigated freely)
-- At the bottom easly i can find buttons for social media.
-- I can go directly from the navigation bar to Home, Species, Gallery, Contact, or go to social media in the lower right corner.
+- At the bottom easly i can find buttons for the social media.
+- I can go directly from the navigation bar to Home, Species, Gallery, Contact, or go to the social media in the lower right corner.
 
 
 
 ### Species section
 
-- I can get here through the navigation bar by clicking the Species button, (the place where I am currently is highlighted in the black color)
-- In the central part of the page  I can find description and photos of species of fish that can be caught in this area.
-- I can go directly from the navigation bar to Home, Rivers,  Gallery, Contact, or go to social media in the lower right corner.
+- I can get here through the navigation bar by clicking the Species button, (the place where I am is currently highlighted black)
+- In the central part of the page  I can find description and photos of fish species that can be caught in this area.
+- I can go directly from the navigation bar to Home, Rivers,  Gallery, Contact, or go to the social media in the lower right corner.
 
 
 
 	
 ### Gallery section
 
-- I can get here through the navigation bar by clicking the Gallery button, (the place where I am currently is highlighted in the black color)
+- I can get here through the navigation bar by clicking the Gallery button, (the place where I am is currently highlighted black)
 - In the central part of the page it is a simple Photo Gallery from fishing trips.  Pictures in the gallery can be slid left and right
-- I can go directly from the navigation bar to Home, Rivers, Species, Contact, or go to social media in the lower right corner.
+- I can go directly from the navigation bar to Home, Rivers, Species, Contact, or go to the social media in the lower right corner.
 
 
 
 ### Contact Section
 
-- I can get here through the navigation bar by clicking the Contact button, (the place where I am currently is highlighted in the black color).
-- In the central part of the page it is overview map of the region (which can be freely moved) and below addresses to three important places.
-- I can go directly from the navigation bar to Home, Rivers, Species, Gallery, or go to social media in the lower right corner.
+- I can get here through the navigation bar by clicking the Contact button, (the place where I am is currently highlighted black).
+- In the central part of the page overview map of the region (which can be freely moved) is located.
+- Below three usefull links can be found. 
+- I can go directly from the navigation bar to Home, Rivers, Species, Gallery, or go to the social media in the lower right corner.
 
 
 
@@ -75,9 +77,9 @@ The first concept has been slightly changed - to improve the quality of the webs
 - buttons with a hover.
 - website is a mobile ready version with hamburger menu.
 - several photos
-- the website has photo galleries.
-- google maps have been implemented.
-- easy access to social media
+- the website has photo gallery.
+- google maps.
+- easy access to the social media
  
 
 ### Features Left to Implement
@@ -95,7 +97,7 @@ The first concept has been slightly changed - to improve the quality of the webs
 
 - [hover2.3.1](http://ianlunn.github.io/Hover/) - improved the buttons
 
-- [jquery 3.3.1](https://docs.microsoft.com/en-us/aspnet/ajax/cdn/overview) - used to solve problems with dropdown
+- [jquery 3.3.1](https://docs.microsoft.com/en-us/aspnet/ajax/cdn/overview) - used to solve problems with dropdown menu.
 
 - [fotorama 4.6.4](http://fotorama.io/) - free to use gallery 
 
@@ -108,7 +110,7 @@ The first concept has been slightly changed - to improve the quality of the webs
 While testing the website I found the following problems:
 
 - hovers did not work on Apple devices (fixed)
-- dropdowne have been open while loading pages (fixed)
+- dropdowne menu has been open while loading pages (fixed)
 - the font did not work on Edge (fixed)
 - has a problem with centering images on Firefox (fixed)
 
@@ -152,7 +154,7 @@ While testing the website I found the following problems:
 - [Wikipedia River_Suck](https://en.wikipedia.org/wiki/River_Suck)
 - [Wikipedia River_Brosna](https://en.wikipedia.org/wiki/River_Brosna)
 - [Old River Shannon Trust](https://oldrivershannon.com/2014/03/15/river-brosna/)
-- [offaly](https://www.visitoffaly.ie/Things-to-do/Outdoor-Adventures/Fishing/Rivers/)
+- [Offaly Ireland Hidden Gem](https://www.visitoffaly.ie/Things-to-do/Outdoor-Adventures/Fishing/Rivers/)
 
 
 
@@ -162,6 +164,6 @@ While testing the website I found the following problems:
 
 
 ### Media
-- The pictures I use on the website have been made by me.
+- The pictures I use on the website are my propert.
 
 
