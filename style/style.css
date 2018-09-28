@@ -52,8 +52,6 @@ section.index {
     text-shadow: 2px 2px green;
 }
 
-
-
 /*------------Colors Navbar------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 nav {
@@ -91,7 +89,6 @@ nav {
 div a#navpoint {
     background-color: #000000;
 }
-
 
 /*---------index-colors------------------------------------------------------------*/
 
@@ -157,7 +154,6 @@ hr.hr-under {
 
 .spectest {
     background-color: white;
-
 }
 
 .species-txt-box {
@@ -188,7 +184,6 @@ div.gal-box {
 
 .gal-box2 {
     background-color: #ffffff;
-
 }
 
 /*---------footer-colors------------------------------------------------------------*/
@@ -224,8 +219,6 @@ div.gal-box {
 }
 
 /*---------masthead-colors---------------------------------------------------------*/
-
-
 .masthead {
     background-color: black;
 }
@@ -252,7 +245,6 @@ div.gal-box {
     height: 640px;
 }
 
-
 .box {
     height: 50%;
     display: none;
@@ -264,8 +256,7 @@ div.gal-box {
     height: 70%;
     padding-top: 2%;
     text-align: center;
-    font-weight: 100;
-    
+    font-weight: 100; 
 }
 
 #text-01 h4 {
@@ -282,7 +273,6 @@ div.gal-box {
     padding-bottom: 15px;
     font-size: 3vw;
     display: inherit;
-
 }
  
 
@@ -291,7 +281,6 @@ div.gal-box {
     width: auto;
     margin: 0 auto;
     display: block;
-    
 }
 
 .fish-photo2 {
@@ -299,7 +288,6 @@ div.gal-box {
     width: auto;
     margin: 0 auto;
     display: block;
-    
 }
 
 .fish-photo3 {
@@ -307,12 +295,9 @@ div.gal-box {
     width: auto;
     margin: 0 auto;
     display: block;
-    
 }
 
-/*---------River------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-
-
+/*---------River----------------------------------------------------------------------*/
 hr.hr-under {
     width: 50%;
 }
@@ -434,8 +419,7 @@ hr.hr-under {
 a.link-decor {
     text-decoration: none;
 }
-/*-----------Gallery-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-
+/*-----------Gallery---------------------------------------------------------------*/
 div.gal-box {
     display:flex;
     justify-content:center;
@@ -477,7 +461,7 @@ header {
     font-size: 10vw;
     padding-top: 6vh;
 }
-/*------------Nav-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*------------Nav--------------------------------------------------------------*/
 nav {
     height: 70px;
 }
@@ -541,10 +525,7 @@ nav {
     border-right-width: 0.1px;
 }
 
-
 /*------------Rivers Section----------------------------------------------*/
-
-
 .content-head {
     float: left;
     width: 100%;
@@ -554,8 +535,7 @@ nav {
 .side-head {
     float: left;
     width: 0%;
-    height: 180px;
-    
+    height: 180px;  
 }
 
 .content-river {
@@ -573,8 +553,7 @@ nav {
     display: initial;
 }
 
-/*------------footer-------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-
+/*------------footer----------------------------------------------------------------*/
 .left-foot  {
     float: left;
     width: 0%;
@@ -582,14 +561,12 @@ nav {
     display: none;
     border-top-width: 5px;
     border-top-style: solid;
-    
 }
 
 .content-foot {
     float: left;
     border-top-width: 5px;
     border-top-style: solid;
-    
 }
 
 .right-foot {
@@ -599,7 +576,6 @@ nav {
     display: none;
     border-top-width: 5px;
     border-top-style: solid;
-    
 }
 
 .box1-foot {
@@ -607,17 +583,14 @@ nav {
     float: left;
     padding-top: 20px;
     padding-bottom: 20px;
-    
 }
 
-
 .social-links {
-
     display:flex;
     align-items:left;
     padding-top: 25px;
-    
 }
+
 .midland {
     width: auto;
     margin: 0 auto;
@@ -646,10 +619,9 @@ nav {
     -o-transition: all 0.35s ease-in-out;
 }
 
+/*------------Hover-----------------------------------------------------------------*/
 
-/*----------------------------------------------------------------------------------------Hover-------------------------------------------------------------------------------------------*/
-
-/*-----botton-hover------*/
+/*-----botton-hover----------------------------------------------------------------*/
 
 a.hvr-sweep-to-bottom:before {
     background-color: black;
@@ -663,12 +635,9 @@ button.hvr-sweep-to-bottom:before {
 
 .hvr-sweep-to-bottom:before {
     background-color: black;
-
 }
 
-
 /*------------------------------DROPDOWN----1-------------------------------------------------------------------------------------------*/
-
 .lock {
     display: none;
 }
@@ -694,7 +663,6 @@ button {
     color: #fff;
     text-transform: uppercase;
     cursor: pointer;
-
 }
 
 .hamburger {
@@ -716,17 +684,15 @@ button {
    z-index:-1;
    text-align: center;
    padding: 0;
-   /*box-shadow: -2px 13px 61px -1px rgba(0,0,0,0.75);-------------------------------------------------------Shadow do wykorzystania-----------------------------------------------------*/
+   /*box-shadow: -2px 13px 61px -1px rgba(0,0,0,0.75);----------Shadow do wykorzystania---*/
    transform: translateY(-101%);
    transition: transform 1s ease-in-out;
    transition-duration: 1s, 1s, 2s, 4s;
 }   
 
-section {
-	
+section {	
    position: relative;
    z-index:0;
-
 } 
 
 .dropdownLink {
@@ -746,12 +712,9 @@ section {
 .dropdownLink:hover {
     color: #fff;
     background-color: rgba(0, 0, 0, 0.5);
-
-
 }
 
-.menuitem:hover .dropdown 
-{
+.menuitem:hover .dropdown {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -759,40 +722,33 @@ section {
     transform: translateY(0%);
     z-index: 1;
 }
-/*-----------------------------------------------------------------------------------------Hoover Pic x14---------------------------------------------------------------------------------------*/
-
-
+/*--------------------------------Hoover Pic x14---------------------------------------*/
 img.pike1b {
     display: none;
 }
 
 .hov1 {
-
     transition: transform 10s ease-in-out;
 }
 
 .hov1:hover .pike1a {
     display: none;
-
 }
 
 .hov1:hover .pike1b {
     display: initial;
 }
 
-
 img.okonb {
     display: none;
 }
 
 .hov2 {
-
     transition: transform 10s ease-in-out;
 }
 
 .hov2:hover .okona {
     display: none;
-
 }
 
 .hov2:hover .okonb {
@@ -804,20 +760,18 @@ img.pike2b {
 }
 
 .hov3 {
-
  transition: transform 10s ease-in-out;
 }
 
 .hov3:hover .pike2a {
     display: none;
-
 }
 
 .hov3:hover .pike2b {
     display: initial;
 }
 
-/*-----------------------------------------------------------------------------------------DROPDOWN---2---------------------------------------------------------------------------------------*/
+/*--------------------DROPDOWN---2---------------------------------------------*/
 
 /* Dropdown Button */
 .dropbtn {
@@ -829,11 +783,9 @@ img.pike2b {
     cursor: pointer;
 }
 
-
 .dropbtn:hover, .dropbtn:focus {
     background-color: #0b1712;
 }
-
 
 .dropdown {
     position: relative;
@@ -849,8 +801,7 @@ img.pike2b {
     left: 15%;
     z-index: 1000;
     border: none;
-    text-decoration: none;
-    
+    text-decoration: none; 
 }
 
 .dropdown2 a {
@@ -858,16 +809,12 @@ img.pike2b {
     color: white;
     font-weight: 400;
     font-size: 20px;
-
 }
-
-
 
 button.click {
     text-align: right;
     padding-right: 5%;    
 }
-
 
 .dropdown-content {
     display: none;
@@ -878,28 +825,20 @@ button.click {
     z-index: 1;
 }
 
-
 .dropdown-content a {
     color: white;
     text-decoration: none;
     display: block;
 }
 
-
 .dropdown-content a:hover {
     background-color:rgba(255, 255, 255, 0.158);
 }
 
-
 .show {
     display:block;
 }
-
-
-
-
-
-/*-----------------------------------------------------------------------------------------MEDIA QUERIES X12-----------------------------------------------------------------------------------------------*/
+/*--------------MEDIA QUERIES X12----------------------------------------------*/
 
 @media (max-width: 576px) {
 
@@ -947,7 +886,6 @@ button.click {
 }
 
 /*---River Head--*/
-
 .content-foot {
     width: 100%;
 }
@@ -962,10 +900,8 @@ button.click {
 }
 
 .social-links {
-
     justify-content:center;
-    align-items:center;
-    
+    align-items:center; 
 }
 
 .fish-photo1 {
@@ -973,7 +909,6 @@ button.click {
     width: 75vw;
     margin: 0 auto;
     display: block;
-    
 }
 
 .fish-photo2 {
@@ -981,7 +916,6 @@ button.click {
     width: 75vw;
     margin: 0 auto;
     display: block;
-    
 }
 
 .fish-photo3 {
@@ -989,12 +923,10 @@ button.click {
     width: 75vw;
     margin: 0 auto;
     display: block;
-    
 }
 
 .box1-foot {
     height: 64vw;
-    
 }
 
 .hov1:hover .pike1b {
@@ -1049,6 +981,7 @@ button.click {
     height: auto;
     width: 100%;
 }
+
 .spectest {
     padding: 20px 20px 20px 20px;
 }
@@ -1128,10 +1061,8 @@ button.click {
 }
 
 .social-links {
-
     justify-content:center;
-    align-items:center;
-    
+    align-items:center; 
 }
 
 .fish-photo1 {
