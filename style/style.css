@@ -3,10 +3,10 @@
 @charset "utf-8";
 
 @media screen {
-    //imports
         @import 'normalise';
         @import 'fonts';
-     
+
+
 @font-face {
         font-family: 'papyrus';
         src: url('papyrus.eot');
@@ -17,6 +17,8 @@
         font-weight: bold;
         font-style: normal;
 }
+}
+
 
 header, .logo-river h2{
     font-family: 'papyrus', cursive;
