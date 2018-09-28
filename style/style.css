@@ -1,229 +1,164 @@
-
+ 
 /*------------Fonts-------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 @charset "utf-8";
-
 @media screen {
-        @import 'normalise';
-        @import 'fonts';
-
-
-@font-face {
+    @import 'normalise';
+    @import 'fonts';
+    @font-face {
         font-family: 'papyrus';
         src: url('papyrus.eot');
-        src: url('papyrus.eot?#iefix') format('embedded-opentype'),
-        url('papyrus.woff') format('woff'),
-        url('papyrus.ttf') format('truetype'),
-        url('papyrus.svg') format('svg');
+        src: url('papyrus.eot?#iefix') format('embedded-opentype'), url('papyrus.woff') format('woff'), url('papyrus.ttf') format('truetype'), url('papyrus.svg') format('svg');
         font-weight: bold;
         font-style: normal;
+   }
 }
-}
-
-
 header, .logo-river h2{
     font-family: 'papyrus', cursive;
 }
-
 .menuitem a {
     font-weight: 400;
-
 }
-
-.box4-river, .species-txt-box, .text-box-index, #text-01, .cr, 
-.dropdown2 a, .menuitem a {
+.box4-river, .species-txt-box, .text-box-index, #text-01, .cr, .dropdown2 a, .menuitem a {
     font-family: 'Lemonada', cursive;
 }
-
 /*------------Colors Top Logo---------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-
 section.index {
     background-color: #000000;
 }
-
 .logo p {
     color: #ffffff;
 }
-
 .img-thumbnail {
     border-width: 2px;
     border-style: solid;
     border-color: #232324;
 }
-
 .logo p {
     text-shadow: 2px 2px green;
 }
-
 /*------------Colors Navbar------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-
 nav {
     background-color: #000000;
 }
-
-.menuitem, .side-left, .side-right  {
-    background-color: #0b1712
+.menuitem, .side-left, .side-right {
+    background-color: #0b1712 
 }
-
 .menuitem a{
     color: #ffffff;
 }
-
 .menuitem {
     border-color: rgb(48, 41, 41);
     text-shadow: 2px 2px #26596d;
-
 }
-
 .side-left {
     border-color: white;
-    
 }
-
 .menuitem a{
     border-color: rgb(53, 52, 52);
     text-shadow: 2px 2px #26596d;
 }
-
 .hvr-sweep-to-bottom::after {
     background: #000000;
 }
-
 div a#navpoint {
     background-color: #000000;
 }
-
 /*---------index-colors------------------------------------------------------------*/
-
 .right, .left {
     background-color: black;
 }
-
 .box {
     background-color: rgba(0, 0, 0, 0.1);
 }
-
-
 .text-box-index {
     background-color: rgba(0, 0, 0, 0.4);
     color: #ffffff;
-  
 }
-
 #text-01 {
     background-color: #08100d;
-
 }
- 
 /*---------river-colors------------------------------------------------------------*/
-
 .inny, div.inny {
     background-color: black;
-    color: white;    
+    color: white;
 }
-
 .shannon, div.shannon{
     background-color: rgb(1, 6, 10);
-    color: white;    
+    color: white;
 }
-
 .suck, div.suck {
     background-color: rgb(1, 6, 15);
-    color: white;  
+    color: white;
 }
-
 .brosna, div.brosna {
     background-color: rgb(2, 10, 24);
-    color: white;    
+    color: white;
 }
-
 .logo-river h2 {
     text-shadow: 2px 2px green;
 }
-
 hr.inny, hr.shannon, hr.suck, hr.brosna {
     border-top: 1px solid white;
 }
-
 hr.hr-under {
     border-top: 1px solid green;
 }
-
 /*---------species-colors------------------------------------------------------------*/
-
 .spieces-area {
     background-color: #e3e3e3;
 }
-
 .spectest {
     background-color: white;
 }
-
 .species-txt-box {
     color: #000000;
 }
-
 /*---------contact-colors------------------------------------------------------------*/
-
-#contact{ 
+#contact{
     background-color: #e3e3e3;
 }
-
-.contact-row, #map-box, .contact { 
+.contact-row, #map-box, .contact {
     background-color: #ffffff;
     color: #000000;
 }
-
 a.link-decor {
     color:green;
 }
-
 /*---------gallery-colors------------------------------------------------------------*/
-
 div.gal-box {
     background-color: #e3e3e3;
 }
-
 .gal-box2 {
     background-color: #ffffff;
 }
-
 /*---------footer-colors------------------------------------------------------------*/
-
-.left-foot, .content-foot, .right-foot, .box1-foot  {
+.left-foot, .content-foot, .right-foot, .box1-foot {
     background-color: #0b1712;
 }
-
-.left-foot  {
+.left-foot {
     border-top: #8b8a8a;
 }
-
 .content-foot {
     background-color: #0b1712;
-    border-top: #8b8a8a;   
+    border-top: #8b8a8a;
 }
-
 .right-foot {
-    border-top: #8b8a8a;  
+    border-top: #8b8a8a;
 }
-
 .cr {
     color: #ffffff;
 }
-
 .social-links li a i {
     color: #fafafa;
     background: #8f8f8f;
 }
-
 .social-links li a i:hover {
     background-color: darkgreen;
 }
-
 /*---------masthead-colors---------------------------------------------------------*/
 .masthead {
     background-color: black;
 }
-
 /*---------index-------------------------------------------------------------------*/
 #content {
     background: url('../images/cover.JPG') no-repeat center center;
@@ -232,40 +167,33 @@ div.gal-box {
     justify-content: center;
     position: relative;
 }
-
-.left, .right  {
+.left, .right {
     float: left;
     width: 0%;
     height: 640px;
     display: none;
-    
 }
 .content {
     float: left;
     width: auto;
     height: 640px;
 }
-
 .box {
     height: 50%;
     display: none;
 }
-
 .text-box-index {
     margin-top: 12%;
     margin-right: 20%;
     height: 70%;
     padding-top: 2%;
     text-align: center;
-    font-weight: 100; 
+    font-weight: 100;
 }
-
 #text-01 h4 {
     text-align: center;
     font-size: 4vw;
 }
-
-
 #text-01 {
     text-align: justify;
     padding-left: 10%;
@@ -275,34 +203,28 @@ div.gal-box {
     font-size: 3vw;
     display: inherit;
 }
- 
-
 .fish-photo1 {
     height: 240px;
     width: auto;
     margin: 0 auto;
     display: block;
 }
-
 .fish-photo2 {
     height: 240px;
     width: auto;
     margin: 0 auto;
     display: block;
 }
-
 .fish-photo3 {
     height: 340px;
     width: auto;
     margin: 0 auto;
     display: block;
 }
-
 /*---------River----------------------------------------------------------------------*/
 hr.hr-under {
     width: 50%;
 }
-
 .box-river-div {
     height: 23vw;
     background: url('../images/cover2.jpg') no-repeat fixed;
@@ -312,20 +234,17 @@ hr.hr-under {
     background-size: cover;
     background-position: center;
 }
-
 .box2-river {
     align-items: center;
     padding-top: 60px;
     padding-bottom:20px;
 }
-
 .box3-river {
     align-items: left;
     padding-top: 60px;
     padding-bottom:20px;
     z-index: 1000;
 }
-
 .box4-river {
     padding-left: 18vw;
     padding-right: 18vw;
@@ -333,29 +252,23 @@ hr.hr-under {
     font-weight: 100;
     font-size: 15px;
 }
-
 .box5-river {
     height: 12vh;
 }
-
 .r-image {
     height: 18vw;
     width: auto;
     margin: 0 auto;
     float: right;
 }
-
 /*---------Species-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-
 .spectest {
     padding: 20px 20px 20px 20px;
 }
-
 .pike {
     height: 100%;
     width: auto;
 }
-
 .species-txt-box {
     margin-top: 20px;
     height: 20vw;
@@ -367,7 +280,6 @@ hr.hr-under {
     font-size: 1vw;
     font-weight: 100;
 }
-
 .fish-box {
     margin-top: 20px;
     height: 20vw;
@@ -375,7 +287,6 @@ hr.hr-under {
     margin-bottom: 20px;
     margin-left: 0;
 }
-
 .box-species-div {
     height: 23vw;
     background: url('../images/cover3.jpg') no-repeat fixed;
@@ -385,37 +296,29 @@ hr.hr-under {
     background-size: cover;
     background-position: bottom;
 }
-
 /*-----------Contact-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-
 #contact{
-    padding: 40px 40px 40px 40px; 
+    padding: 40px 40px 40px 40px;
 }
-
 #map-box {
     padding: 32px 32px 32px 32px;
 }
-
 #map-contact {
-    height: 450px; 
+    height: 450px;
     width: 100%;
     border: 0;
 }
-
 .contact {
     font-size: 22px;
     text-align: center;
     margin-bottom: 22px;
 }
-
 .contact-box {
-   padding-left: 25%;
-   padding-right: 25%; 
+    padding-left: 25%;
+    padding-right: 25%;
 }
-
 .ico {
     font-size: 34px;
-
 }
 a.link-decor {
     text-decoration: none;
@@ -430,32 +333,26 @@ div.gal-box {
     padding-right: 32px;
     padding-bottom: 32px;
 }
-
 .gal-box2 {
     padding: 3% 3% 3% 3%;
     max-width: 78vw;
     max-height: 78vw;
 }
-
 /*------------Header----------------------------------------------------------------*/
-
 header {
     height: 140px;
     position: relative;
     z-index:1000;
 }
-
 .logo a {
     text-decoration: none;
 }
-
 .logo p {
-    height: 120px; 
+    height: 120px;
     text-align: center;
     position: relative;
     z-index:1000;
 }
-
 .logo-river h2 {
     text-align: center;
     position: relative;
@@ -466,7 +363,6 @@ header {
 nav {
     height: 70px;
 }
-
 .menuitem {
     height: 70px;
     border-style: ridge;
@@ -474,9 +370,7 @@ nav {
     border-bottom-width: 0.5px;
     border-left-width: 0.5px;
     border-right-width: 0.5px;
-
 }
-
 .side-left, .side-right {
     float: left;
     width: 0%;
@@ -486,7 +380,6 @@ nav {
     border-bottom-width: 4px;
     border-left-width: 4px;
     border-right-width: 4px;
-    
 }
 .menu-list {
     float: left;
@@ -494,7 +387,6 @@ nav {
     height: 70px;
     display: none;
 }
-
 .menuitem {
     height: 70px;
     text-align: center;
@@ -505,15 +397,12 @@ nav {
     letter-spacing: 2px;
     float: left;
 }
-
 .resize-a {
     width: 20.00%;
 }
-
 .resize-b {
-    width: 100%
+    width: 100% 
 }
-
 .menuitem a{
     width: 100%;
     text-decoration: none;
@@ -525,37 +414,31 @@ nav {
     border-left-width: 0.1px;
     border-right-width: 0.1px;
 }
-
 /*------------Rivers Section----------------------------------------------*/
 .content-head {
     float: left;
     width: 100%;
     height: 180px;
 }
-
 .side-head {
     float: left;
     width: 0%;
-    height: 180px;  
+    height: 180px;
 }
-
 .content-river {
     float: left;
     width: 100%;
     height: 680px;
 }
-
 .box1-head {
     height: 100%;
 }
-
 .rivers {
     height: 50%;
     display: initial;
 }
-
 /*------------footer----------------------------------------------------------------*/
-.left-foot  {
+.left-foot {
     float: left;
     width: 0%;
     height: 305px;
@@ -563,13 +446,11 @@ nav {
     border-top-width: 5px;
     border-top-style: solid;
 }
-
 .content-foot {
     float: left;
     border-top-width: 5px;
     border-top-style: solid;
 }
-
 .right-foot {
     float: left;
     width: 0%;
@@ -578,34 +459,29 @@ nav {
     border-top-width: 5px;
     border-top-style: solid;
 }
-
 .box1-foot {
     height: 300px;
     float: left;
     padding-top: 20px;
     padding-bottom: 20px;
 }
-
 .social-links {
     display:flex;
     align-items:left;
     padding-top: 25px;
 }
-
 .midland {
     width: auto;
     margin: 0 auto;
     display: block;
     padding-top: 20px;
-} 
-
+}
 .cr {
     margin: 0 auto;
     display: block;
     padding-top: 40px;
     text-align: center;
 }
-
 .social-links li a i {
     width: 42px;
     height: 42px;
@@ -619,35 +495,27 @@ nav {
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 }
-
 /*------------Hover-----------------------------------------------------------------*/
-
 /*-----botton-hover----------------------------------------------------------------*/
-
 a.hvr-sweep-to-bottom:before {
     background-color: black;
     height: 70px;
 }
-
 button.hvr-sweep-to-bottom:before {
     background-color: black;
     height: 70px;
 }
-
 .hvr-sweep-to-bottom:before {
     background-color: black;
 }
-
 /*------------------------------DROPDOWN----1-------------------------------------------------------------------------------------------*/
 .lock {
     display: none;
 }
-
 .hvr-sweep-to-bottom {
-	position: absolute;
-	z-index: 3;
+    position: absolute;
+    z-index: 3;
 }
-
 .navDefault {
     position: fixed;
     top: 0;
@@ -655,7 +523,6 @@ button.hvr-sweep-to-bottom:before {
     right: 0;
     background-color: #4a4a4f;
 }
-
 button {
     border: none;
     background-color: #0b1712;
@@ -665,7 +532,6 @@ button {
     text-transform: uppercase;
     cursor: pointer;
 }
-
 .hamburger {
     margin-left: 20px;
     width: 35px;
@@ -673,29 +539,26 @@ button {
     background-color: white;
     margin: 6px 0;
 }
-
-
 .dropdownMenu{
-   list-style: none;
-   margin: 0; 
-   left: 0;
-   right: 0;
-   top: 50;
-   position: relative;
-   z-index:-1;
-   text-align: center;
-   padding: 0;
-   /*box-shadow: -2px 13px 61px -1px rgba(0,0,0,0.75);----------Shadow do wykorzystania---*/
-   transform: translateY(-101%);
-   transition: transform 1s ease-in-out;
-   transition-duration: 1s, 1s, 2s, 4s;
-}   
-
-section {	
-   position: relative;
-   z-index:0;
-} 
-
+    list-style: none;
+    margin: 0;
+    left: 0;
+    right: 0;
+    top: 50;
+    position: relative;
+    z-index:-1;
+    text-align: center;
+    padding: 0;
+   /*box-shadow: -2px 13px 61px -1px rgba(0,0,0,0.75);
+   ----------Shadow do wykorzystania---*/
+    transform: translateY(-101%);
+    transition: transform 1s ease-in-out;
+    transition-duration: 1s, 1s, 2s, 4s;
+}
+section {
+    position: relative;
+    z-index:0;
+}
 .dropdownLink {
     text-decoration: none;
     display: block;
@@ -705,21 +568,18 @@ section {
     padding-bottom: 4px;
     color: #232324;
     transition: background-color .5s ease-in-out, color .5s ease-in-out;
-    -webkit-transition: .5s ease-in-out, color .5s ease-in-out; 
+    -webkit-transition: .5s ease-in-out, color .5s ease-in-out;
     -moz-transition: .5s ease-in-out, color .5s ease-in-out;
-    -o-transition: .5s ease-in-out, color .5s ease-in-out; 
+    -o-transition: .5s ease-in-out, color .5s ease-in-out;
 }
-
 .dropdownLink:hover {
     color: #fff;
     background-color: rgba(0, 0, 0, 0.5);
 }
-
 .menuitem:hover .dropdown {
     background-color: rgba(0, 0, 0, 0.5);
 }
-
-.menuitem:hover .dropdownMenu {  
+.menuitem:hover .dropdownMenu {
     transform: translateY(0%);
     z-index: 1;
 }
@@ -727,53 +587,40 @@ section {
 img.pike1b {
     display: none;
 }
-
 .hov1 {
     transition: transform 10s ease-in-out;
 }
-
 .hov1:hover .pike1a {
     display: none;
 }
-
 .hov1:hover .pike1b {
     display: initial;
 }
-
 img.okonb {
     display: none;
 }
-
 .hov2 {
     transition: transform 10s ease-in-out;
 }
-
 .hov2:hover .okona {
     display: none;
 }
-
 .hov2:hover .okonb {
     display: initial;
 }
-
 img.pike2b {
     display: none;
 }
-
 .hov3 {
- transition: transform 10s ease-in-out;
+    transition: transform 10s ease-in-out;
 }
-
 .hov3:hover .pike2a {
     display: none;
 }
-
 .hov3:hover .pike2b {
     display: initial;
 }
-
 /*--------------------DROPDOWN---2---------------------------------------------*/
-
 /* Dropdown Button */
 .dropbtn {
     background-color: #0b1712;
@@ -783,17 +630,14 @@ img.pike2b {
     border: none;
     cursor: pointer;
 }
-
 .dropbtn:hover, .dropbtn:focus {
     background-color: #0b1712;
 }
-
 .dropdown {
     position: relative;
     display: inline-block;
     width: 100%;
 }
-
 .dropdown2 {
     position: relative;
     display: inline-block;
@@ -802,21 +646,18 @@ img.pike2b {
     left: 15%;
     z-index: 1000;
     border: none;
-    text-decoration: none; 
+    text-decoration: none;
 }
-
 .dropdown2 a {
     text-decoration: none;
     color: white;
     font-weight: 400;
     font-size: 20px;
 }
-
 button.click {
     text-align: right;
-    padding-right: 5%;    
+    padding-right: 5%;
 }
-
 .dropdown-content {
     display: none;
     position: absolute;
@@ -825,1029 +666,834 @@ button.click {
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
-
 .dropdown-content a {
     color: white;
     text-decoration: none;
     display: block;
 }
-
 .dropdown-content a:hover {
     background-color:rgba(255, 255, 255, 0.158);
 }
-
 .show {
     display:block;
 }
 /*--------------MEDIA QUERIES X12----------------------------------------------*/
-
 @media (max-width: 576px) {
-
-#logo-box {
-    display: none;
-}   
-
-.logo {
-    padding-top: 0px;
-    font-size: 30px;
-    padding-top: 20px;
+    #logo-box {
+        display: none;
+   }
+    .logo {
+        padding-top: 0px;
+        font-size: 30px;
+        padding-top: 20px;
+   }
+    .cont-box {
+        padding-left: 10%;
+        padding-right: 10%;
+   }
+    .content {
+        width: 100%;
+        height: 240px;
+   }
+    .text-box-index {
+        display: none;
+   }
+   /*---River Head--*/
+    .content-head {
+        width: 100%;
+   }
+    .content-river {
+        width: 100%;
+        height: 1240px;
+   }
+    .rivers {
+        height: 25%;
+        display: initial;
+   }
+    .box4-river {
+        padding-left: 9vw;
+        padding-right: 9vw;
+   }
+   /*---River Head--*/
+    .content-foot {
+        width: 100%;
+   }
+    .box {
+        display: initial;
+        height: 100%;
+   }
+    #content {
+        background-size: 90% ;
+   }
+    .social-links {
+        justify-content:center;
+        align-items:center;
+   }
+    .fish-photo1 {
+        height: auto;
+        width: 75vw;
+        margin: 0 auto;
+        display: block;
+   }
+    .fish-photo2 {
+        height: auto;
+        width: 75vw;
+        margin: 0 auto;
+        display: block;
+   }
+    .fish-photo3 {
+        height: auto;
+        width: 75vw;
+        margin: 0 auto;
+        display: block;
+   }
+    .box1-foot {
+        height: 64vw;
+   }
+    .hov1:hover .pike1b {
+        margin: 0 auto;
+        display: block;
+   }
+    .hov2:hover .okonb {
+        margin: 0 auto;
+        display: block;
+   }
+    .hov3:hover .pike2b {
+        margin: 0 auto;
+        display: block;
+   }
+    .r-image {
+        height: 198px;
+        width: 308px;
+        margin: 0 auto;
+        display: block;
+        float: initial;
+   }
+    .b-map {
+        height: 198px;
+        width: 308px;
+        margin: 0 auto;
+        display: block;
+        float: initial;
+        border: 0;
+   }
+    .species-txt-box {
+        height: 80vw;
+        width: 95vw;
+        margin: auto;
+        float: initial;
+        font-size: 3vw;
+   }
+    .fish-box {
+        height: auto;
+        width: 95vw;
+        margin: 0 auto;
+        float: initial;
+   }
+    .pike {
+        height: auto;
+        width: 100%;
+   }
+    .spectest {
+        padding: 20px 20px 20px 20px;
+   }
+    .spieces-area {
+        background-color: #e3e3e3;
+   }
+    .contact-box {
+        padding-left: 0%;
+        padding-right: 0%;
+   }
+    .box-river-div {
+        height: 53vw;
+   }
+    .box-species-div {
+        height: 53vw;
+   }
 }
-
-.cont-box {
-    padding-left: 10%;
-    padding-right: 10%;
-} 
-
-.content {
-    width: 100%;
-    height: 240px;
-}
-
-.text-box-index {
-    display: none;
-}
-
-/*---River Head--*/
-.content-head {
-    width: 100%;
-}
-.content-river {
-    width: 100%;
-    height: 1240px;
-}
-
-.rivers {
-    height: 25%;
-    display: initial;
-}
-
-.box4-river {
-    padding-left: 9vw;
-    padding-right: 9vw;
-}
-
-/*---River Head--*/
-.content-foot {
-    width: 100%;
-}
-
-.box {
-    display: initial;
-    height: 100%;
-}
-
-#content {
-    background-size: 90% ;
-}
-
-.social-links {
-    justify-content:center;
-    align-items:center; 
-}
-
-.fish-photo1 {
-    height: auto;
-    width: 75vw;
-    margin: 0 auto;
-    display: block;
-}
-
-.fish-photo2 {
-    height: auto;
-    width: 75vw;
-    margin: 0 auto;
-    display: block;
-}
-
-.fish-photo3 {
-    height: auto;
-    width: 75vw;
-    margin: 0 auto;
-    display: block;
-}
-
-.box1-foot {
-    height: 64vw;
-}
-
-.hov1:hover .pike1b {
-    margin: 0 auto;
-    display: block;
-}
-
-.hov2:hover .okonb {
-    margin: 0 auto;
-    display: block;
-}
-
-.hov3:hover .pike2b {
-    margin: 0 auto;
-    display: block;
-}
-
-
-.r-image {
-    height: 198px;
-    width: 308px;
-    margin: 0 auto;
-    display: block;
-    float: initial;
-}
-
-.b-map {
-    height: 198px;
-    width: 308px;
-    margin: 0 auto;
-    display: block;
-    float: initial;
-    border: 0;
-}
-
-.species-txt-box {
-    height: 80vw;
-    width: 95vw;
-    margin: auto;
-    float: initial;
-    font-size: 3vw;
-}
-
-.fish-box {
-    height: auto;
-    width: 95vw;
-    margin: 0 auto;
-    float: initial;
-}
-
-.pike {
-    height: auto;
-    width: 100%;
-}
-
-.spectest {
-    padding: 20px 20px 20px 20px;
-}
-
-.spieces-area {
-    background-color: #e3e3e3;
-
-}
-.contact-box {
-    padding-left: 0%;
-    padding-right: 0%; 
-}
-
-.box-river-div {
-    
-    height: 53vw;
-}
-
-.box-species-div {
-    height: 53vw;
-}
-
-}
-
 @media (min-width: 576px) {
-
-#logo-box {
-    display: none;
+    #logo-box {
+        display: none;
+   }
+    .logo {
+        font-size: 45px;
+        padding-top: 20px;
+   }
+    .cont-box {
+        padding-left: 10%;
+        padding-right: 10%;
+   }
+   /*---River Head--*/
+    .content-head {
+        width: 100%;
+   }
+    .content-river {
+        width: 100%;
+        height: 1240px;
+   }
+    .rivers {
+        height: 25%;
+        display: initial;
+   }
+    .box4-river {
+        padding-left: 10vw;
+        padding-right: 10vw;
+   }
+   /*---River Head--*/
+    .content {
+        width: 100%;
+        height: 320px;
+   }
+    .content-foot {
+        width: 100%;
+   }
+    .box {
+        display: initial;
+   }
+    #content {
+        background-size: 80% ;
+   }
+    .social-links {
+        justify-content:center;
+        align-items:center;
+   }
+    .fish-photo1 {
+        height: 270px;
+        width: 420px;
+        margin: 0 auto;
+        display: block;
+   }
+    .fish-photo2 {
+        height: 270px;
+        width: 420px;
+        margin: 0 auto;
+        display: block;
+   }
+    .fish-photo3 {
+        height: 270px;
+        width: 420px;
+        margin: 0 auto;
+        display: block;
+   }
+    .hov1:hover .pike1b {
+        margin: 0 auto;
+        display: block;
+   }
+    .hov2:hover .okonb {
+        margin: 0 auto;
+        display: block;
+   }
+    .hov3:hover .pike2b {
+        margin: 0 auto;
+        display: block;
+   }
+    .box1-foot {
+        height: 300px;
+        float: left;
+        padding-top: 20px;
+        padding-bottom: 20px;
+   }
+    .r-image {
+        height: auto;
+        width: 60%;
+        margin: 0 auto;
+        display: block;
+        float: initial;
+   }
+    .b-map {
+        height: 25vh;
+        width: 60%;
+        margin: 0 auto;
+        display: block;
+        float: initial;
+   }
+    .species-txt-box {
+        height: 350px;
+        width: 468px;
+        margin: auto;
+        float: initial;
+        font-size: 2.4vw;
+   }
+    .fish-box {
+        height: 346px;
+        width: 468px;
+        margin: 0 auto;
+        float: initial;
+   }
+    .pike {
+        height: auto;
+        width: 100%;
+   }
+    .contact-box {
+        padding-left: 0%;
+        padding-right: 0%;
+   }
+    .box-river-div {
+        height: 53vw;
+   }
+    .box-species-div {
+        height: 53vw;
+   }
 }
-
-.logo {
-    font-size: 45px;
-    padding-top: 20px;
-}
-
-.cont-box {
-    padding-left: 10%;
-    padding-right: 10%;
-} 
-
-/*---River Head--*/
-.content-head {
-    width: 100%;
-}
-.content-river {
-    width: 100%;
-    height: 1240px;
-}
-.rivers {
-    height: 25%;
-    display: initial;
-}
-
-.box4-river {
-    padding-left: 10vw;
-    padding-right: 10vw;
-}
-
-
-/*---River Head--*/
-
-.content {
-    width: 100%;
-    height: 320px;
-}
-
-.content-foot {
-    width: 100%;
-}
-
-.box {
-    display: initial;
-}
-
-#content {
-    background-size: 80% ;
-}
-
-.social-links {
-    justify-content:center;
-    align-items:center; 
-}
-
-.fish-photo1 {
-    height: 270px;
-    width: 420px;
-    margin: 0 auto;
-    display: block;
-}
-
-.fish-photo2 {
-    height: 270px;
-    width: 420px;
-    margin: 0 auto;
-    display: block;
-}
-
-.fish-photo3 {
-    height: 270px;
-    width: 420px;
-    margin: 0 auto;
-    display: block;
-}
-
-.hov1:hover .pike1b {
-    margin: 0 auto;
-    display: block;
-}
-
-.hov2:hover .okonb {
-    margin: 0 auto;
-    display: block;
-}
-
-.hov3:hover .pike2b {
-    margin: 0 auto;
-    display: block;
-}
-
-.box1-foot {
-    height: 300px;
-    float: left;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-.r-image {
-    height: auto;
-    width: 60%;
-    margin: 0 auto;
-    display: block;
-    float: initial;
-}
-
-.b-map {
-    height: 25vh;
-    width: 60%;
-    margin: 0 auto;
-    display: block;
-    float: initial;
-}
-
-.species-txt-box {
-    height: 350px;
-    width: 468px;
-    margin: auto;
-    float: initial;
-    font-size: 2.4vw;
-}
-
-.fish-box {
-    height: 346px;
-    width: 468px;
-    margin: 0 auto;
-    float: initial;
-}
-
-.pike {
-    height: auto;
-    width: 100%;
-}
-
-.contact-box {
-    padding-left: 0%;
-    padding-right: 0%; 
-}
-
-.box-river-div {
-    height: 53vw;
-}
-
-.box-species-div {
-    height: 53vw;
-}
-}
-     
 @media (min-width: 768px) {
-#logo-box {
-    display: inherit;
+    #logo-box {
+        display: inherit;
+   }
+    .logo {
+        font-size: 54px;
+        padding-top: 20px;
+   }
+    .cont-box {
+        padding-left: 0%;
+        padding-right: 0%;
+   }
+    .side-right, .side-left, .left, .right, .right-foot, .left-foot {
+        width: 0%;
+        display: initial;
+   }
+    .menu-list{
+        float: left;
+        width: 100%;
+        display: initial;
+   }
+   /*---River Head--*/
+    .content-head {
+        width: 100%;
+   }
+    .content-river {
+        width: 100%;
+        height: 680px;
+   }
+    .rivers {
+        height: 50%;
+        display: initial;
+   }
+    .box4-river {
+        padding-left: 15vw;
+        padding-right: 15vw;
+   }
+   /*---River Head--*/
+    .content {
+        width: 100%;
+        height: 600px;
+   }
+    .content-foot {
+        width: 100%;
+   }
+    .badboy {
+        display: none;
+   }
+    .box {
+        display: initial;
+   }
+    #content {
+        background-size: 100% ;
+   }
+    #text-01 {
+        display: none;
+   }
+    .social-links {
+        justify-content:center;
+        align-items:center;
+   }
+    .fish-photo1 {
+        height: 240px;
+        width: auto;
+        margin: 0 auto;
+        display: block;
+   }
+    .fish-photo2 {
+        height: 240px;
+        width: auto;
+        margin: 0 auto;
+        display: block;
+   }
+    .fish-photo3 {
+        height: 240px;
+        width: auto;
+        margin: 0 auto;
+        display: block;
+   }
+    .hov1:hover .pike1b {
+        margin: 0 auto;
+        display: block;
+   }
+    .hov2:hover .okonb {
+        margin: 0 auto;
+        display: block;
+   }
+    .hov3:hover .pike2b {
+        margin: 0 auto;
+        display: block;
+   }
+    .box1-foot {
+        height: auto;
+        float: left;
+        padding-top: 20px;
+        padding-bottom: 20px;
+   }
+    .r-image {
+        height: auto;
+        width: 60%;
+        margin: 0 auto;
+        display: block;
+        float: initial;
+   }
+    .b-map {
+        height: 25vh;
+        width: 60%;
+        margin: 0 auto;
+        display: block;
+        float: initial;
+   }
+    .species-txt-box {
+        height: 250px;
+        width: 585px;
+        margin: auto;
+        float: initial;
+        font-size: 1.7vw;
+   }
+    .fish-box {
+        height: 432px;
+        width: 585px;
+        margin: 0 auto;
+        float: initial;
+   }
+    .pike {
+        height: auto;
+        width: 100%;
+   }
+    .box-river-div {
+        height: 33vw;
+   }
+    .box-species-div {
+        height: 33vw;
+   }
 }
-
-.logo {
-    font-size: 54px;
-    padding-top: 20px;
-}
-
-.cont-box {
-    padding-left: 0%;
-    padding-right: 0%;
-} 
-
-.side-right, .side-left, .left, .right, .right-foot, .left-foot {
-    width: 0%;
-    display: initial;
-}
-    
-.menu-list{
-    float: left;
-    width: 100%;
-    display: initial;
-}
-
-/*---River Head--*/
-.content-head {
-    width: 100%;
-}
-.content-river {
-    width: 100%;
-    height: 680px;
-}
-.rivers {
-    height: 50%;
-    display: initial;
-}
-
-.box4-river {
-    padding-left: 15vw;
-    padding-right: 15vw;
-}
-/*---River Head--*/
-
-.content {
-    width: 100%;
-    height: 600px;
-}
-
-.content-foot {
-    width: 100%;
-}
-
-.badboy {
-    display: none;
-}    
-
-.box {
-    display: initial;
-} 
-
-#content {
-    background-size: 100% ;
-}
-
-#text-01 {
-    display: none;
-}
-
-.social-links {
-    justify-content:center;
-    align-items:center;
-}
-
-.fish-photo1 {
-    height: 240px;
-    width: auto;
-    margin: 0 auto;
-    display: block;
-}
-
-.fish-photo2 {
-    height: 240px;
-    width: auto;
-    margin: 0 auto;
-    display: block;
-}
-
-.fish-photo3 {
-    height: 240px;
-    width: auto;
-    margin: 0 auto;
-    display: block;
-}
-
-.hov1:hover .pike1b {
-    margin: 0 auto;
-    display: block;
-}
-
-.hov2:hover .okonb {
-    margin: 0 auto;
-    display: block;
-}
-
-.hov3:hover .pike2b {
-    margin: 0 auto;
-    display: block;
-}
-
-.box1-foot {
-    height: auto;
-    float: left;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-.r-image {
-    height: auto;
-    width: 60%;
-    margin: 0 auto;
-    display: block;
-    float: initial;
-}
-
-.b-map {
-    height: 25vh;
-    width: 60%;
-    margin: 0 auto;
-    display: block;
-    float: initial;
-}
-
-.species-txt-box {
-    height: 250px;
-    width: 585px;
-    margin: auto;
-    float: initial;
-    font-size: 1.7vw;
-}
-
-.fish-box {
-    height: 432px;
-    width: 585px;
-    margin: 0 auto;
-    float: initial;
-}
-
-.pike {
-    height: auto;
-    width: 100%;
-}
-
-.box-river-div {
-    height: 33vw;
-}
-
-.box-species-div {
-    height: 33vw;
-}
-}
-
-
 @media (min-width: 920px) {
-.logo {
-    font-size: 54px;
-    padding-top: 20px;
+    .logo {
+        font-size: 54px;
+        padding-top: 20px;
+   }
+    .masthead {
+        height: 100px;
+   }
+    .side-right, .side-left, .left, .right, .right-foot, .left-foot {
+        width: 0%;
+        display: initial;
+   }
+    .menu-list{
+        float: left;
+        width: 100%;
+        display: initial;
+   }
+   /*---River Head--*/
+    .logo-river h2 {
+        font-size: 84px;
+   }
+    .content-head {
+        width: 100%;
+   }
+    .content-river {
+        width: 100%;
+        height: 680px;
+   }
+    .rivers {
+        height: 50%;
+        display: initial;
+   }
+    .box4-river {
+        padding-left: 22vw;
+        padding-right: 22vw;
+   }
+   /*---River Head--*/
+    .content {
+        width: 100%;
+        height: 600px;
+   }
+    .content-foot {
+        width: 100%;
+   }
+    .badboy {
+        display: none;
+   }
+    .box {
+        display: initial;
+   }
+    #content {
+        background-size: 100% ;
+   }
+    .social-links {
+        justify-content:center;
+        align-items:center;
+   }
+    .fish-photo1 {
+        height: 240px;
+        width: auto;
+        margin: 0 auto;
+        display: block;
+   }
+    .fish-photo2 {
+        height: 240px;
+        width: auto;
+        margin: 0 auto;
+        display: block;
+   }
+    .fish-photo3 {
+        height: 240px;
+        width: auto;
+        margin: 0 auto;
+        display: block;
+   }
+    .box1-foot {
+        height: 300px;
+        float: left;
+        padding-top: 20px;
+        padding-bottom: 20px;
+   }
+    .r-image {
+        height: auto;
+        width: 55%;
+        margin: 0 auto;
+        display: block;
+        float: initial;
+   }
+    .b-map {
+        height: 25vh;
+        width: 55%;
+        margin: 0 auto;
+        display: block;
+        float: initial;
+   }
+    .species-txt-box {
+        height: 250px;
+        width: 877px;
+        margin: auto;
+        float: initial;
+        font-size: 2vw;
+   }
+    .fish-box {
+        height: 648px;
+        width: 877px;
+        margin: 0 auto;
+        float: initial;
+   }
+    .pike {
+        height: auto;
+        width: 100%;
+   }
+    .hov1:hover .pike1b {
+        margin: 0 auto;
+        display: block;
+   }
+    .hov2:hover .okonb {
+        margin: 0 auto;
+        display: block;
+   }
+    .hov3:hover .pike2b {
+        margin: 0 auto;
+        display: block;
+   }
+    .box-river-div {
+        height: 23vw;
+   }
+    .box-species-div {
+        height: 23vw;
+   }
 }
-.masthead {
-    height: 100px;
-}
-    
-.side-right, .side-left, .left, .right, .right-foot, .left-foot {
-    width: 0%;
-    display: initial;
-}
-        
-.menu-list{
-    float: left;
-    width: 100%;
-     display: initial;
-}
-    
-/*---River Head--*/
-.logo-river h2 {
-    font-size: 84px;
-}
-
-.content-head {
-    width: 100%;
-}
-.content-river {
-    width: 100%;
-    height: 680px;
-}
-.rivers {
-    height: 50%;
-    display: initial;
-}
-
-.box4-river {
-    padding-left: 22vw;
-    padding-right: 22vw;
-}
-/*---River Head--*/
-    
-.content {
-    width: 100%;
-    height: 600px;
-}
-    
-.content-foot {
-    width: 100%;
-}
-    
-.badboy {
-    display: none;
-}    
-    
-.box {
-    display: initial;
-} 
-    
-#content {
-    background-size: 100% ;
-}
-    
-.social-links {
-    justify-content:center;
-    align-items:center;    
-}
-       
-.fish-photo1 {
-    height: 240px;
-    width: auto;
-    margin: 0 auto;
-    display: block;   
-}
-
-.fish-photo2 {
-    height: 240px;
-    width: auto;
-    margin: 0 auto;
-    display: block;   
-}
-
-.fish-photo3 {
-    height: 240px;
-    width: auto;
-    margin: 0 auto;
-    display: block;      
-}
-    
-.box1-foot {
-    height: 300px;
-    float: left;
-    padding-top: 20px;
-    padding-bottom: 20px;   
-}
-    
-.r-image {
-    height: auto;
-    width: 55%;
-    margin: 0 auto;
-    display: block;
-    float: initial;
-}
-    
-.b-map {
-    height: 25vh;
-    width: 55%;
-    margin: 0 auto;
-    display: block;
-    float: initial;
-}
-
-.species-txt-box {
-    height: 250px;
-    width: 877px;
-    margin: auto;
-    float: initial;
-    font-size: 2vw;
-}
-    
-.fish-box {
-    height: 648px;
-    width: 877px;
-    margin: 0 auto;
-    float: initial;
-}
-    
-.pike {
-    height: auto;
-    width: 100%;
-}
-
-    
-
-.hov1:hover .pike1b {
-    margin: 0 auto;
-    display: block;
-}
-    
-.hov2:hover .okonb {
-    margin: 0 auto;
-    display: block;
-}
-    
-.hov3:hover .pike2b {
-    margin: 0 auto;
-    display: block;
-}
-
-.box-river-div {
-    
-    height: 23vw;
-}
-  
-.box-species-div {
-    height: 23vw;
-}
-}
-
-
 @media(min-width: 992px) {
-.logo {
-    background-color: black;
-    font-size: 67px;
-    padding-top: 20px;
+    .logo {
+        background-color: black;
+        font-size: 67px;
+        padding-top: 20px;
+   }
+    .masthead {
+        width: 100%;
+   }
+    .side-right, .side-left, .left, .right, .right-foot, .left-foot {
+        width: 0%;
+        display: initial;
+   }
+    .menu-list{
+        float: left;
+        width: 100%;
+        display: initial;
+   }
+   /*---River Head--*/
+    .content-head {
+        width: 100%;
+   }
+    .content-river {
+        width: 100%;
+   }
+   /*---River Head--*/
+    .content {
+        width: 100%;
+        height: 640px;
+   }
+    .content-foot {
+        width: 100%;
+   }
+    .badboy {
+        display: none;
+   }
+    .box {
+        display: initial;
+   }
+    #content {
+        background-size: 110% ;
+   }
+    .r-image {
+        height: auto;
+        width: 50%;
+        margin: 0 auto;
+        display: block;
+        float: initial;
+   }
+    .b-map {
+        height: 35vh;
+        width: 50%;
+        margin: 0 auto;
+        display: block;
+        float: initial;
+   }
+    .species-txt-box {
+        height: 250px;
+        width: 877px;
+        margin: auto;
+        font-size: 1.5vw;
+        float: initial;
+   }
+    .fish-box {
+        height: 648px;
+        width: 877px;
+        margin: 0 auto;
+        float: initial;
+   }
+    .pike {
+        height: auto;
+        width: 100%;
+   }
+    .fish-photo1 {
+        height: 240px;
+        width: auto;
+        margin: 0 auto;
+        display: initial;
+        float: right;
+   }
+    .fish-photo2 {
+        height: 240px;
+        width: auto;
+        margin: 0 auto;
+        display: block;
+   }
+    .fish-photo3 {
+        height: 240px;
+        width: auto;
+        margin: 0 auto;
+        display: initial;
+        float: left;
+   }
+    .social-links {
+        justify-content:center;
+        align-items:center;
+   }
+    .contact-box {
+        padding-left: 5%;
+        padding-right: 5%;
+   }
+    .box-river-div {
+        height: 20vw;
+   }
+    .box-species-div {
+        height: 20vw;
+   }
 }
-.masthead {
-     width: 100%;
-}
-
-.side-right, .side-left, .left, .right, .right-foot, .left-foot {
-    width: 0%;
-    display: initial;
-}
-
-.menu-list{
-    float: left;
-    width: 100%;
-    display: initial;
-}
-                                                                                                        
-/*---River Head--*/
-.content-head {
-    width: 100%;
-}
-.content-river {
-    width: 100%;
-}
-/*---River Head--*/
-.content {
-    width: 100%;
-    height: 640px;
-}
-
-.content-foot {
-    width: 100%;
-}
-
-.badboy {
-    display: none;
-}
-
-.box {
-    display: initial;
-}
-
-#content {
-    background-size: 110% ;
-}
-
-.r-image {
-    height: auto;
-    width: 50%;
-    margin: 0 auto;
-    display: block;
-    float: initial;
-}
-
-.b-map {
-    height: 35vh;
-    width: 50%;
-    margin: 0 auto;
-    display: block;
-    float: initial;
-}
-
-.species-txt-box {
-    height: 250px;
-    width: 877px;
-    margin: auto;
-    font-size: 1.5vw;
-    float: initial;
-}
-
-.fish-box {
-    height: 648px;
-    width: 877px;
-    margin: 0 auto;
-    float: initial;
-}
-
-.pike {
-    height: auto;
-    width: 100%;
-}
-
-.fish-photo1 {
-    height: 240px;
-    width: auto;
-    margin: 0 auto;
-    display: initial;
-    float: right;   
-}
-
-.fish-photo2 {
-    height: 240px;
-    width: auto;
-    margin: 0 auto;
-    display: block;    
-}
-
-.fish-photo3 {
-    height: 240px;
-    width: auto;
-    margin: 0 auto;
-    display: initial;
-    float: left; 
-}
-
-.social-links {  
-    justify-content:center;
-    align-items:center;
-}
-.contact-box {
-    padding-left: 5%;
-    padding-right: 5%; 
-}
-
-.box-river-div {
-    height: 20vw;
-}
-
-.box-species-div {
-    height: 20vw;
-}
-}
-
-
 @media(min-width: 1200px) {
-.logo {
-    font-size: 75px;
-    padding-top: 20px;
+    .logo {
+        font-size: 75px;
+        padding-top: 20px;
+   }
+    .masthead {
+        width: 100%;
+   }
+    .side-right, .side-left, .left, .right, .right-foot, .left-foot {
+        width: 5%;
+        display: initial;
+   }
+    .menu-list{
+        float: left;
+        width: 90%;
+        display: initial;
+   }
+   /*---River Head--*/
+    .content-head {
+        width: 90%;
+   }
+    .side-head {
+        width: 10%;
+   }
+    .content-river {
+        width: 90%;
+   }
+   /*---River Head--*/
+    .content {
+        width: 90%;
+   }
+    .content-foot {
+        width: 90%;
+   }
+    .badboy {
+        display: none;
+   }
+    .box {
+        display: initial;
+   }
+    .species-txt-box {
+        height: 25vw;
+        width: 60%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        float: left;
+        color: #000000;
+        font-size: 1.0vw;
+   }
+    .fish-box {
+        height: 25vw;
+        width: auto;
+        margin-top: 20px;
+        float: right;
+   }
+    .pike {
+        height: 100%;
+        width: auto;
+   }
+    .contact-box {
+        padding-left: 15%;
+        padding-right: 15%;
+   }
 }
-
-.masthead {
-    width: 100%;
-}
-
-.side-right, .side-left, .left, .right, .right-foot, .left-foot {
-    width: 5%;
-     display: initial;
-}
-
-.menu-list{
-    float: left;
-    width: 90%;
-    display: initial;
-}
-/*---River Head--*/
-.content-head {
-    width: 90%;
-}
-
-.side-head {
-    width: 10%;
-}
-.content-river {
-    width: 90%;
-}
-/*---River Head--*/
-.content {
-    width: 90%;
-}
-
-.content-foot {
-    width: 90%;
-}
-
-.badboy {
-    display: none;
-}
-
-.box {
-    display: initial;
-}
-
-.species-txt-box {
-    height: 25vw;
-    width: 60%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    float: left;
-    color: #000000;
-    font-size: 1.0vw;
-}
-
-.fish-box {
-    height: 25vw;
-    width: auto;
-    margin-top: 20px;
-    float: right;
-}
-
-.pike {
-    height: 100%;
-    width: auto;
-}
-
-.contact-box {
-    padding-left: 15%;
-    padding-right: 15%; 
- }
-
-
-
-}   
-
-
-
 @media(min-width: 1500px) {
-.logo {
-    font-size: 77px;
-    padding-top: 20px;
+    .logo {
+        font-size: 77px;
+        padding-top: 20px;
+   }
+    .masthead {
+        width: 100%;
+   }
+    .side-right, .side-left, .left, .right, .right-foot, .left-foot {
+        width: 15%;
+        display: initial;
+   }
+    .menu-list {
+        float: left;
+        width: 70%;
+        display: initial;
+   }
+   /*---River Head--*/
+    .content-head {
+        width: 70%;
+   }
+    .side-head {
+        width: 15%;
+   }
+    .content-river {
+        width: 70%;
+   }
+   /*---River Head--*/
+    .content {
+        width: 70%;
+   }
+    .content-foot {
+        width: 70%;
+   }
+    .badboy {
+        display: none;
+   }
+    .box {
+        display: initial;
+   }
+    .contact-box {
+        padding-left: 25%;
+        padding-right: 25%;
+   }
 }
-
-.masthead {
-    width: 100%;
-}
-
-.side-right, .side-left, .left, .right, .right-foot, .left-foot {
-    width: 15%;
-    display: initial;
-}
-
-.menu-list {
-    float: left;
-    width: 70%;
-    display: initial;
-}
-
-/*---River Head--*/
-.content-head {
-    width: 70%;
-}
-
-.side-head {
-    width: 15%;
-}
-.content-river {
-    width: 70%;
-}
-
-/*---River Head--*/
-
-.content {
-    width: 70%;
-}
-
-.content-foot {
-    width: 70%;
-}
-
-.badboy {
-    display: none;
-}
-
-.box {
-    display: initial;
-}
-
-.contact-box {
-    padding-left: 25%;
-    padding-right: 25%; 
-}  
-}
-
-
 @media(min-width: 1900px) {
-.logo {
-    font-size: 78px;
-    padding-top: 20px;
+    .logo {
+        font-size: 78px;
+        padding-top: 20px;
+   }
+    .side-right, .side-left, .left, .right, .right-foot, .left-foot {
+        width: 17%;
+   }
+    .menu-list{
+        float: left;
+        width: 66%;
+        display: initial;
+   }
+   /*---River Head--*/
+    .content-head {
+        width: 66%;
+   }
+    .side-head {
+        width: 17%;
+   }
+    .content-river {
+        width: 66%;
+   }
+    .box4-river {
+        padding-left: 25vw;
+        padding-right: 25vw;
+   }
+   /*---River Head--*/
+    .content {
+        width: 66%;
+   }
+    .content-foot {
+        width: 66%;
+   }
+    .badboy {
+        display: none;
+   }
+    .box {
+        display: initial;
+   }
 }
-
-.side-right, .side-left, .left, .right, .right-foot, .left-foot {
-    width: 17%;
-}
-
-.menu-list{
-    float: left;
-    width: 66%;
-    display: initial;
-}
-
-/*---River Head--*/
-.content-head {
-    width: 66%;
-}
-.side-head {
-    width: 17%;
-}
-.content-river {
-    width: 66%;
-}
-
-.box4-river {
-    padding-left: 25vw;
-    padding-right: 25vw;
-}
-/*---River Head--*/
-
-.content {
-    width: 66%;
-}
-
-.content-foot {
-    width: 66%;
-}
-
-.badboy {
-    display: none;
-}
-
-.box {
-    display: initial;
-}
-}
-
 @media(min-width: 2200px) {
-.logo {
-    font-size: 80px;
-    padding-top: 20px;
-}
-
-.side-right, .side-left, .left, .right, .right-foot, .left-foot {
-    width: 20%;
-}
-
-.menu-list{
+    .logo {
+        font-size: 80px;
+        padding-top: 20px;
+   }
+    .side-right, .side-left, .left, .right, .right-foot, .left-foot {
+        width: 20%;
+   }
+    .menu-list{
         float: left;
         width: 60%;
         display: initial;
-}
-
-/*---River Head--*/
-.content-head {
-    width: 60%;
-}
-.side-head {
-    width: 20%;
-}
-
-.content-river {
-    width: 60%;
-}
-
-/*---River Head--*/
-
-.content {
+   }
+   /*---River Head--*/
+    .content-head {
         width: 60%;
-}
-
-.content-foot {
+   }
+    .side-head {
+        width: 20%;
+   }
+    .content-river {
         width: 60%;
+   }
+   /*---River Head--*/
+    .content {
+        width: 60%;
+   }
+    .content-foot {
+        width: 60%;
+   }
+    .badboy {
+        display: none;
+   }
+    .box {
+        display: initial;
+   }
 }
-
-.badboy {
-    display: none;
-}
-
-.box {
-    display: initial;
-}  
-} 
-
 /*------------media queries-------------------------------------------------------*/
-
-
