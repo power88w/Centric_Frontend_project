@@ -18,21 +18,19 @@
         font-style: normal;
 }
 
-
-header {
+header, .logo-river h2{
     font-family: 'papyrus', cursive;
 }
-nav {
-    font-family: 'Baloo', cursive;
-    font-weight: 700;
-    font-size: 24px;
-}
 
-.menuitem a{
-    font-family: 'Lemonada', cursive;
+.menuitem a {
     font-weight: 400;
 
 }
+
+.box4-river, .species-txt-box, .text-box-index, #text-01, .cr, .dropdown2 a, .menuitem a {
+    font-family: 'Lemonada', cursive;
+}
+
 /*------------Colors Top Logo---------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 section.index {
@@ -42,11 +40,6 @@ section.index {
 .logo p {
     color: #ffffff;
 }
-
-.logo-river h2 {
-    font-family: 'papyrus', cursive;
-}
-
 
 .img-thumbnail {
     border-width: 2px;
@@ -60,15 +53,7 @@ nav {
     background-color: #000000;
 }
 
-.menuitem {
-    background-color: #0b1712
-}
-
-.side-left {
-    background-color: #0b1712
-}
-
-.side-right {
+.menuitem, .side-left, .side-right  {
     background-color: #0b1712
 }
 
@@ -78,37 +63,22 @@ nav {
 
 /*---------section-colors--------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
-#left  {
-    background-color: black;
-}
+
 #content {
     background: url('../images/cover.JPG') no-repeat center center;
     background-size: 110% ;
-
     align-items: center;
     justify-content: center;
-
     position: relative;
 }
-
-
-
-#right {
+#right, #left {
     background-color: black;
 }
 
-#main1 {
+#main1, #main2, #main3, #main4 {
     background-color: rgba(0, 0, 0, 0.1);
 }
-#main2 {
-    background-color: rgba(0, 0, 0, 0.1);
-}
-#main3 {
-    background-color: rgba(0, 0, 0, 0.1);
-}
-#main4 {
-    background-color: rgba(0, 0, 0, 0.1);
-}
+
 /*---------River-x13------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 
@@ -118,7 +88,7 @@ nav {
     
 }
 
-hr.inny {
+hr.inny, hr.shannon, hr.suck, hr.brosna {
     border-top: 1px solid white;
 }
 
@@ -133,33 +103,16 @@ hr.hr-under {
     
 }
 
-hr.shannon {
-    border-top: 1px solid white;
-}
-
-
-
 .suck, div.suck {
     background-color: rgb(1, 6, 15);
     color: white;
     
 }
 
-hr.suck {
-    border-top: 1px solid white;
-}
-
-
 .brosna, div.brosna {
     background-color: rgb(2, 10, 24);
-    color: white;
-    
+    color: white;    
 }
-
-hr.brosna {
-    border-top: 1px solid white;
-}
-
 
 .box-river-div {
     
@@ -179,28 +132,26 @@ hr.brosna {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
     background-position: bottom;
 }
-
 
 .box2-river {
     align-items: center;
     padding-top: 60px;
     padding-bottom:20px;
-
 }
+
 .box3-river {
     align-items: left;
     padding-top: 60px;
     padding-bottom:20px;
     z-index: 1000;
 }
+
 .box4-river {
     padding-left: 18vw;
     padding-right: 18vw;
     text-align: justify;
-    font-family: 'Lemonada', cursive;
     font-weight: 100;
     font-size: 15px;
 }
@@ -216,13 +167,7 @@ hr.brosna {
     float: right;
 }
 
-
-
-
-
-
-
-/*---------Species-----------a88------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*---------Species-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 .spieces-area {
     background-color: #e3e3e3;
@@ -232,8 +177,6 @@ hr.brosna {
     background-color: white;
     padding: 20px 20px 20px 20px;
 }
-   
-
 
 .pike {
     height: 100%;
@@ -249,7 +192,6 @@ hr.brosna {
     margin-right: 0;
     text-align: center;
     font-size: 1vw;
-    font-family: 'Lemonada', cursive;
     font-weight: 100;
     color: #000000;
 }
@@ -262,17 +204,11 @@ hr.brosna {
     margin-left: 0;
 }
 
-
-
-
-
-
 /*-----------Contact-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
-.contact{
+#contact{
     padding: 40px 40px 40px 40px; 
     background-color: #e3e3e3;
-
 }
 
 .contact-row { 
@@ -308,7 +244,6 @@ hr.brosna {
     font-size: 34px;
 
 }
-
 a.link-decor {
     text-decoration: none;
     color:green;
@@ -333,8 +268,6 @@ div.gal-box {
     background-color: #ffffff;
 
 }
-
-
 /*---------footer-colors-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 .left-foot  {
@@ -354,17 +287,12 @@ div.gal-box {
     background-color: #0b1712;
 }
 
-
-
-
 /*---------masthead-colors---------------------------------------------------------------------------=============================================================================================-------*/
 
 
 .masthead {
     background-color: black;
 }
-
-
 /*------------Header--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 header {
@@ -392,7 +320,6 @@ header {
     font-size: 10vw;
     padding-top: 6vh;
 }
-
 /*------------Nav-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 nav {
     height: 70px;
@@ -455,7 +382,6 @@ nav {
 .resize-b {
     width: 100%
 }
-
 
 .menuitem a{
     width: 100%;
@@ -552,7 +478,6 @@ div a#navpoint {
     color: #ffffff;
     padding-top: 2%;
     text-align: center;
-    font-family: 'Lemonada', cursive;
     font-weight: 100;
     
 }
@@ -568,7 +493,6 @@ div a#navpoint {
     text-align: justify;
     padding-left: 10%;
     padding-right: 10%;
-    font-family: 'Lemonada', cursive;
     background-color: #08100d;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -667,8 +591,6 @@ div a#navpoint {
     display: block;
     padding-top: 40px;
     text-align: center;
-    font-family: 'Lemonada', cursive;
-
 }
 
 .social-links li a i {
@@ -908,7 +830,6 @@ img.pike2b {
 .dropdown2 a {
     text-decoration: none;
     color: white;
-    font-family: 'Lemonada', cursive;
     font-weight: 400;
     font-size: 20px;
 
@@ -1976,9 +1897,7 @@ button.click {
     display: initial;
 }
 
-  
 
-    
 }
 
 @media(min-width: 2200px) {
@@ -2020,7 +1939,6 @@ button.click {
         width: 60%;
 }
 
-
 .badboy {
     display: none;
 }
@@ -2028,10 +1946,8 @@ button.click {
 .box {
     display: initial;
 }
-
     
 } 
-
 
 
 /*------------media queries--------------------------------------------------------------------------------------------------------------------------------------------------------------*/
