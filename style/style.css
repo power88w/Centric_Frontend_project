@@ -48,6 +48,12 @@ section.index {
     border-color: #232324;
 }
 
+.logo p {
+    text-shadow: 2px 2px green;
+}
+
+
+
 /*------------Colors Navbar------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 nav {
@@ -123,14 +129,26 @@ div a#navpoint {
 
 .suck, div.suck {
     background-color: rgb(1, 6, 15);
-    color: white;
-    
+    color: white;  
 }
 
 .brosna, div.brosna {
     background-color: rgb(2, 10, 24);
     color: white;    
 }
+
+.logo-river h2 {
+    text-shadow: 2px 2px green;
+}
+
+hr.inny, hr.shannon, hr.suck, hr.brosna {
+    border-top: 1px solid white;
+}
+
+hr.hr-under {
+    border-top: 1px solid green;
+}
+
 /*---------species-colors------------------------------------------------------------*/
 
 .spieces-area {
@@ -145,7 +163,6 @@ div a#navpoint {
 .species-txt-box {
     color: #000000;
 }
-
 
 /*---------contact-colors------------------------------------------------------------*/
 
@@ -180,6 +197,32 @@ div.gal-box {
     background-color: #0b1712;
 }
 
+.left-foot  {
+    border-top: #8b8a8a;
+}
+
+.content-foot {
+    background-color: #0b1712;
+    border-top: #8b8a8a;   
+}
+
+.right-foot {
+    border-top: #8b8a8a;  
+}
+
+.cr {
+    color: #ffffff;
+}
+
+.social-links li a i {
+    color: #fafafa;
+    background: #8f8f8f;
+}
+
+.social-links li a i:hover {
+    background-color: darkgreen;
+}
+
 /*---------masthead-colors---------------------------------------------------------*/
 
 
@@ -196,15 +239,81 @@ div.gal-box {
     position: relative;
 }
 
+.left, .right  {
+    float: left;
+    width: 0%;
+    height: 640px;
+    display: none;
+    
+}
+.content {
+    float: left;
+    width: auto;
+    height: 640px;
+}
+
+
+.box {
+    height: 50%;
+    display: none;
+}
+
+.text-box-index {
+    margin-top: 12%;
+    margin-right: 20%;
+    height: 70%;
+    padding-top: 2%;
+    text-align: center;
+    font-weight: 100;
+    
+}
+
+#text-01 h4 {
+    text-align: center;
+    font-size: 4vw;
+}
+
+
+#text-01 {
+    text-align: justify;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 3vw;
+    display: inherit;
+
+}
+ 
+
+.fish-photo1 {
+    height: 240px;
+    width: auto;
+    margin: 0 auto;
+    display: block;
+    
+}
+
+.fish-photo2 {
+    height: 240px;
+    width: auto;
+    margin: 0 auto;
+    display: block;
+    
+}
+
+.fish-photo3 {
+    height: 340px;
+    width: auto;
+    margin: 0 auto;
+    display: block;
+    
+}
+
 /*---------River------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 
-hr.inny, hr.shannon, hr.suck, hr.brosna {
-    border-top: 1px solid white;
-}
-
 hr.hr-under {
-    border-top: 1px solid green;
     width: 50%;
 }
 
@@ -251,8 +360,6 @@ hr.hr-under {
 }
 
 /*---------Species-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-
-
 
 .spectest {
     padding: 20px 20px 20px 20px;
@@ -343,10 +450,9 @@ div.gal-box {
     padding: 3% 3% 3% 3%;
     max-width: 78vw;
     max-height: 78vw;
-
 }
 
-/*------------Header--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*------------Header----------------------------------------------------------------*/
 
 header {
     height: 140px;
@@ -363,13 +469,11 @@ header {
     text-align: center;
     position: relative;
     z-index:1000;
-    text-shadow: 2px 2px green;
 }
 
 .logo-river h2 {
     text-align: center;
     position: relative;
-    text-shadow: 2px 2px green;
     font-size: 10vw;
     padding-top: 6vh;
 }
@@ -388,7 +492,7 @@ nav {
 
 }
 
-.side-left {
+.side-left, .side-right {
     float: left;
     width: 0%;
     height: 70px;
@@ -404,13 +508,6 @@ nav {
     width: 100%;
     height: 70px;
     display: none;
-}
-
-.side-right {
-    float: left;
-    width: 0%;
-    height: 70px;
-    display: none;   
 }
 
 .menuitem {
@@ -445,9 +542,7 @@ nav {
 }
 
 
-
-/*------------Rivers Section Extra----------------------------------------------------------------------------------------------------------------------------------------------------*/
-
+/*------------Rivers Section----------------------------------------------*/
 
 
 .content-head {
@@ -478,100 +573,13 @@ nav {
     display: initial;
 }
 
-
-/*------------index-section------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-  
-
-.left  {
-    float: left;
-    width: 0%;
-    height: 640px;
-    display: none;
-    
-}
-.content {
-    float: left;
-    width: auto;
-    height: 640px;
-}
-
-.right {
-    float: left;
-    width: 0%;
-    height: 640px;
-    display: none;
-    
-}
-
-.box {
-    height: 50%;
-    display: none;
-}
-
-.text-box-index {
-    margin-top: 12%;
-    margin-right: 20%;
-    height: 70%;
-    padding-top: 2%;
-    text-align: center;
-    font-weight: 100;
-    
-}
-
-#text-01 h4 {
-    text-align: center;
-    font-size: 4vw;
-
-
-}
-
-#text-01 {
-    text-align: justify;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    font-size: 3vw;
-    display: inherit;
-
-}
- 
-
-.fish-photo1 {
-    height: 240px;
-    width: auto;
-    margin: 0 auto;
-    display: block;
-    
-}
-
-.fish-photo2 {
-    height: 240px;
-    width: auto;
-    margin: 0 auto;
-    display: block;
-    
-}
-
-.fish-photo3 {
-    height: 340px;
-    width: auto;
-    margin: 0 auto;
-    display: block;
-    
-}
-
-
-
-
-/*------------footer--------x15----------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*------------footer-------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 .left-foot  {
     float: left;
     width: 0%;
     height: 305px;
     display: none;
-    border-top: #8b8a8a;
     border-top-width: 5px;
     border-top-style: solid;
     
@@ -579,8 +587,6 @@ nav {
 
 .content-foot {
     float: left;
-    background-color: #0b1712;
-    border-top: #8b8a8a;
     border-top-width: 5px;
     border-top-style: solid;
     
@@ -591,7 +597,6 @@ nav {
     width: 0%;
     height: 305px;
     display: none;
-    border-top: #8b8a8a;
     border-top-width: 5px;
     border-top-style: solid;
     
@@ -621,7 +626,6 @@ nav {
 } 
 
 .cr {
-    color: #ffffff;
     margin: 0 auto;
     display: block;
     padding-top: 40px;
@@ -636,17 +640,10 @@ nav {
     font-size: 28px;
     line-height: 7px;
     text-align: center;
-    color: #fafafa;
-    background: #8f8f8f;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;                        
-
-}
-
-.social-links li a i:hover {
-    background-color: darkgreen;
+    -o-transition: all 0.35s ease-in-out;
 }
 
 
@@ -670,7 +667,7 @@ button.hvr-sweep-to-bottom:before {
 }
 
 
-/*-----------------------------------------------------------------------------------------------DROPDOWN----1-------------------------------------------------------------------------------------------*/
+/*------------------------------DROPDOWN----1-------------------------------------------------------------------------------------------*/
 
 .lock {
     display: none;
@@ -820,12 +817,6 @@ img.pike2b {
     display: initial;
 }
 
-
-
-
-
-
-
 /*-----------------------------------------------------------------------------------------DROPDOWN---2---------------------------------------------------------------------------------------*/
 
 /* Dropdown Button */
@@ -900,7 +891,9 @@ button.click {
 }
 
 
-.show {display:block;}
+.show {
+    display:block;
+}
 
 
 
@@ -915,7 +908,6 @@ button.click {
 }   
 
 .logo {
-    background-color: black;
     padding-top: 0px;
     font-size: 30px;
     padding-top: 20px;
@@ -1088,7 +1080,6 @@ button.click {
 }
 
 .logo {
-    background-color: black;
     font-size: 45px;
     padding-top: 20px;
 }
@@ -1238,17 +1229,14 @@ button.click {
     height: 53vw;
 }
 
-
 }
      
-
 @media (min-width: 768px) {
 #logo-box {
     display: inherit;
 }
 
 .logo {
-    background-color: black;
     font-size: 54px;
     padding-top: 20px;
 }
@@ -1257,9 +1245,6 @@ button.click {
     padding-left: 0%;
     padding-right: 0%;
 } 
-.masthead {
-    background-color: #000000;
-}
 
 .side-right, .side-left, .left, .right, .right-foot, .left-foot {
     width: 0%;
@@ -1425,173 +1410,163 @@ button.click {
 
 
 @media (min-width: 920px) {
-    .logo {
-        background-color: black;
-        font-size: 54px;
-        padding-top: 20px;
-    }
-    .masthead {
-        background-color: #000000;
-        height: 100px;
-    }
+.logo {
+    font-size: 54px;
+    padding-top: 20px;
+}
+.masthead {
+    height: 100px;
+}
     
-    .side-right, .side-left, .left, .right, .right-foot, .left-foot {
-        width: 0%;
-        display: initial;
-    }
+.side-right, .side-left, .left, .right, .right-foot, .left-foot {
+    width: 0%;
+    display: initial;
+}
         
-    .menu-list{
-        float: left;
-        width: 100%;
-        display: initial;
-    }
+.menu-list{
+    float: left;
+    width: 100%;
+     display: initial;
+}
     
-    /*---River Head--*/
-    .logo-river h2 {
-        font-size: 84px;
-    }
+/*---River Head--*/
+.logo-river h2 {
+    font-size: 84px;
+}
 
-    .content-head {
-        width: 100%;
-    }
-    .content-river {
-        width: 100%;
-        height: 680px;
-    }
-    .rivers {
-        height: 50%;
-        display: initial;
-    }
+.content-head {
+    width: 100%;
+}
+.content-river {
+    width: 100%;
+    height: 680px;
+}
+.rivers {
+    height: 50%;
+    display: initial;
+}
 
-    .box4-river {
-        padding-left: 22vw;
-        padding-right: 22vw;
-    }
-    /*---River Head--*/
+.box4-river {
+    padding-left: 22vw;
+    padding-right: 22vw;
+}
+/*---River Head--*/
     
-    .content {
-        width: 100%;
-        height: 600px;
-    }
+.content {
+    width: 100%;
+    height: 600px;
+}
     
-    .content-foot {
-        width: 100%;
-    }
+.content-foot {
+    width: 100%;
+}
     
-    .badboy {
-        display: none;
-    }    
+.badboy {
+    display: none;
+}    
     
-    .box {
-        display: initial;
-    } 
+.box {
+    display: initial;
+} 
     
-    #content {
-        background-size: 100% ;
-    }
+#content {
+    background-size: 100% ;
+}
     
-    .social-links {
+.social-links {
+    justify-content:center;
+    align-items:center;    
+}
+       
+.fish-photo1 {
+    height: 240px;
+    width: auto;
+    margin: 0 auto;
+    display: block;   
+}
 
-        justify-content:center;
-        align-items:center;
-        
-    }
-   
-    
-    .fish-photo1 {
-        height: 240px;
-        width: auto;
-        margin: 0 auto;
-        display: block;
-        
-    }
+.fish-photo2 {
+    height: 240px;
+    width: auto;
+    margin: 0 auto;
+    display: block;   
+}
 
-    .fish-photo2 {
-        height: 240px;
-        width: auto;
-        margin: 0 auto;
-        display: block;
-        
-    }
-
-    .fish-photo3 {
-        height: 240px;
-        width: auto;
-        margin: 0 auto;
-        display: block;
-        
-    }
+.fish-photo3 {
+    height: 240px;
+    width: auto;
+    margin: 0 auto;
+    display: block;      
+}
     
     .box1-foot {
-        height: 300px;
-        float: left;
-        padding-top: 20px;
-        padding-bottom: 20px;
+    height: 300px;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
         
-    }
+}
     
-    .r-image {
-        height: auto;
-        width: 55%;
-        margin: 0 auto;
-        display: block;
-        float: initial;
-    }
+.r-image {
+    height: auto;
+    width: 55%;
+    margin: 0 auto;
+    display: block;
+    float: initial;
+}
     
-    .b-map {
-        height: 25vh;
-        width: 55%;
-        margin: 0 auto;
-        display: block;
-        float: initial;
-    }
+.b-map {
+    height: 25vh;
+    width: 55%;
+    margin: 0 auto;
+    display: block;
+    float: initial;
+}
 
-    .species-txt-box {
-        height: 250px;
-        width: 877px;
-        margin: auto;
-        float: initial;
-        font-size: 2vw;
-    }
+.species-txt-box {
+    height: 250px;
+    width: 877px;
+    margin: auto;
+    float: initial;
+    font-size: 2vw;
+}
     
-    .fish-box {
-        height: 648px;
-        width: 877px;
-        margin: 0 auto;
-        float: initial;
-    }
+.fish-box {
+    height: 648px;
+    width: 877px;
+    margin: 0 auto;
+    float: initial;
+}
     
-    .pike {
-        height: auto;
-        width: 100%;
-    }
+.pike {
+    height: auto;
+    width: 100%;
+}
 
     
 
-    .hov1:hover .pike1b {
-        margin: 0 auto;
-        display: block;
-    }
+.hov1:hover .pike1b {
+    margin: 0 auto;
+    display: block;
+}
     
-    .hov2:hover .okonb {
-        margin: 0 auto;
-        display: block;
-    }
+.hov2:hover .okonb {
+    margin: 0 auto;
+    display: block;
+}
     
-    .hov3:hover .pike2b {
-        margin: 0 auto;
-        display: block;
-    }
-    .box-river-div {
+.hov3:hover .pike2b {
+    margin: 0 auto;
+    display: block;
+}
+.box-river-div {
     
-        height: 23vw;
-    }
+    height: 23vw;
+}
     
-    .box-species-div {
-        height: 23vw;
-    }
-
-
+.box-species-div {
+    height: 23vw;
+}
 
 }
 
@@ -1687,17 +1662,14 @@ button.click {
     width: auto;
     margin: 0 auto;
     display: initial;
-    float: right;
-    
+    float: right;   
 }
 
 .fish-photo2 {
     height: 240px;
     width: auto;
     margin: 0 auto;
-    display: block;
-
-    
+    display: block;    
 }
 
 .fish-photo3 {
@@ -1729,19 +1701,11 @@ button.click {
     height: 20vw;
 }
 
-
-
-  
-
-
 }
-
-
 
 
 @media(min-width: 1200px) {
 .logo {
-    background-color: black;
     font-size: 75px;
     padding-top: 20px;
 }
@@ -1823,7 +1787,6 @@ button.click {
 
 @media(min-width: 1500px) {
 .logo {
-    background-color: black;
     font-size: 77px;
     padding-top: 20px;
 }
@@ -1884,7 +1847,6 @@ button.click {
 
 @media(min-width: 1900px) {
 .logo {
-    background-color: black;
     font-size: 78px;
     padding-top: 20px;
 }
@@ -1937,7 +1899,6 @@ button.click {
 
 @media(min-width: 2200px) {
 .logo {
-    background-color: black;
     font-size: 80px;
     padding-top: 20px;
 }
