@@ -27,7 +27,8 @@ header, .logo-river h2{
 
 }
 
-.box4-river, .species-txt-box, .text-box-index, #text-01, .cr, .dropdown2 a, .menuitem a {
+.box4-river, .species-txt-box, .text-box-index, #text-01, .cr, 
+.dropdown2 a, .menuitem a {
     font-family: 'Lemonada', cursive;
 }
 
@@ -61,46 +62,63 @@ nav {
     color: #ffffff;
 }
 
-/*---------section-colors--------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.menuitem {
+    border-color: rgb(48, 41, 41);
+    text-shadow: 2px 2px #26596d;
 
-
-#content {
-    background: url('../images/cover.JPG') no-repeat center center;
-    background-size: 110% ;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-}
-#right, #left {
-    background-color: black;
 }
 
-#main1, #main2, #main3, #main4 {
-    background-color: rgba(0, 0, 0, 0.1);
-}
-
-/*---------River-x13------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-
-
-.inny, div.inny {
-    background-color: black;
-    color: white;
+.side-left {
+    border-color: white;
     
 }
 
-hr.inny, hr.shannon, hr.suck, hr.brosna {
-    border-top: 1px solid white;
+.menuitem a{
+    border-color: rgb(53, 52, 52);
+    text-shadow: 2px 2px #26596d;
 }
 
-hr.hr-under {
-    border-top: 1px solid green;
-    width: 50%;
+.hvr-sweep-to-bottom::after {
+    background: #000000;
+}
+
+div a#navpoint {
+    background-color: #000000;
+}
+
+
+/*---------index-colors------------------------------------------------------------*/
+
+.right, .left {
+    background-color: black;
+}
+
+.box {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+.text-box-index {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #ffffff;
+  
+}
+
+#text-01 {
+    background-color: #08100d;
+
+}
+ 
+/*---------river-colors------------------------------------------------------------*/
+
+.inny, div.inny {
+    background-color: black;
+    color: white;    
 }
 
 .shannon, div.shannon{
     background-color: rgb(1, 6, 10);
-    color: white;
-    
+    color: white;    
 }
 
 .suck, div.suck {
@@ -113,9 +131,84 @@ hr.hr-under {
     background-color: rgb(2, 10, 24);
     color: white;    
 }
+/*---------species-colors------------------------------------------------------------*/
+
+.spieces-area {
+    background-color: #e3e3e3;
+}
+
+.spectest {
+    background-color: white;
+
+}
+
+.species-txt-box {
+    color: #000000;
+}
+
+
+/*---------contact-colors------------------------------------------------------------*/
+
+#contact{ 
+    background-color: #e3e3e3;
+}
+
+.contact-row, #map-box, .contact { 
+    background-color: #ffffff;
+    color: #000000;
+}
+
+}
+a.link-decor {
+    color:green;
+}
+
+/*---------gallery-colors------------------------------------------------------------*/
+
+div.gal-box {
+    background-color: #e3e3e3;
+}
+
+.gal-box2 {
+    background-color: #ffffff;
+
+}
+
+/*---------footer-colors------------------------------------------------------------*/
+
+.left-foot, .content-foot, .right-foot, .box1-foot  {
+    background-color: #0b1712;
+}
+
+/*---------masthead-colors---------------------------------------------------------*/
+
+
+.masthead {
+    background-color: black;
+}
+
+/*---------index-------------------------------------------------------------------*/
+#content {
+    background: url('../images/cover.JPG') no-repeat center center;
+    background-size: 110% ;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+/*---------River------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+hr.inny, hr.shannon, hr.suck, hr.brosna {
+    border-top: 1px solid white;
+}
+
+hr.hr-under {
+    border-top: 1px solid green;
+    width: 50%;
+}
 
 .box-river-div {
-    
     height: 23vw;
     background: url('../images/cover2.jpg') no-repeat fixed;
     -webkit-background-size: cover;
@@ -123,16 +216,6 @@ hr.hr-under {
     -o-background-size: cover;
     background-size: cover;
     background-position: center;
-}
-
-.box-species-div {
-    height: 23vw;
-    background: url('../images/cover3.jpg') no-repeat fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position: bottom;
 }
 
 .box2-river {
@@ -169,12 +252,9 @@ hr.hr-under {
 
 /*---------Species-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
-.spieces-area {
-    background-color: #e3e3e3;
-}
+
 
 .spectest {
-    background-color: white;
     padding: 20px 20px 20px 20px;
 }
 
@@ -193,7 +273,6 @@ hr.hr-under {
     text-align: center;
     font-size: 1vw;
     font-weight: 100;
-    color: #000000;
 }
 
 .fish-box {
@@ -204,21 +283,24 @@ hr.hr-under {
     margin-left: 0;
 }
 
+.box-species-div {
+    height: 23vw;
+    background: url('../images/cover3.jpg') no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: bottom;
+}
+
 /*-----------Contact-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 #contact{
     padding: 40px 40px 40px 40px; 
-    background-color: #e3e3e3;
-}
-
-.contact-row { 
-    background-color: #ffffff;
-    
 }
 
 #map-box {
     padding: 32px 32px 32px 32px;
-    background-color: #ffffff;
 }
 
 #map-contact {
@@ -228,8 +310,6 @@ hr.hr-under {
 }
 
 .contact {
-    background-color: #ffffff;
-    color: #000000;
     font-size: 22px;
     text-align: center;
     margin-bottom: 22px;
@@ -246,7 +326,6 @@ hr.hr-under {
 }
 a.link-decor {
     text-decoration: none;
-    color:green;
 }
 /*-----------Gallery-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
@@ -258,41 +337,15 @@ div.gal-box {
     padding-left: 32px;
     padding-right: 32px;
     padding-bottom: 32px;
-    background-color: #e3e3e3;
 }
 
 .gal-box2 {
     padding: 3% 3% 3% 3%;
     max-width: 78vw;
     max-height: 78vw;
-    background-color: #ffffff;
 
 }
-/*---------footer-colors-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
-.left-foot  {
-    background-color: #0b1712;
-}
-
-.content-foot {
-    float: left;
-    background-color: #0b1712;
-}
-
-.right-foot {
-    background-color: #0b1712;;
-}
-
-.box1-foot {
-    background-color: #0b1712;
-}
-
-/*---------masthead-colors---------------------------------------------------------------------------=============================================================================================-------*/
-
-
-.masthead {
-    background-color: black;
-}
 /*------------Header--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 header {
@@ -332,8 +385,6 @@ nav {
     border-bottom-width: 0.5px;
     border-left-width: 0.5px;
     border-right-width: 0.5px;
-    border-color: rgb(48, 41, 41);
-    text-shadow: 2px 2px #26596d;
 
 }
 
@@ -346,7 +397,6 @@ nav {
     border-bottom-width: 4px;
     border-left-width: 4px;
     border-right-width: 4px;
-    border-color: white;
     
 }
 .menu-list {
@@ -360,8 +410,7 @@ nav {
     float: left;
     width: 0%;
     height: 70px;
-    display: none;
-    
+    display: none;   
 }
 
 .menuitem {
@@ -393,17 +442,8 @@ nav {
     border-bottom-width: 0.1px;
     border-left-width: 0.1px;
     border-right-width: 0.1px;
-    border-color: rgb(53, 52, 52);
-    text-shadow: 2px 2px #26596d;
 }
 
-.hvr-sweep-to-bottom::after {
-    background: #000000;
-}
-
-div a#navpoint {
-    background-color: #000000;
-}
 
 
 /*------------Rivers Section Extra----------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -439,9 +479,7 @@ div a#navpoint {
 }
 
 
-
-
-/*------------section------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*------------index-section------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
   
 
 .left  {
@@ -474,8 +512,6 @@ div a#navpoint {
     margin-top: 12%;
     margin-right: 20%;
     height: 70%;
-    background-color: rgba(0, 0, 0, 0.4);
-    color: #ffffff;
     padding-top: 2%;
     text-align: center;
     font-weight: 100;
@@ -493,7 +529,6 @@ div a#navpoint {
     text-align: justify;
     padding-left: 10%;
     padding-right: 10%;
-    background-color: #08100d;
     padding-top: 15px;
     padding-bottom: 15px;
     font-size: 3vw;
