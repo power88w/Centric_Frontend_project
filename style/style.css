@@ -1070,7 +1070,6 @@ button.click {
     width: 420px;
     margin: 0 auto;
     display: block;
-    
 }
 
 .fish-photo2 {
@@ -1078,7 +1077,6 @@ button.click {
     width: 420px;
     margin: 0 auto;
     display: block;
-    
 }
 
 .fish-photo3 {
@@ -1086,8 +1084,8 @@ button.click {
     width: 420px;
     margin: 0 auto;
     display: block;
-    
 }
+
 .hov1:hover .pike1b {
     margin: 0 auto;
     display: block;
@@ -1108,7 +1106,6 @@ button.click {
     float: left;
     padding-top: 20px;
     padding-bottom: 20px;
-    
 }
 
 .r-image {
@@ -1146,20 +1143,19 @@ button.click {
     height: auto;
     width: 100%;
 }
+
 .contact-box {
     padding-left: 0%;
     padding-right: 0%; 
 }
 
 .box-river-div {
-    
     height: 53vw;
 }
 
 .box-species-div {
     height: 53vw;
 }
-
 }
      
 @media (min-width: 768px) {
@@ -1230,16 +1226,11 @@ button.click {
 
 #text-01 {
     display: none;
-
 }
 
-
-
 .social-links {
-
     justify-content:center;
     align-items:center;
-    
 }
 
 .fish-photo1 {
@@ -1247,7 +1238,6 @@ button.click {
     width: auto;
     margin: 0 auto;
     display: block;
-    
 }
 
 .fish-photo2 {
@@ -1255,7 +1245,6 @@ button.click {
     width: auto;
     margin: 0 auto;
     display: block;
-    
 }
 
 .fish-photo3 {
@@ -1263,7 +1252,6 @@ button.click {
     width: auto;
     margin: 0 auto;
     display: block;
-    
 }
 
 .hov1:hover .pike1b {
@@ -1281,14 +1269,11 @@ button.click {
     display: block;
 }
 
-
-
 .box1-foot {
     height: auto;
     float: left;
     padding-top: 20px;
     padding-bottom: 20px;
-    
 }
 
 .r-image {
@@ -1328,15 +1313,12 @@ button.click {
 }
 
 .box-river-div {
-    
     height: 33vw;
 }
 
 .box-species-div {
     height: 33vw;
 }
-
-
 }
 
 
@@ -1430,12 +1412,11 @@ button.click {
     display: block;      
 }
     
-    .box1-foot {
+.box1-foot {
     height: 300px;
     float: left;
     padding-top: 20px;
-    padding-bottom: 20px;
-        
+    padding-bottom: 20px;   
 }
     
 .r-image {
@@ -1490,15 +1471,15 @@ button.click {
     margin: 0 auto;
     display: block;
 }
+
 .box-river-div {
     
     height: 23vw;
 }
-    
+  
 .box-species-div {
     height: 23vw;
 }
-
 }
 
 
@@ -1608,15 +1589,12 @@ button.click {
     width: auto;
     margin: 0 auto;
     display: initial;
-    float: left;
-    
+    float: left; 
 }
 
-.social-links {
-    
+.social-links {  
     justify-content:center;
     align-items:center;
-    
 }
 .contact-box {
     padding-left: 5%;
@@ -1624,14 +1602,12 @@ button.click {
 }
 
 .box-river-div {
-    
     height: 20vw;
 }
 
 .box-species-div {
     height: 20vw;
 }
-
 }
 
 
@@ -1770,9 +1746,7 @@ button.click {
 .contact-box {
     padding-left: 25%;
     padding-right: 25%; 
-}
-
-    
+}  
 }
 
 
@@ -1824,8 +1798,6 @@ button.click {
 .box {
     display: initial;
 }
-
-
 }
 
 @media(min-width: 2200px) {
@@ -1872,11 +1844,9 @@ button.click {
 
 .box {
     display: initial;
-}
-    
+}  
 } 
 
-
-/*------------media queries--------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*------------media queries-------------------------------------------------------*/
 
 
