@@ -101,7 +101,7 @@
             <div class="contact col-xs-12 col-sm-4 col-lg-4">
                 <div>
                     <i class="ico far fa-address-card"></i>
-                    <p style="font-weight: 700;">
+                    <p class="cont-wgt">
                     Inland Fisheries Ireland                        
                     </p>
                     <p>
@@ -117,7 +117,7 @@
             <div class="contact col-xs-12 col-sm-4 col-lg-4">
                 <div>
                     <i class="ico fas fa-shopping-cart"></i>
-                    <p style="font-weight: 700;">
+                    <p class="cont-wgt">
                     Wild Total Outdoors                       
                     </p>
                     <p>
@@ -133,7 +133,7 @@
             <div class="contact tcol-xs-12 col-sm-4 col-lg-4">
                 <div>
                     <i class="ico fas fa-chart-bar"></i>
-                    <p style="font-weight: 700;">
+                    <p class="cont-wgt">
                     Midland Angling                       
                     </p>
                     <p>
@@ -187,23 +187,24 @@
     </div>  
 </footer>
 <script>
-    $(document).ready(function () {
-    $('.lock').removeClass('lock').addClass('black');
+    $(document).ready(function() {
+        $('.lock').removeClass('lock').addClass('black');
     });
+
     function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
+        document.getElementById("myDropdown").classList.toggle("show");
     }
-    window.onclick = function (event) {
-    if (!event.target.matches('.hamb')) {
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-    var openDropdown = dropdowns[i];
-    if (openDropdown.classList.contains('show')) {
-            openDropdown.classList.remove('show');
-    }
-    }
-    }
+    window.onclick = function(event) {
+        if (!event.target.matches('.hamb')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                }
+            }
+        }
     }
 </script>
 </body>

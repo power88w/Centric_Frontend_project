@@ -17,7 +17,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lemonada&amp;subset=latin-ext" 
     rel="stylesheet">
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
-    <title>Fishing In The Midland Rivers- rivers</title>
+    <title>Midland Fishing-Rivers</title>
 </head>
 <body> 
 <header class="container-fluid" id="logo-box">
@@ -97,7 +97,8 @@
         <div class="inny box1-river col-xs-12 col-md-12">
             <div id="inny" class="logo-river">
                 <h2>River Inny</h2>
-            </div>
+            </div>      
+        </div>
         <div class="inny box4-river col-xs-12 col-md-12">
             <p>
             &nbsp;
@@ -339,23 +340,24 @@
     </div>  
 </footer>
 <script>
-    $(document).ready(function () {
-    $('.lock').removeClass('lock').addClass('black');
+    $(document).ready(function() {
+        $('.lock').removeClass('lock').addClass('black');
     });
+
     function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
+        document.getElementById("myDropdown").classList.toggle("show");
     }
-    window.onclick = function (event) {
-    if (!event.target.matches('.hamb')) {
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-    var openDropdown = dropdowns[i];
-    if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-    }
-    }
-    }
+    window.onclick = function(event) {
+        if (!event.target.matches('.hamb')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                }
+            }
+        }
     }
 </script>
 </body>
