@@ -309,10 +309,11 @@ hr.hr-under {
     padding: 40px 40px 40px 40px;
 }
 #map-box {
-    padding: 32px 32px 32px 32px;
+    padding: 2vw 2vw 2vw 2vw;
+    background-color: #ffffff;
 }
 #map-contact {
-    height: 450px;
+    height: 500px;
     width: 100%;
     border: 0;
 }
@@ -335,6 +336,35 @@ a.link-decor {
     font-weight: 700;
     font-size: 20px;
 } 
+/*-----------Contact-----Form------------------------------------------------------*/
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+.formation {
+    border-radius: 5px;
+    padding: 20px;
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
 /*-----------Gallery---------------------------------------------------------------*/
 div.gal-box {
     display:flex;
@@ -346,9 +376,10 @@ div.gal-box {
     padding-bottom: 32px;
 }
 .gal-box2 {
-    padding: 3% 3% 3% 3%;
-    max-width: 78vw;
-    max-height: 78vw;
+    padding: 0;
+    height: auto;
+    width: 100%;
+    margin-left: -9px;
 }
 /*------------Header----------------------------------------------------------------*/
 header {
@@ -723,8 +754,8 @@ button.click {
         display: initial;
     }
     .box4-river {
-        padding-left: 9vw;
-        padding-right: 9vw;
+        padding-left: 5vw;
+        padding-right: 5vw;
     }
    /*---River Head--*/
     .content-foot {
@@ -831,51 +862,61 @@ button.click {
         height: 53vw;
     }
     div.gal-box {
-        padding-top: 2px;
-        padding-left: 2px;
-        padding-right: 2px;
-        padding-bottom: 2px;
+        padding-top: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+    }
+    .gal-box2 {
+        background-color: #000000;
+    }
+    .formation {
+        border-radius: 5px;
+        padding: 20px;
+        width: 100%;
+        display: block;
+        margin: 0 auto;
     }
 }
 @media (min-width: 576px) {
     #logo-box {
         display: none;
-   }
+    }
     .logo {
         font-size: 45px;
         padding-top: 20px;
-   }
+    }
     .cont-box {
         padding-left: 10%;
         padding-right: 10%;
-   }
+    }
    /*---River Head--*/
     .content-head {
         width: 100%;
-   }
+    }
     .content-river {
         width: 100%;
         height: 1240px;
-   }
+    }
     .rivers {
         height: 25%;
         display: initial;
-   }
+    }
     .box4-river {
         padding-left: 10vw;
         padding-right: 10vw;
-   }
+    }
    /*---River Head--*/
     .content {
         width: 100%;
         height: 320px;
-   }
+    }
     .content-foot {
         width: 100%;
-   }
+    }
     .box {
         display: initial;
-   }
+    }
     #content {
         background-size: 100% ;
     }
@@ -886,137 +927,149 @@ button.click {
     .social-links {
         justify-content:center;
         align-items:center;
-   }
+    }
     .fish-photo1 {
         height: 270px;
         width: 420px;
         margin: 0 auto;
         display: block;
-   }
+    }
     .fish-photo2 {
         height: 270px;
         width: 420px;
         margin: 0 auto;
         display: block;
-   }
+    }
     .fish-photo3 {
         height: 270px;
         width: 420px;
         margin: 0 auto;
         display: block;
-   }
+    }
     .hov1:hover .pike1b {
         margin: 0 auto;
         display: block;
-   }
+    }
     .hov2:hover .okonb {
         margin: 0 auto;
         display: block;
-   }
+    }
     .hov3:hover .pike2b {
         margin: 0 auto;
         display: block;
-   }
+    }
     .box1-foot {
         height: 300px;
         float: left;
         padding-top: 20px;
         padding-bottom: 20px;
-   }
+    }
     .r-image {
         height: auto;
         width: 60%;
         margin: 0 auto;
         display: block;
         float: initial;
-   }
+    }
     .b-map {
         height: 25vh;
         width: 60%;
         margin: 0 auto;
         display: block;
         float: initial;
-   }
+    }
     .species-txt-box {
         height: 350px;
         width: 468px;
         margin: auto;
         float: initial;
         font-size: 2.4vw;
-   }
+    }
     .fish-box {
         height: 346px;
         width: 468px;
         margin: 0 auto;
         float: initial;
-   }
+    }
     .pike {
         height: auto;
         width: 100%;
-   }
+    }
     .contact-box {
         padding-left: 0%;
         padding-right: 0%;
-   }
+    }
     .box-river-div {
         height: 53vw;
-   }
+    }
     .box-species-div {
         height: 53vw;
-   }
-   
+    }
+    .formation {
+        border-radius: 5px;
+        padding: 20px;
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+    .gal-box2 {
+        padding: 3% 3% 3% 3%;
+        height: auto;
+        width: 100%;
+        max-width: 75vw;
+    }
 }
 @media (min-width: 768px) {
     #logo-box {
         display: inherit;
-   }
+    }
     .logo {
         font-size: 54px;
         padding-top: 20px;
-   }
+    }
     .cont-box {
         padding-left: 0%;
         padding-right: 0%;
-   }
+    }
     .side-right, .side-left, .left, .right, .right-foot, .left-foot {
         width: 0%;
         display: initial;
-   }
+    }
     .menu-list{
         float: left;
         width: 100%;
         display: initial;
-   }
+    }
    /*---River Head--*/
     .content-head {
         width: 100%;
-   }
+    }
     .content-river {
         width: 100%;
         height: 680px;
-   }
+    }
     .rivers {
         height: 50%;
         display: initial;
-   }
+    }
     .box4-river {
         padding-left: 15vw;
         padding-right: 15vw;
-   }
+    }
    /*---River Head--*/
     .content {
         width: 100%;
         height: 600px;
-   }
+    }
     .content-foot {
         width: 100%;
-   }
+    }
     .badboy {
         display: none;
-   }
+    }
     .box {
         display: initial;
-   }
+    }
     #content {
         background-size: 90% ;
     }
@@ -1026,364 +1079,378 @@ button.click {
     }
     #text-01 {
         display: none;
-   }
+    }
     .social-links {
         justify-content:center;
         align-items:center;
-   }
+    }
     .fish-photo1 {
         height: 240px;
         width: auto;
         margin: 0 auto;
         display: block;
-   }
+    }
     .fish-photo2 {
         height: 240px;
         width: auto;
         margin: 0 auto;
         display: block;
-   }
+    }
     .fish-photo3 {
         height: 240px;
         width: auto;
         margin: 0 auto;
         display: block;
-   }
+    }
     .hov1:hover .pike1b {
         margin: 0 auto;
         display: block;
-   }
+    }
     .hov2:hover .okonb {
         margin: 0 auto;
         display: block;
-   }
+    }
     .hov3:hover .pike2b {
         margin: 0 auto;
         display: block;
-   }
+    }
     .box1-foot {
         height: auto;
         float: left;
         padding-top: 20px;
         padding-bottom: 20px;
-   }
+    }
     .r-image {
         height: auto;
         width: 60%;
         margin: 0 auto;
         display: block;
         float: initial;
-   }
+    }
     .b-map {
         height: 25vh;
         width: 60%;
         margin: 0 auto;
         display: block;
         float: initial;
-   }
+    }
     .species-txt-box {
         height: 250px;
         width: 585px;
         margin: auto;
         float: initial;
         font-size: 1.7vw;
-   }
+    }
     .fish-box {
         height: 432px;
         width: 585px;
         margin: 0 auto;
         float: initial;
-   }
+    }
     .pike {
         height: auto;
         width: 100%;
-   }
+    }
     .box-river-div {
         height: 33vw;
-   }
+    }
     .box-species-div {
         height: 33vw;
-   }
+    }
+    .formation {
+        border-radius: 5px;
+        padding: 20px;
+        width: 70%;
+        display: block;
+        margin: 0 auto;
+    }
 }
 @media (min-width: 920px) {
     .logo {
         font-size: 54px;
         padding-top: 20px;
-   }
+    }
     .masthead {
         height: 100px;
-   }
+    }
     .side-right, .side-left, .left, .right, .right-foot, .left-foot {
         width: 0%;
         display: initial;
-   }
+    }
     .menu-list{
         float: left;
         width: 100%;
         display: initial;
-   }
+    }
    /*---River Head--*/
     .logo-river h2 {
         font-size: 84px;
-   }
+    }
     .content-head {
         width: 100%;
-   }
+    }
     .content-river {
         width: 100%;
         height: 680px;
-   }
+    }
     .rivers {
         height: 50%;
         display: initial;
-   }
+    }
     .box4-river {
         padding-left: 22vw;
         padding-right: 22vw;
-   }
+    }
    /*---River Head--*/
     .content {
         width: 100%;
         height: 600px;
-   }
+    }
     .content-foot {
         width: 100%;
-   }
+    }
     .badboy {
         display: none;
-   }
+    }
     .box {
         display: initial;
-   }
+    }
     #content {
         background-size: 100% ;
-   }
+    }
     .social-links {
         justify-content:center;
         align-items:center;
-   }
+    }
     .fish-photo1 {
         height: 240px;
         width: auto;
         margin: 0 auto;
         display: block;
-   }
+    }
     .fish-photo2 {
         height: 240px;
         width: auto;
         margin: 0 auto;
         display: block;
-   }
+    }
     .fish-photo3 {
         height: 240px;
         width: auto;
         margin: 0 auto;
         display: block;
-   }
+    }
     .box1-foot {
         height: 300px;
         float: left;
         padding-top: 20px;
         padding-bottom: 20px;
-   }
+    }
     .r-image {
         height: auto;
         width: 55%;
         margin: 0 auto;
         display: block;
         float: initial;
-   }
+    }
     .b-map {
         height: 25vh;
         width: 55%;
         margin: 0 auto;
         display: block;
         float: initial;
-   }
+    }
     .species-txt-box {
         height: 250px;
         width: 877px;
         margin: auto;
         float: initial;
         font-size: 2vw;
-   }
+    }
     .fish-box {
         height: 648px;
         width: 877px;
         margin: 0 auto;
         float: initial;
-   }
+    }
     .pike {
         height: auto;
         width: 100%;
-   }
+    }
     .hov1:hover .pike1b {
         margin: 0 auto;
         display: block;
-   }
+    }
     .hov2:hover .okonb {
         margin: 0 auto;
         display: block;
-   }
+    }
     .hov3:hover .pike2b {
         margin: 0 auto;
         display: block;
-   }
+    }
     .box-river-div {
         height: 23vw;
-   }
+    }
     .box-species-div {
         height: 23vw;
-   }
+    }
+    .formation {
+        border-radius: 5px;
+        padding: 20px;
+        width: 50%;
+        display: block;
+        margin: 0 auto;
+    }
 }
 @media(min-width: 992px) {
     .logo {
         background-color: black;
         font-size: 67px;
         padding-top: 20px;
-   }
+    }
     .masthead {
         width: 100%;
-   }
+    }
     .side-right, .side-left, .left, .right, .right-foot, .left-foot {
         width: 0%;
         display: initial;
-   }
+    }
     .menu-list{
         float: left;
         width: 100%;
         display: initial;
-   }
+    }
    /*---River Head--*/
     .content-head {
         width: 100%;
-   }
+    }
     .content-river {
         width: 100%;
-   }
+    }
    /*---River Head--*/
     .content {
         width: 100%;
         height: 640px;
-   }
+    }
     .content-foot {
         width: 100%;
-   }
+    }
     .badboy {
         display: none;
-   }
+    }
     .box {
         display: initial;
-   }
+    }
     #content {
         background-size: 110% ;
-   }
+    }
     .r-image {
         height: auto;
         width: 50%;
         margin: 0 auto;
         display: block;
         float: initial;
-   }
+    }
     .b-map {
         height: 35vh;
         width: 50%;
         margin: 0 auto;
         display: block;
         float: initial;
-   }
+    }
     .species-txt-box {
         height: 250px;
         width: 877px;
         margin: auto;
         font-size: 1.5vw;
         float: initial;
-   }
+    }
     .fish-box {
         height: 648px;
         width: 877px;
         margin: 0 auto;
         float: initial;
-   }
+    }
     .pike {
         height: auto;
         width: 100%;
-   }
+    }
     .fish-photo1 {
         height: 240px;
         width: auto;
         margin: 0 auto;
         display: initial;
         float: right;
-   }
+    }
     .fish-photo2 {
         height: 240px;
         width: auto;
         margin: 0 auto;
         display: block;
-   }
+    }
     .fish-photo3 {
         height: 240px;
         width: auto;
         margin: 0 auto;
         display: initial;
         float: left;
-   }
+    }
     .social-links {
         justify-content:center;
         align-items:center;
-   }
+    }
     .contact-box {
         padding-left: 5%;
         padding-right: 5%;
-   }
+    }
     .box-river-div {
         height: 20vw;
-   }
+    }
     .box-species-div {
         height: 20vw;
-   }
+    }
 }
 @media(min-width: 1200px) {
     .logo {
         font-size: 75px;
         padding-top: 20px;
-   }
+    }
     .masthead {
         width: 100%;
-   }
+    }
     .side-right, .side-left, .left, .right, .right-foot, .left-foot {
         width: 5%;
         display: initial;
-   }
+    }
     .menu-list{
         float: left;
         width: 90%;
         display: initial;
-   }
+    }
    /*---River Head--*/
     .content-head {
         width: 90%;
-   }
+    }
     .side-head {
         width: 10%;
-   }
+    }
     .content-river {
         width: 90%;
-   }
+    }
    /*---River Head--*/
     .content {
         width: 90%;
-   }
+    }
     .content-foot {
         width: 90%;
-   }
+    }
     .badboy {
         display: none;
-   }
+    }
     .box {
         display: initial;
-   }
+    }
     .species-txt-box {
         height: 25vw;
         width: 60%;
@@ -1392,143 +1459,143 @@ button.click {
         float: left;
         color: #000000;
         font-size: 1.0vw;
-   }
+    }
     .fish-box {
         height: 25vw;
         width: auto;
         margin-top: 20px;
         float: right;
-   }
+    }
     .pike {
         height: 100%;
         width: auto;
-   }
+    }
     .contact-box {
         padding-left: 15%;
         padding-right: 15%;
-   }
+    }
 }
 @media(min-width: 1500px) {
     .logo {
         font-size: 77px;
         padding-top: 20px;
-   }
+    }
     .masthead {
         width: 100%;
-   }
+    }
     .side-right, .side-left, .left, .right, .right-foot, .left-foot {
         width: 15%;
         display: initial;
-   }
+    }
     .menu-list {
         float: left;
         width: 70%;
         display: initial;
-   }
+    }
    /*---River Head--*/
     .content-head {
         width: 70%;
-   }
+    }
     .side-head {
         width: 15%;
-   }
+    }
     .content-river {
         width: 70%;
-   }
+    }
    /*---River Head--*/
     .content {
         width: 70%;
-   }
+    }
     .content-foot {
         width: 70%;
-   }
+    }
     .badboy {
         display: none;
-   }
+    }
     .box {
         display: initial;
-   }
+    }
     .contact-box {
         padding-left: 25%;
         padding-right: 25%;
-   }
+    }
 }
 @media(min-width: 1900px) {
     .logo {
         font-size: 78px;
         padding-top: 20px;
-   }
+    }
     .side-right, .side-left, .left, .right, .right-foot, .left-foot {
         width: 17%;
-   }
+    }
     .menu-list{
         float: left;
         width: 66%;
         display: initial;
-   }
+    }
    /*---River Head--*/
     .content-head {
         width: 66%;
-   }
+    }
     .side-head {
         width: 17%;
-   }
+    }
     .content-river {
         width: 66%;
-   }
+    }
     .box4-river {
         padding-left: 25vw;
         padding-right: 25vw;
-   }
+    }
    /*---River Head--*/
     .content {
         width: 66%;
-   }
+    }
     .content-foot {
         width: 66%;
-   }
+    }
     .badboy {
         display: none;
-   }
+    }
     .box {
         display: initial;
-   }
+    }    
 }
 @media(min-width: 2200px) {
     .logo {
         font-size: 80px;
         padding-top: 20px;
-   }
+    }
     .side-right, .side-left, .left, .right, .right-foot, .left-foot {
         width: 20%;
-   }
+    }
     .menu-list{
         float: left;
         width: 60%;
         display: initial;
-   }
+    }
    /*---River Head--*/
     .content-head {
         width: 60%;
-   }
+    }
     .side-head {
         width: 20%;
-   }
+    }
     .content-river {
         width: 60%;
-   }
+    }
    /*---River Head--*/
     .content {
         width: 60%;
-   }
+    }
     .content-foot {
         width: 60%;
-   }
+    }
     .badboy {
         display: none;
-   }
+    }
     .box {
         display: initial;
-   }
+    }
 }
 /*------------media queries-------------------------------------------------------*/

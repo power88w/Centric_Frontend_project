@@ -94,7 +94,8 @@
         <div class="col-xs-12 col-sm-12 col-lg-12">
             <div id="map-box">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d127258.36962939774!2d-7.738451941768509!3d53.583000109832994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spl!2sie!4v1537740266112" 
-                id="map-contact"></iframe>
+                    id="map-contact">
+                </iframe>
             </div>    
         </div>
         <div class="contact-box">
@@ -102,10 +103,10 @@
                 <div>
                     <i class="ico far fa-address-card"></i>
                     <p class="cont-wgt">
-                    Inland Fisheries Ireland                        
+                        Inland Fisheries Ireland                        
                     </p>
                     <p>
-                    Fishing Permit Sales                        
+                        Fishing Permit Sales                        
                     </p>
                     <p>
                         <a class="link-decor" target="_blank" 
@@ -118,10 +119,10 @@
                 <div>
                     <i class="ico fas fa-shopping-cart"></i>
                     <p class="cont-wgt">
-                    Wild Total Outdoors                       
+                        Wild Total Outdoors                       
                     </p>
                     <p>
-                    Great tackle shop                       
+                        Great tackle shop                       
                     </p>
                     <p>
                         <a class="link-decor" target="_blank" 
@@ -130,25 +131,45 @@
                     </p>
                 </div>
             </div>
-            <div class="contact tcol-xs-12 col-sm-4 col-lg-4">
+            <div class="contact col-xs-12 col-sm-4 col-lg-4">
                 <div>
                     <i class="ico fas fa-chart-bar"></i>
                     <p class="cont-wgt">
-                    Midland Angling                       
+                        Midland Angling                       
                     </p>
                     <p>
-                    Fishing Reports from the Rivers                      
+                        Fishing Reports from the Rivers                      
                     </p>
                     <p>
                         <a class="link-decor" target="_blank" 
-                        href="http://www.midlandangling.com/">Link
+                            href="http://www.midlandangling.com/">Link
                         </a>                  
                     </p>
-                    <h2>&nbsp;</h2>
                 </div>
             </div>
-        </div>   
-    </div>    
+        </div>
+        <div class="contact col-xs-12 col-sm-12 col-lg-12">
+            <div class="formation">  
+                <form action="/contact.html">
+                    <label for="fname">Email</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your email..">
+                        <label for="lname">Name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your name..">     
+                        <label for="country">Message reason</label>
+                        <select id="country" name="country">
+                            <option value="australia">Common trip</option>
+                            <option value="canada">How to get to places</option>
+                            <option value="usa">Other questions</option>
+                        </select>        
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea> 
+                </form>
+                <form>
+                    <input type="submit" value="submit" onclick="window.location='contact.html';" />
+                </form>
+            </div>
+        </div>          
+    </div>       
 </section>
 <footer class="conteiner-fluid">
     <div class="row">
@@ -160,26 +181,33 @@
                 <ul class="list-inline social-links">
                     <li>
                         <a target="_blank" href="https://www.facebook.com/">
-                        <i class="fab fa-facebook-square"></i></a>
+                            <i class="fab fa-facebook-square"></i>
+                        </a>
                     </li>
                     <li>
                         <a target="_blank" href="https://twitter.com/">
-                        <i class="fab fa-twitter"></i></a>
+                            <i class="fab fa-twitter"></i>
+                        </a>
                     </li>
                     <li>
                         <a target="_blank" href="https://www.linkedin.com/">
-                        <i class="fab fa-linkedin"></i></a></li>
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </li>
                     <li>
                         <a target="_blank" href="https://pinterest.com/">
-                        <i class="fab fa-pinterest"></i></a>
+                            <i class="fab fa-pinterest"></i>
+                        </a>
                     </li>
                     <li>
                         <a target="_blank" href="https://www.instagram.com/">
-                        <i class="fab fa-instagram"></i></a>
+                            <i class="fab fa-instagram"></i>
+                        </a>
                     </li>
                     <li>
                         <a target="_blank" href="https://www.youtube.com/">
-                        <i class="fab fa-youtube"></i></a>
+                            <i class="fab fa-youtube"></i>
+                        </a>
                     </li>
                 </ul>
             </div>
