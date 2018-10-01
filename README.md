@@ -125,7 +125,7 @@ While testing the website I found the following problems:
 - the font did not work on Edge (fixed)
 - has a problem with centering images on Firefox (fixed)
 
-## Browsers
+## Browsers - used for testing.
 
 ### Desktop
 - Chrome
@@ -138,7 +138,7 @@ While testing the website I found the following problems:
 - Safari
 
 
-## Devices
+## Devices - used for testing.
 - Custom PC 4K and 2K screen	
 - Dell Latitude 7480
 - iMac 27
