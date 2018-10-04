@@ -188,11 +188,11 @@
         <div class="contact col-xs-12 col-sm-12 col-lg-12">
             <div class="formation">  
                 <form action="/contact.html">
+                    <label for="lname">Name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your name.." required>
                     <label for="fname">Email</label>
-                        <input type="text" id="fname" name="firstname" placeholder="Your email..">
-                        <label for="lname">Name</label>
-                        <input type="text" id="lname" name="lastname" placeholder="Your name..">     
-                        <label for="msgc">Message reason</label>
+                        <input type="email" id="email" name="email" placeholder="Your email.." required>    
+                    <label for="msgc">Message reason</label>
                         <select id="reason" name="reason">
                             <option value="Common-trip">
                                 Common trip
@@ -205,10 +205,8 @@
                             </option>
                         </select>        
                     <label for="subject">Subject</label>
-                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea> 
-                </form>
-                <form>
-                    <input type="submit" value="submit" onclick="window.location='contact.html';" />
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                    <input type="submit" value="submit" onclick="window.location='contact.html';" /> 
                 </form>
             </div>
         </div>          

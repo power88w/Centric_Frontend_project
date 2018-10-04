@@ -347,6 +347,16 @@ input[type=text], select, textarea {
     margin-bottom: 16px;
     resize: vertical;
 }
+input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
 input[type=submit] {
     background-color: #4CAF50;
     color: white;
@@ -374,6 +384,7 @@ div.gal-box {
     padding-left: 32px;
     padding-right: 32px;
     padding-bottom: 32px;
+    min-height: 70vh;
 }
 .gal-box2 {
     padding: 0;
@@ -876,6 +887,9 @@ button.click {
         width: 100%;
         display: block;
         margin: 0 auto;
+    }
+    div.gal-box {
+        background-color: #000000;
     }
 }
 @media (min-width: 576px) {
