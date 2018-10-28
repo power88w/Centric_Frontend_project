@@ -392,6 +392,11 @@ div.gal-box {
     width: 100%;
     margin-left: -9px;
 }
+
+div.fotorama.gal-box2{
+    max-width: 1600px;
+}
+
 /*------------Header----------------------------------------------------------------*/
 header {
     height: 140px;
